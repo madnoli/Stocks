@@ -52,7 +52,6 @@ NSE_INDEX_TO_SECTOR = {
     "NIFTY FINANCIAL SERVICES": "Finance",
     "NIFTY INFRASTRUCTURE": "Infrastructure",
     "BANKNIFTY": "Banking",
-    "NIFTYFIN": "Finance",
     "NIFTYAUTO": "Auto",
     "NIFTYIT": "Technology",
     "NIFTYPHARMA": "Pharma",
