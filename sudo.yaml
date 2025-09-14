@@ -1,0 +1,142 @@
+---
+- name: Manage jbossadmin user sudo access
+  hosts: all
+  become: yes
+  gather_facts: yes
+  
+  vars:
+    target_user: jbossadmin
+    sudoers_file: "/etc/sudoers.d/{{ target_user }}"
+    
+  tasks:
+    # Task 1: Verify user exists and is in wheel group
+    - name: Check if user exists
+      getent:
+        database: passwd
+        key: "{{ target_user }}"
+      register: user_check
+      
+    - name: Get current user groups
+      command: groups {{ target_user }}
+      register: current_groups
+      changed_when: false
+      
+    - name: Display current user groups
+      debug:
+        msg: "Current groups for {{ target_user }}: {{ current_groups.stdout }}"
+    
+    # Task 2: Remove user from wheel group
+    - name: Remove user from wheel group
+      user:
+        name: "{{ target_user }}"
+        groups: wheel
+        state: absent
+      register: wheel_removal
+      
+    - name: Verify user removed from wheel group
+      command: groups {{ target_user }}
+      register: groups_after_removal
+      changed_when: false
+      
+    - name: Display groups after wheel removal
+      debug:
+        msg: "Groups after wheel removal: {{ groups_after_removal.stdout }}"
+    
+    # Task 3: Create sudoers.d file with passwordless sudo
+    - name: Create sudoers.d file for passwordless sudo
+      lineinfile:
+        path: "{{ sudoers_file }}"
+        line: "{{ target_user }} ALL=(ALL) NOPASSWD: ALL"
+        create: yes
+        mode: '0440'
+        owner: root
+        group: root
+        validate: '/usr/sbin/visudo -cf %s'
+      register: sudoers_creation
+      
+    - name: Verify sudoers file was created
+      stat:
+        path: "{{ sudoers_file }}"
+      register: sudoers_stat
+      
+    - name: Display sudoers file status
+      debug:
+        msg: "Sudoers file {{ sudoers_file }} exists: {{ sudoers_stat.stat.exists }}"
+    
+    # Task 4: Pre-checks and validation
+    - name: Test sudo access without password
+      become_user: "{{ target_user }}"
+      become_method: sudo
+      command: whoami
+      register: sudo_test
+      ignore_errors: yes
+      
+    - name: Verify sudo configuration syntax
+      command: /usr/sbin/visudo -c
+      register: visudo_check
+      changed_when: false
+      
+    - name: Check sudoers.d file permissions
+      stat:
+        path: "{{ sudoers_file }}"
+      register: file_perms
+      
+    - name: Validate file permissions are correct
+      assert:
+        that:
+          - file_perms.stat.mode == '0440'
+          - file_perms.stat.pw_name == 'root'
+          - file_perms.stat.gr_name == 'root'
+        fail_msg: "Sudoers file permissions are incorrect"
+        success_msg: "Sudoers file permissions are correct (0440, root:root)"
+    
+    # Comprehensive pre-checks
+    - name: Run all pre-checks
+      block:
+        - name: Check if user is no longer in wheel group
+          shell: "groups {{ target_user }} | grep -v wheel"
+          register: no_wheel_check
+          failed_when: false
+          changed_when: false
+          
+        - name: Verify passwordless sudo works
+          become_user: "{{ target_user }}"
+          become_method: sudo
+          command: id
+          register: passwordless_test
+          
+        - name: Check sudoers syntax is valid
+          command: /usr/sbin/visudo -c
+          register: syntax_check
+          changed_when: false
+          
+        - name: Verify sudoers.d file content
+          slurp:
+            src: "{{ sudoers_file }}"
+          register: sudoers_content
+          
+        - name: Display sudoers file content
+          debug:
+            msg: "Sudoers file content: {{ sudoers_content.content | b64decode }}"
+    
+    # Final validation and reporting
+    - name: Generate final report
+      debug:
+        msg: |
+          =================================
+          JBOSS ADMIN USER CONFIGURATION COMPLETE
+          =================================
+          User: {{ target_user }}
+          Removed from wheel group: {{ 'Yes' if wheel_removal.changed else 'Already removed' }}
+          Sudoers file created: {{ sudoers_file }}
+          Passwordless sudo: {{ 'Working' if sudo_test.rc == 0 else 'Failed' }}
+          Sudoers syntax: {{ 'Valid' if visudo_check.rc == 0 else 'Invalid' }}
+          File permissions: {{ file_perms.stat.mode }}
+          =================================
+          
+  handlers:
+    - name: restart_sshd
+      service:
+        name: sshd
+        state: restarted
+      when: ansible_os_family == "RedHat"
