@@ -1,0 +1,2 @@
+timestamp,spot_price,pcr_oi,pcr_volume,pcr_atm,max_pain,momentum_score,momentum_interpretation,long_buildup_count,short_buildup_count,signals_count,oi_changes_count,atm_call_iv,atm_put_iv,iv_skew,high_conviction_count,gamma_squeeze_strikes
+2025-10-08 18:53:04,25023.75,0.802,0.991,0.772,25100,-1,🔴 BEARISH,0,0,2,0,7.76,8.14,0.38,0,15

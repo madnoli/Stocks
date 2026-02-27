@@ -1,0 +1,1176 @@
+===== Snapshot Time: 2025-10-09 09:20 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HCLTECH-I       | Strong Buy         |   56.61 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TATASTEEL-I     | Strong Buy         |   55.64 |         NA | bullish    | Institutional Accumulation | Consider Long      
+NATIONALUM-I    | Strong Buy         |   54.68 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+NMDC-I          | Strong Buy         |   50.53 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+AUROPHARMA-I    | Strong Buy         |   42.58 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+HINDZINC-I      | Strong Buy         |   41.77 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+ADANIENSOL-I    | Strong Buy         |   41.72 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+JSWSTEEL-I      | Strong Buy         |   39.81 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+BPCL-I          | Strong Buy         |   38.64 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+LUPIN-I         | Strong Buy         |   37.41 |         NA | bullish    | Institutional Accumulation | Consider Long      
+PGEL-I          | Strong Buy         |   35.92 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+ZYDUSLIFE-I     | Strong Buy         |   33.04 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PRESTIGE-I      | Strong Buy         |   31.45 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+DRREDDY-I       | Strong Buy         |   29.77 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PPLPHARMA-I     | Strong Buy         |   26.75 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+VOLTAS-I        | Strong Buy         |   25.09 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+BIOCON-I        | Strong Buy         |   25.06 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+MFSL-I          | Strong Sell        |  -36.90 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 09:25 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+NATIONALUM-I    | Strong Buy         |   55.79 |      +1.11 | bullish    | Mixed/Unclear              | Consider Long      
+TATASTEEL-I     | Strong Buy         |   55.64 |      +0.00 | bullish    | Institutional Accumulation | Consider Long      
+NMDC-I          | Strong Buy         |   50.53 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+HINDPETRO-I     | Strong Buy         |   45.99 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+HINDZINC-I      | Strong Buy         |   45.77 |      +4.01 | bullish    | Mixed/Unclear              | Consider Long      
+IOC-I           | Strong Buy         |   44.09 |         NA | bullish    | Institutional Accumulation | Consider Long      
+INDUSINDBK-I    | Strong Buy         |   28.67 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PRESTIGE-I      | Strong Buy         |   27.42 |      -4.03 | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+AMBER-I         | Strong Sell        |  -34.91 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+DALBHARAT-I     | Strong Sell        |  -25.11 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 09:30 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+NMDC-I          | Strong Buy         |   55.38 |      +4.85 | bullish    | Institutional Accumulation | Consider Long      
+NATIONALUM-I    | Strong Buy         |   54.92 |      -0.87 | bullish    | Mixed/Unclear              | Consider Long      
+TATASTEEL-I     | Strong Buy         |   53.07 |      -2.56 | bullish    | Mixed/Unclear              | Consider Long      
+JSWSTEEL-I      | Strong Buy         |   43.37 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+HINDZINC-I      | Strong Buy         |   42.97 |      -2.80 | bullish    | Mixed/Unclear              | Consider Long      
+PGEL-I          | Strong Buy         |   30.02 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+SRF-I           | Strong Buy         |   29.90 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+GODREJPROP-I    | Strong Sell        |  -29.66 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 09:35 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PGEL-I          | Strong Buy         |   31.23 |      +1.21 | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+ASHOKLEY-I      | Strong Sell        |  -44.59 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 09:40 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bullish signals found.
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+LODHA-I         | Strong Sell        |  -31.93 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 09:45 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+CONCOR-I        | Strong Buy         |   43.02 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 09:50 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PGEL-I          | Strong Buy         |   57.24 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 09:55 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PGEL-I          | Strong Buy         |   57.24 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+VOLTAS-I        | Strong Buy         |   50.26 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 10:00 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+VOLTAS-I        | Strong Buy         |   47.07 |      -3.19 | bullish    | Mixed/Unclear              | Consider Long      
+CGPOWER-I       | Strong Buy         |   30.34 |      +8.48 | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 10:05 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bullish signals found.
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 10:10 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+NBCC-I          | Strong Buy         |   31.40 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 10:15 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HINDZINC-I      | Strong Buy         |   46.71 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+INDIGO-I        | Strong Buy         |   41.22 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+INDIANB-I       | Strong Buy         |   33.74 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+JUBLFOOD-I      | Strong Sell        |  -39.20 |         NA | bearish    | Institutional Distribution | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 10:20 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bullish signals found.
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 10:25 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bullish signals found.
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 10:30 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+INDIGO-I        | Strong Buy         |   56.94 |         NA | bullish    | Institutional Accumulation | Consider Long      
+NYKAA-I         | Strong Buy         |   51.56 |         NA | bullish    | Institutional Accumulation | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 10:35 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+TATAELXSI-I     | Strong Buy         |   54.23 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+CGPOWER-I       | Strong Buy         |   46.61 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 10:40 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bullish signals found.
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 10:45 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+LT-I            | Strong Buy         |   56.47 |         NA | bullish    | Institutional Accumulation | Consider Long      
+NESTLEIND-I     | Strong Buy         |   30.64 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 10:50 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+KOTAKBANK-I     | Strong Buy         |   30.33 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 10:55 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+LTF-I           | Strong Buy         |   36.44 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+SIEMENS-I       | Strong Sell        |  -31.70 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+HDFCLIFE-I      | Strong Sell        |  -26.07 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 11:00 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+INFY-I          | Strong Buy         |   40.93 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+HINDALCO-I      | Strong Buy         |   36.95 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+POLICYBZR-I     | Strong Buy         |   33.62 |         NA | bullish    | Institutional Accumulation | Consider Long      
+TATATECH-I      | Strong Buy         |   30.39 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 11:05 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PIDILITIND-I    | Strong Buy         |   44.87 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+POLICYBZR-I     | Strong Buy         |   34.24 |      +0.62 | bullish    | Institutional Accumulation | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 11:10 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+VEDL-I          | Strong Buy         |   45.91 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+APOLLOHOSP-I    | Strong Buy         |   36.77 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+BAJFINANCE-I    | Strong Buy         |   29.92 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PFC-I           | Strong Sell        |  -34.47 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 11:15 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bullish signals found.
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 11:20 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+VEDL-I          | Strong Buy         |   47.79 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+NHPC-I          | Strong Buy         |   37.31 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+INDUSINDBK-I    | Strong Buy         |   34.78 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 11:25 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+CDSL-I          | Strong Buy         |   29.50 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 11:30 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+SONACOMS-I      | Strong Buy         |   32.92 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 11:35 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+INOXWIND-I      | Strong Buy         |   46.47 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+BRITANNIA-I     | Strong Sell        |  -30.63 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+CROMPTON-I      | Strong Sell        |  -28.90 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+LODHA-I         | Strong Sell        |  -26.04 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 11:40 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+INOXWIND-I      | Strong Buy         |   39.27 |      -7.20 | bullish    | Mixed/Unclear              | Consider Long      
+ALKEM-I         | Strong Buy         |   34.42 |     +10.92 | bullish    | Mixed/Unclear              | Consider Long      
+MAXHEALTH-I     | Strong Buy         |   29.71 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+SBIN-I          | Strong Buy         |   27.58 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+AMBER-I         | Strong Sell        |  -39.14 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 11:45 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+COFORGE-I       | Strong Buy         |   35.08 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+ANGELONE-I      | Strong Buy         |   34.17 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PNB-I           | Strong Buy         |   32.59 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+CANBK-I         | Strong Buy         |   28.76 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+BANKINDIA-I     | Strong Buy         |   27.29 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+NUVAMA-I        | Strong Buy         |   25.69 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+INDIANB-I       | Strong Buy         |   25.39 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 11:50 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+BSE-I           | Strong Buy         |   56.41 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TECHM-I         | Strong Buy         |   38.22 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+ANGELONE-I      | Strong Buy         |   36.28 |      +2.11 | bullish    | Mixed/Unclear              | Consider Long      
+COFORGE-I       | Strong Buy         |   33.52 |      -1.56 | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 11:55 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+SONACOMS-I      | Strong Buy         |   36.54 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 12:00 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+NHPC-I          | Strong Buy         |   49.98 |         NA | bullish    | Institutional Accumulation | Consider Long      
+ANGELONE-I      | Strong Buy         |   49.46 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+KEI-I           | Strong Buy         |   34.17 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 12:05 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+BSE-I           | Very Strong Buy    |   66.10 |         NA | bullish    | Institutional Accumulation | Consider Long      
+SHREECEM-I      | Strong Buy         |   40.76 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 12:10 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+ANGELONE-I      | Strong Buy         |   52.67 |         NA | bullish    | Institutional Accumulation | Consider Long      
+SRF-I           | Strong Buy         |   28.73 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 12:15 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+MCX-I           | Very Strong Buy    |   67.13 |         NA | bullish    | Institutional Accumulation | Consider Long      
+NHPC-I          | Strong Buy         |   43.19 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+DALBHARAT-I     | Strong Sell        |  -34.66 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 12:20 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+MCX-I           | Very Strong Buy    |   66.51 |      -0.62 | bullish    | Institutional Accumulation | Consider Long      
+IGL-I           | Strong Buy         |   31.62 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+UNITDSPR-I      | Strong Buy         |   30.74 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 12:25 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HCLTECH-I       | Strong Buy         |   50.86 |         NA | bullish    | Institutional Accumulation | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+KPITTECH-I      | Strong Sell        |  -30.66 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 12:30 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HCLTECH-I       | Strong Buy         |   56.30 |      +5.44 | bullish    | Institutional Accumulation | Consider Long      
+TCS-I           | Strong Buy         |   55.32 |         NA | bullish    | Institutional Accumulation | Consider Long      
+FORTIS-I        | Strong Buy         |   43.53 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+ABB-I           | Strong Sell        |  -27.47 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 12:35 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HCLTECH-I       | Strong Buy         |   52.60 |      -3.70 | bullish    | Institutional Accumulation | Consider Long      
+TECHM-I         | Strong Buy         |   50.37 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+OFSS-I          | Strong Buy         |   42.79 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+LTIM-I          | Strong Buy         |   40.42 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PNBHOUSING-I    | Strong Sell        |  -30.81 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 12:40 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+TECHM-I         | Strong Buy         |   52.90 |      +2.53 | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PNBHOUSING-I    | Strong Sell        |  -25.13 |      +5.68 | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 12:45 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+OFSS-I          | Strong Buy         |   46.03 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 12:50 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PGEL-I          | Strong Buy         |   43.22 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PAYTM-I         | Strong Buy         |   39.84 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+OFSS-I          | Strong Buy         |   39.43 |      -6.60 | bullish    | Mixed/Unclear              | Consider Long      
+JSWENERGY-I     | Strong Buy         |   29.53 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+TVSMOTOR-I      | Strong Sell        |  -27.93 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 12:55 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+JSWENERGY-I     | Strong Buy         |   35.31 |      +5.78 | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 13:00 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+GRASIM-I        | Strong Buy         |   31.84 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+TVSMOTOR-I      | Strong Sell        |  -32.75 |         NA | bearish    | Institutional Distribution | Consider Short     
+EICHERMOT-I     | Strong Sell        |  -30.83 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 13:05 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bullish signals found.
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HAVELLS-I       | Strong Sell        |  -27.18 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+ASHOKLEY-I      | Strong Sell        |  -26.71 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 13:10 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+SUNPHARMA-I     | Strong Buy         |   32.35 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HAVELLS-I       | Strong Sell        |  -34.05 |      -6.87 | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 13:15 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bullish signals found.
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HAVELLS-I       | Strong Sell        |  -40.24 |      -6.18 | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 13:20 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PAYTM-I         | Strong Buy         |   33.13 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TATATECH-I      | Strong Buy         |   33.05 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+NAUKRI-I        | Strong Sell        |  -28.43 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 13:25 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+MFSL-I          | Strong Buy         |   30.93 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+VBL-I           | Strong Buy         |   30.64 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 13:30 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bullish signals found.
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+IREDA-I         | Strong Sell        |  -31.70 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 13:35 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+SONACOMS-I      | Strong Buy         |   49.61 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+MAXHEALTH-I     | Strong Buy         |   28.53 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+EXIDEIND-I      | Strong Sell        |  -27.54 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 13:40 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bullish signals found.
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 13:45 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+NYKAA-I         | Strong Buy         |   42.58 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PIDILITIND-I    | Strong Buy         |   40.99 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 13:50 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HAL-I           | Strong Buy         |   32.22 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+RBLBANK-I       | Strong Buy         |   27.90 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 13:55 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HAL-I           | Strong Buy         |   33.61 |      +1.39 | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+GLENMARK-I      | Strong Sell        |  -36.60 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 14:00 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+TATAELXSI-I     | Strong Buy         |   40.00 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 14:05 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PNB-I           | Strong Buy         |   40.63 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PRESTIGE-I      | Strong Buy         |   40.62 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+CANBK-I         | Strong Buy         |   25.55 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 14:10 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PRESTIGE-I      | Strong Buy         |   43.19 |      +2.57 | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+LICHSGFIN-I     | Strong Sell        |  -29.27 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+DALBHARAT-I     | Strong Sell        |  -27.38 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 14:15 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PIDILITIND-I    | Strong Buy         |   50.37 |         NA | bullish    | Institutional Accumulation | Consider Long      
+MARICO-I        | Strong Buy         |   43.67 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+AUROPHARMA-I    | Strong Buy         |   39.16 |         NA | bullish    | Institutional Accumulation | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+UNOMINDA-I      | Strong Sell        |  -42.83 |         NA | bearish    | Institutional Distribution | Consider Short     
+EICHERMOT-I     | Strong Sell        |  -34.77 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 14:20 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PIDILITIND-I    | Strong Buy         |   53.38 |      +3.01 | bullish    | Institutional Accumulation | Consider Long      
+SONACOMS-I      | Strong Buy         |   48.65 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+AUROPHARMA-I    | Strong Buy         |   36.78 |      -2.37 | bullish    | Institutional Accumulation | Consider Long      
+PRESTIGE-I      | Strong Buy         |   36.14 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+SAIL-I          | Strong Buy         |   25.38 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+UNOMINDA-I      | Strong Sell        |  -42.27 |      +0.56 | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 14:25 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PGEL-I          | Strong Buy         |   50.30 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 14:30 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+SOLARINDS-I     | Strong Buy         |   33.65 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+SUNPHARMA-I     | Strong Buy         |   29.93 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+MAZDOCK-I       | Strong Buy         |   29.92 |         NA | bullish    | Institutional Accumulation | Consider Long      
+HUDCO-I         | Strong Buy         |   29.47 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+INOXWIND-I      | Strong Buy         |   28.40 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+MPHASIS-I       | Strong Buy         |   28.20 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+SHREECEM-I      | Strong Buy         |   25.05 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+JUBLFOOD-I      | Strong Sell        |  -36.46 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 14:35 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+MPHASIS-I       | Strong Buy         |   28.69 |      +0.49 | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+M&M-I           | Strong Sell        |  -30.71 |         NA | bearish    | Institutional Distribution | Consider Short     
+EXIDEIND-I      | Strong Sell        |  -25.59 |      -1.11 | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 14:40 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+PGEL-I          | Strong Buy         |   53.32 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+AUROPHARMA-I    | Strong Buy         |   44.12 |         NA | bullish    | Institutional Accumulation | Consider Long      
+LTIM-I          | Strong Buy         |   43.55 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TCS-I           | Strong Buy         |   36.09 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+INFY-I          | Strong Buy         |   34.11 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PERSISTENT-I    | Strong Buy         |   26.53 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 14:45 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+NMDC-I          | Strong Buy         |   36.04 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+SOLARINDS-I     | Strong Buy         |   35.63 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+INDIGO-I        | Strong Buy         |   31.96 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 14:50 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+VEDL-I          | Strong Buy         |   44.89 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+NESTLEIND-I     | Strong Buy         |   44.01 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TORNTPOWER-I    | Strong Buy         |   33.09 |         NA | bullish    | Institutional Accumulation | Consider Long      
+CANBK-I         | Strong Buy         |   27.90 |      +9.17 | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+SIEMENS-I       | Strong Sell        |  -29.13 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+SUPREMEIND-I    | Strong Sell        |  -28.27 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+LICHSGFIN-I     | Strong Sell        |  -25.90 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 14:55 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HINDZINC-I      | Strong Buy         |   50.53 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+VEDL-I          | Strong Buy         |   49.87 |      +4.98 | bullish    | Mixed/Unclear              | Consider Long      
+SAIL-I          | Strong Buy         |   45.34 |         NA | bullish    | Institutional Accumulation | Consider Long      
+JSWSTEEL-I      | Strong Buy         |   39.56 |         NA | bullish    | Institutional Accumulation | Consider Long      
+TORNTPOWER-I    | Strong Buy         |   35.92 |      +2.83 | bullish    | Institutional Accumulation | Consider Long      
+INDUSTOWER-I    | Strong Buy         |   35.82 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+HINDALCO-I      | Strong Buy         |   34.65 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+RBLBANK-I       | Strong Buy         |   30.33 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+INDIGO-I        | Strong Buy         |   27.31 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 15:00 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+SAIL-I          | Strong Buy         |   51.85 |      +6.51 | bullish    | Institutional Accumulation | Consider Long      
+JSWSTEEL-I      | Strong Buy         |   43.95 |      +4.39 | bullish    | Institutional Accumulation | Consider Long      
+TATATECH-I      | Strong Buy         |   40.77 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PERSISTENT-I    | Strong Buy         |   40.56 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+VEDL-I          | Strong Buy         |   38.92 |     -10.95 | bullish    | Mixed/Unclear              | Consider Long      
+BEL-I           | Strong Buy         |   37.38 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+SOLARINDS-I     | Strong Buy         |   36.21 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TVSMOTOR-I      | Strong Buy         |   33.36 |         NA | bullish    | Institutional Accumulation | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+LICHSGFIN-I     | Strong Sell        |  -34.01 |     -14.07 | bearish    | Institutional Distribution | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 15:05 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+VEDL-I          | Strong Buy         |   51.37 |     +12.45 | bullish    | Mixed/Unclear              | Consider Long      
+SOLARINDS-I     | Strong Buy         |   50.66 |     +14.45 | bullish    | Mixed/Unclear              | Consider Long      
+SONACOMS-I      | Strong Buy         |   48.23 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+WIPRO-I         | Strong Buy         |   41.85 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+HAL-I           | Strong Buy         |   40.96 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+BEL-I           | Strong Buy         |   37.38 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+POLYCAB-I       | Strong Buy         |   36.52 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+MAZDOCK-I       | Strong Buy         |   36.36 |         NA | bullish    | Institutional Accumulation | Consider Long      
+VBL-I           | Strong Buy         |   32.16 |         NA | bullish    | Institutional Accumulation | Consider Long      
+360ONE-I        | Strong Buy         |   29.54 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+LICHSGFIN-I     | Strong Sell        |  -36.74 |      -2.73 | bearish    | Institutional Distribution | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 15:10 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+LTIM-I          | Strong Buy         |   44.64 |         NA | bullish    | Institutional Accumulation | Consider Long      
+SAIL-I          | Strong Buy         |   42.28 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TATATECH-I      | Strong Buy         |   37.84 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+NBCC-I          | Strong Buy         |   37.57 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+MANAPPURAM-I    | Strong Buy         |   32.43 |     +11.32 | bullish    | Mixed/Unclear              | Consider Long      
+360ONE-I        | Strong Buy         |   32.29 |      +2.75 | bullish    | Mixed/Unclear              | Consider Long      
+JSWENERGY-I     | Strong Buy         |   26.85 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+COLPAL-I        | Strong Sell        |  -33.50 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 15:15 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+NBCC-I          | Strong Buy         |   59.04 |     +21.47 | bullish    | Institutional Accumulation | Consider Long      
+WIPRO-I         | Strong Buy         |   45.51 |         NA | bullish    | Institutional Accumulation | Consider Long      
+HUDCO-I         | Strong Buy         |   44.92 |         NA | bullish    | Institutional Accumulation | Consider Long      
+HAL-I           | Strong Buy         |   42.86 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PAYTM-I         | Strong Buy         |   42.65 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+INDIANB-I       | Strong Buy         |   36.11 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+BEL-I           | Strong Buy         |   33.96 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+NMDC-I          | Strong Buy         |   32.85 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+IRCTC-I         | Strong Buy         |   32.02 |     +11.17 | bullish    | Mixed/Unclear              | Consider Long      
+OIL-I           | Strong Buy         |   25.69 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TATAMOTORS-I    | Strong Buy         |   25.54 |         NA | bullish    | Institutional Accumulation | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+TATACONSUM-I    | Strong Sell        |  -32.28 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+LICHSGFIN-I     | Strong Sell        |  -26.00 |         NA | bearish    | Institutional Distribution | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 15:20 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+NBCC-I          | Strong Buy         |   59.04 |      +0.00 | bullish    | Institutional Accumulation | Consider Long      
+BANKINDIA-I     | Strong Buy         |   45.16 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+HAL-I           | Strong Buy         |   42.86 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+BSE-I           | Strong Buy         |   42.81 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PAYTM-I         | Strong Buy         |   42.69 |      +0.04 | bullish    | Mixed/Unclear              | Consider Long      
+NYKAA-I         | Strong Buy         |   41.70 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+COFORGE-I       | Strong Buy         |   38.42 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TATATECH-I      | Strong Buy         |   37.59 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+NMDC-I          | Strong Buy         |   33.16 |      +0.31 | bullish    | Mixed/Unclear              | Consider Long      
+OIL-I           | Strong Buy         |   31.94 |      +6.25 | bullish    | Mixed/Unclear              | Consider Long      
+PNBHOUSING-I    | Strong Buy         |   28.17 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+VOLTAS-I        | Strong Buy         |   27.24 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+LICI-I          | Strong Buy         |   25.40 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+
+===== Snapshot Time: 2025-10-09 15:25 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+NBCC-I          | Strong Buy         |   58.42 |      -0.62 | bullish    | Institutional Accumulation | Consider Long      
+VEDL-I          | Strong Buy         |   53.98 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PAYTM-I         | Strong Buy         |   47.08 |      +4.39 | bullish    | Mixed/Unclear              | Consider Long      
+TCS-I           | Strong Buy         |   46.27 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+INDUSINDBK-I    | Strong Buy         |   44.78 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+SBILIFE-I       | Strong Buy         |   44.42 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+BANKINDIA-I     | Strong Buy         |   43.08 |      -2.08 | bullish    | Mixed/Unclear              | Consider Long      
+COFORGE-I       | Strong Buy         |   42.77 |      +4.34 | bullish    | Mixed/Unclear              | Consider Long      
+SAIL-I          | Strong Buy         |   41.92 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+HUDCO-I         | Strong Buy         |   41.25 |         NA | bullish    | Institutional Accumulation | Consider Long      
+MUTHOOTFIN-I    | Strong Buy         |   39.12 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+INOXWIND-I      | Strong Buy         |   38.53 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+UPL-I           | Strong Buy         |   38.30 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TATATECH-I      | Strong Buy         |   38.21 |      +0.62 | bullish    | Mixed/Unclear              | Consider Long      
+INFY-I          | Strong Buy         |   37.50 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+ONGC-I          | Strong Buy         |   33.83 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+SRF-I           | Strong Buy         |   32.94 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+CONCOR-I        | Strong Buy         |   32.32 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+OFSS-I          | Strong Buy         |   32.19 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+VOLTAS-I        | Strong Buy         |   26.73 |      -0.51 | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+TATACONSUM-I    | Strong Sell        |  -35.30 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+PATANJALI-I     | Strong Sell        |  -30.79 |      -8.04 | bearish    | Mixed/Unclear              | Consider Short     
+LICHSGFIN-I     | Strong Sell        |  -25.07 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-09 15:30 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+NBCC-I          | Strong Buy         |   58.42 |      +0.00 | bullish    | Institutional Accumulation | Consider Long      
+VEDL-I          | Strong Buy         |   53.98 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+PAYTM-I         | Strong Buy         |   47.08 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+INDUSINDBK-I    | Strong Buy         |   44.78 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+SBILIFE-I       | Strong Buy         |   44.42 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+COFORGE-I       | Strong Buy         |   42.77 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+SAIL-I          | Strong Buy         |   41.92 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+HUDCO-I         | Strong Buy         |   41.25 |      +0.00 | bullish    | Institutional Accumulation | Consider Long      
+INOXWIND-I      | Strong Buy         |   38.53 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+UPL-I           | Strong Buy         |   38.30 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+TATATECH-I      | Strong Buy         |   38.21 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+INFY-I          | Strong Buy         |   37.50 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+ONGC-I          | Strong Buy         |   33.83 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+SRF-I           | Strong Buy         |   32.94 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+OFSS-I          | Strong Buy         |   32.19 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+VBL-I           | Strong Buy         |   25.17 |      +0.00 | bullish    | Institutional Accumulation | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+TATACONSUM-I    | Strong Sell        |  -35.30 |      +0.00 | bearish    | Mixed/Unclear              | Consider Short     
+LICHSGFIN-I     | Strong Sell        |  -25.07 |      +0.00 | bearish    | Mixed/Unclear              | Consider Short     
+
+

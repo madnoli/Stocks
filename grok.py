@@ -1,0 +1,1242 @@
+import os
+import logging
+import warnings
+warnings.filterwarnings("ignore")
+
+import pandas as pd
+import numpy as np
+from datetime import datetime, timedelta
+import pytz
+from logzero import logger
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
+import threading
+from collections import defaultdict
+import argparse
+import csv
+from retrying import retry
+
+from tqdm import tqdm
+from truedata.history import TD_hist
+
+# Rich for colored tables
+from rich.console import Console
+from rich.table import Table
+from rich import box
+
+# ======== Config ========
+CONFIG = {
+    "TDUSERNAME": os.getenv("TRUEDATA_USER", "tdwsp751"),
+    "TDPASSWORD": os.getenv("TRUEDATA_PASS", "raj@751"),
+    "MARKET_START": "09:15",  # IST
+    "FIRST_RUN_AT": "09:20",  # IST; first 5-min close
+    "MARKET_END": "15:30",    # IST
+    "SETTLE_DELAY_SECONDS": 5,
+    "MAX_WORKERS": int(os.getenv("MAX_WORKERS", "48")),
+    "TD_HIST_SESSIONS": int(os.getenv("TD_HIST_SESSIONS", "3")),
+    "SHARES_FILE": os.getenv("SHARES_FILE", "shares.txt"),
+    "INDICATOR_PERIODS": {
+        "RSI": 14,
+        "MACD_FAST": 12,
+        "MACD_SLOW": 26,
+        "MACD_SIGNAL": 9,
+        "STOCHASTIC_K": 14,
+        "STOCHASTIC_D": 3,
+        "MA_SHORT": 50,
+        "MA_LONG": 200,
+        "ADX": 14,
+        "BB_PERIOD": 20,
+        "BB_STD_DEV": 2,
+        "ROC": 12,
+        "CCI": 20,
+        "EMA_FAST": 20,
+        "EMA_SLOW": 50,
+        "ATR": 14,
+        "VOLUME_SURGE": 20,
+        "MOMENTUM": 10,
+        "WILLIAMS_R": 14,
+        "CMF": 20,
+        "ADL_LOOKBACK": 10,
+        "REL_VOL": 50,
+        "VWAP_REGIME": None,
+        "OBV_CONFIRM": 5,
+        "OI_SURGE": 20,
+        "OI_MOMENTUM": 10,
+    },
+    "INDICATOR_WEIGHTS": {
+        "VolumeSurge": 2.0, "Momentum": 1.9, "ADX": 1.8, "VWAP": 1.7, "EMA": 1.7,
+        "MACD": 1.5, "OBV": 1.5, "ATR": 1.4, "Bollinger": 1.3, "RSI": 1.2,
+        "ROC": 1.1, "Stochastic": 1.0, "CCI": 1.0, "MA": 1.0, "WWL": 1.0,
+        "CMF": 1.8, "ADL": 1.6, "RelVol": 1.5, "VWAPRegime": 1.7, "OBVConfirm": 1.2,
+        # OI components and fused biases for option buyers
+        "OISurge": 2.2, "OIMomentum": 2.0, "CallBias": 2.5, "PutBias": 2.5
+    },
+    # Slightly more intraday emphasis
+    "TIMEFRAME_WEIGHTS": {15: 3.2, 5: 2.8, 30: 2.0, 60: 1.2, "daily": 1.0},
+    "BAR_SIZE_MAP": {5: "5 min", 15: "15 min", 30: "30 min", 60: "60 min", 1440: "1 day"},
+    "DURATION_MAP": {5: "30 D", 15: "30 D", 30: "60 D", 60: "120 D", 1440: "365 D"},
+    "RETRY_ATTEMPTS": 3,
+    "RETRY_DELAY_MS": 1000,
+}
+
+IST = pytz.timezone("Asia/Kolkata")
+
+# Silence noisy third-party loggers
+for noisy in ("truedata", "truedata.history", "truedata_ws", "websocket", "urllib3"):
+    logging.getLogger(noisy).setLevel(logging.CRITICAL)
+
+console = Console()
+
+# Global state
+last_bull_symbols = set()
+last_bear_symbols = set()
+previous_scores = {}
+api_calls_done = 0
+api_calls_lock = threading.Lock()
+performance_metrics = defaultdict(int)
+failed_symbols = set()
+
+# ---------- 5-minute boundary helpers ----------
+def next_5min_boundary_ist(now_ist: datetime) -> datetime:
+    minute = (now_ist.minute // 5) * 5
+    boundary = now_ist.replace(minute=minute, second=0, microsecond=0)
+    if boundary <= now_ist:
+        boundary += timedelta(minutes=5)
+    return boundary
+
+def parse_hhmm(s: str):
+    h, m = map(int, s.split(":"))
+    return h, m
+
+def today_ist_dt(hhmm: str) -> datetime:
+    now = datetime.now(IST)
+    h, m = parse_hhmm(hhmm)
+    return now.replace(hour=h, minute=m, second=0, microsecond=0)
+
+def sleep_until(ts: datetime):
+    while True:
+        now = datetime.now(IST)
+        delta = (ts - now).total_seconds()
+        if delta <= 0:
+            break
+        time.sleep(min(0.5, delta))
+
+# ---------- Token-bucket limiter ----------
+class TokenBucketLimiter:
+    def __init__(self, rate_per_sec: float, bucket_size: int):
+        self.rate = rate_per_sec
+        self.capacity = bucket_size
+        self.tokens = bucket_size
+        self.lock = threading.Lock()
+        self.last_refill = time.time()
+
+    def acquire(self):
+        while True:
+            with self.lock:
+                now = time.time()
+                elapsed = now - self.last_refill
+                if elapsed > 0:
+                    add = int(elapsed * self.rate)
+                    if add > 0:
+                        self.tokens = min(self.capacity, self.tokens + add)
+                        self.last_refill = now
+                if self.tokens > 0:
+                    self.tokens -= 1
+                    return
+                sleep_for = max(0.0, 1.0 / self.rate)
+            time.sleep(sleep_for)
+
+# ---------- TrueData sessions ----------
+def authenticate_session():
+    return TD_hist(CONFIG["TDUSERNAME"], CONFIG["TDPASSWORD"], log_level=logging.CRITICAL)
+
+def build_sessions():
+    sess_count = CONFIG["TD_HIST_SESSIONS"]
+    pool = []
+    for i in range(sess_count):
+        try:
+            pool.append(authenticate_session())
+        except Exception as e:
+            logger.error(f"Session {i} init failed: {e}")
+    if not pool:
+        raise SystemExit("Failed to initialize TrueData sessions.")
+    per_sess_rate = 10.0 / len(pool)
+    limiters = [TokenBucketLimiter(rate_per_sec=per_sess_rate, bucket_size=10) for _ in pool]
+    return pool, limiters
+
+tdhist_pool, sess_limiters = build_sessions()
+logger.info("TrueData login successful.")
+
+# ---------- Indicators ----------
+def ema(series, length):
+    return series.ewm(span=length, adjust=False).mean()
+
+def vwap(df, period=None):
+    price = (df["High"] + df["Low"] + df["Close"]) / 3.0
+    pv = price * df["Volume"]
+    if period:
+        pv_sum = pv.rolling(period).sum()
+        vol_sum = df["Volume"].rolling(period).sum()
+    else:
+        pv_sum = pv.cumsum()
+        vol_sum = df["Volume"].cumsum()
+    return pv_sum / vol_sum.replace(0, np.nan)
+
+def atr(df, period=CONFIG["INDICATOR_PERIODS"]["ATR"]):
+    high_low = df["High"] - df["Low"]
+    high_close = (df["High"] - df["Close"].shift(1)).abs()
+    low_close = (df["Low"] - df["Close"].shift(1)).abs()
+    tr = pd.concat([high_low, high_close, low_close], axis=1).max(axis=1)
+    return tr.ewm(alpha=1/period, adjust=False).mean()
+
+def williams_r(df, period=CONFIG["INDICATOR_PERIODS"]["WILLIAMS_R"]):
+    highest = df["High"].rolling(period).max()
+    lowest = df["Low"].rolling(period).min()
+    return -100 * (highest - df["Close"]) / (highest - lowest).replace(0, np.nan).fillna(0)
+
+def momentum(df, period=CONFIG["INDICATOR_PERIODS"]["MOMENTUM"]):
+    return df["Close"] / df["Close"].shift(period).replace(0, np.nan) - 1.0
+
+def volume_surge(df, lookback=CONFIG["INDICATOR_PERIODS"]["VOLUME_SURGE"]):
+    vol_ma = df["Volume"].rolling(lookback).mean()
+    vol_std = df["Volume"].rolling(lookback).std()
+    z_score = (df["Volume"] - vol_ma) / vol_std.replace(0, np.nan)
+    return z_score.fillna(0)
+
+def calculate_rsi(df, period=CONFIG["INDICATOR_PERIODS"]["RSI"]):
+    if len(df) < period + 1:
+        return pd.Series(index=df.index, dtype='float64')
+    delta = df['Close'].diff()
+    gain = delta.where(delta > 0, 0).ewm(com=period - 1, adjust=False).mean()
+    loss = (-delta.where(delta < 0, 0)).ewm(com=period - 1, adjust=False).mean()
+    rs = gain / loss.replace(0, np.nan)
+    rs.fillna(100, inplace=True)
+    return 100 - (100 / (1 + rs))
+
+def calculate_macd(df, fast=CONFIG["INDICATOR_PERIODS"]["MACD_FAST"], slow=CONFIG["INDICATOR_PERIODS"]["MACD_SLOW"], signal=CONFIG["INDICATOR_PERIODS"]["MACD_SIGNAL"]):
+    if len(df) < slow + signal:
+        return pd.Series(index=df.index, dtype='float64'), pd.Series(index=df.index, dtype='float64')
+    ema_fast = df['Close'].ewm(span=fast, adjust=False).mean()
+    ema_slow = df['Close'].ewm(span=slow, adjust=False).mean()
+    macd = ema_fast - ema_slow
+    signal_line = macd.ewm(span=signal, adjust=False).mean()
+    return macd, signal_line
+
+def calculate_stochastic(df, period=CONFIG["INDICATOR_PERIODS"]["STOCHASTIC_K"], smooth_d=CONFIG["INDICATOR_PERIODS"]["STOCHASTIC_D"]):
+    if len(df) < period + smooth_d:
+        return pd.Series(index=df.index, dtype='float64'), pd.Series(index=df.index, dtype='float64')
+    low_min = df['Low'].rolling(window=period).min()
+    high_max = df['High'].rolling(window=period).max()
+    k = 100 * ((df['Close'] - low_min) / (high_max - low_min).replace(0, np.nan))
+    k.fillna(50, inplace=True)
+    d = k.rolling(window=smooth_d).mean()
+    return k, d
+
+def calculate_moving_averages(df, short=CONFIG["INDICATOR_PERIODS"]["MA_SHORT"], long=CONFIG["INDICATOR_PERIODS"]["MA_LONG"]):
+    if len(df) < long:
+        return pd.Series(index=df.index, dtype='float64'), pd.Series(index=df.index, dtype='float64')
+    return df['Close'].rolling(window=short).mean(), df['Close'].rolling(window=long).mean()
+
+def calculate_adx(df, period=CONFIG["INDICATOR_PERIODS"]["ADX"]):
+    if len(df) < period * 2:
+        return pd.Series(index=df.index, dtype='float64'), pd.Series(index=df.index, dtype='float64'), pd.Series(index=df.index, dtype='float64')
+    df_adx = df[['High', 'Low', 'Close']].copy()
+    df_adx['H-L'] = df_adx['High'] - df_adx['Low']
+    df_adx['H-C'] = abs(df_adx['High'] - df_adx['Close'].shift(1))
+    df_adx['L-C'] = abs(df_adx['Low'] - df_adx['Close'].shift(1))
+    df_adx['TR'] = df_adx[['H-L', 'H-C', 'L-C']].max(axis=1)
+    df_adx['+DM'] = np.where((df_adx['High'] - df_adx['High'].shift(1)) > (df_adx['Low'].shift(1) - df_adx['Low']), df_adx['High'] - df_adx['High'].shift(1), 0)
+    df_adx['-DM'] = np.where((df_adx['Low'].shift(1) - df_adx['Low']) > (df_adx['High'] - df_adx['High'].shift(1)), df_adx['Low'].shift(1) - df_adx['Low'], 0)
+    atr_val = df_adx['TR'].ewm(com=period - 1, adjust=False).mean().replace(0, np.nan)
+    pdi = (df_adx['+DM'].ewm(com=period - 1, adjust=False).mean() / atr_val) * 100
+    ndi = (df_adx['-DM'].ewm(com=period - 1, adjust=False).mean() / atr_val) * 100
+    adx = (abs(pdi - ndi) / (pdi + ndi).replace(0, np.nan)).ewm(com=period - 1, adjust=False).mean() * 100
+    return adx.fillna(20), pdi.fillna(20), ndi.fillna(20)
+
+def calculate_bollinger_bands(df, period=CONFIG["INDICATOR_PERIODS"]["BB_PERIOD"], std_dev=CONFIG["INDICATOR_PERIODS"]["BB_STD_DEV"]):
+    if len(df) < period:
+        return pd.Series(index=df.index, dtype='float64'), pd.Series(index=df.index, dtype='float64'), pd.Series(index=df.index, dtype='float64')
+    middle = df['Close'].rolling(window=period).mean()
+    std = df['Close'].rolling(window=period).std()
+    upper = middle + (std * std_dev)
+    lower = middle - (std * std_dev)
+    return middle, upper, lower
+
+def calculate_roc(df, period=CONFIG["INDICATOR_PERIODS"]["ROC"]):
+    if len(df) < period + 1:
+        return pd.Series(index=df.index, dtype='float64')
+    shifted_close = df['Close'].shift(period).replace(0, np.nan)
+    return ((df['Close'] - shifted_close) / shifted_close) * 100
+
+def calculate_obv(df):
+    if len(df) < 2:
+        return pd.Series(index=df.index, dtype='float64')
+    return (np.sign(df['Close'].diff()) * df['Volume']).fillna(0).cumsum()
+
+def calculate_cci(df, period=CONFIG["INDICATOR_PERIODS"]["CCI"]):
+    if len(df) < period:
+        return pd.Series(index=df.index, dtype='float64')
+    tp = (df['High'] + df['Low'] + df['Close']) / 3
+    sma_tp = tp.rolling(window=period).mean()
+    mad = tp.rolling(window=period).apply(lambda x: np.abs(x - x.mean()).mean(), raw=True).replace(0, np.nan)
+    return (tp - sma_tp) / (0.015 * mad)
+
+def adl(df):
+    mfm = ((df["Close"] - df["Low"]) - (df["High"] - df["Close"])) / (df["High"] - df["Low"]).replace(0, np.nan)
+    mfm = mfm.fillna(0)
+    mfv = mfm * df["Volume"]
+    return mfv.cumsum()
+
+def cmf(df, period=CONFIG["INDICATOR_PERIODS"]["CMF"]):
+    mfm = ((df["Close"] - df["Low"]) - (df["High"] - df["Close"])) / (df["High"] - df["Low"]).replace(0, np.nan)
+    mfm = mfm.fillna(0)
+    mfv = mfm * df["Volume"]
+    mfv_sum = mfv.rolling(period).sum()
+    vol_sum = df["Volume"].rolling(period).sum().replace(0, np.nan)
+    return (mfv_sum / vol_sum).fillna(0)
+
+def relative_volume(df, lookback=CONFIG["INDICATOR_PERIODS"]["REL_VOL"]):
+    vol_ma = df["Volume"].rolling(lookback).mean()
+    return (df["Volume"] / vol_ma.replace(0, np.nan)).fillna(0)
+
+def vwap_distance(df, period=None):
+    v = vwap(df, period=period)
+    return ((df["Close"] - v) / v.replace(0, np.nan)).fillna(0)
+
+def slope(series, lookback=CONFIG["INDICATOR_PERIODS"]["ADL_LOOKBACK"]):
+    if len(series) < lookback:
+        return np.nan
+    y = series.tail(lookback).values.astype(float)
+    x = np.arange(len(y))
+    x = (x - x.mean()) / (x.std() + 1e-9)
+    A = np.vstack([x, np.ones_like(x)]).T
+    m, _ = np.linalg.lstsq(A, y, rcond=None)[0]
+    return m
+
+def vwap_full_session(df):
+    if df is None or df.empty:
+        return pd.Series(index=df.index if df is not None else [], dtype='float64')
+    dfx = df.sort_index()[['High', 'Low', 'Close', 'Volume']].copy()
+    dfx = dfx[~dfx.index.duplicated(keep='last')]
+    day = dfx.index[-1].date()
+    dfd = dfx[dfx.index.date == day]
+    if dfd.empty:
+        vw = vwap(dfx, period=None)
+        return vw.reindex_like(dfx).ffill().reindex(df.index, method='ffill')
+    price = (dfd['High'] + dfd['Low'] + dfd['Close']) / 3.0
+    pv = price * dfd['Volume'].clip(lower=0)
+    vol_cum = dfd['Volume'].clip(lower=0).cumsum().replace(0, np.nan)
+    sess_vwap = (pv.cumsum() / vol_cum).astype(float)
+    out = pd.Series(index=dfx.index, dtype='float64')
+    out.update(sess_vwap)
+    out = out.ffill()
+    return out.reindex(df.index, method='ffill')
+
+def adl_series(df):
+    mfm = ((df["Close"] - df["Low"]) - (df["High"] - df["Close"])) / (df["High"] - df["Low"]).replace(0, np.nan)
+    mfm = mfm.fillna(0)
+    mfv = mfm * df["Volume"]
+    return mfv.cumsum()
+
+# New OI Indicators
+def oi_surge(df, lookback=CONFIG["INDICATOR_PERIODS"]["OI_SURGE"]):
+    oi_ma = df["OI"].rolling(lookback).mean()
+    oi_std = df["OI"].rolling(lookback).std()
+    z_score = (df["OI"] - oi_ma) / oi_std.replace(0, np.nan)
+    return z_score.fillna(0)
+
+def oi_momentum(df, period=CONFIG["INDICATOR_PERIODS"]["OI_MOMENTUM"]):
+    return df["OI"] / df["OI"].shift(period).replace(0, np.nan) - 1.0
+
+# ---------- Scoring ----------
+def get_indicator_scores(df):
+    scores = {}
+    # Safer min_bars: ignore None/non-numeric periods
+    periods = CONFIG["INDICATOR_PERIODS"].values()
+    valid_periods = [p for p in periods if (p is not None and isinstance(p, (int, float)))]
+    min_bars = (max(valid_periods) if valid_periods else 50) + 10
+    if len(df) < min_bars:
+        return {k: 0.0 for k in CONFIG["INDICATOR_WEIGHTS"]}
+
+    rsi_series = calculate_rsi(df)
+    if len(rsi_series) >= 1 and pd.notna(rsi_series.iloc[-1]):
+        rsi = rsi_series.iloc[-1]
+        prev_rsi = rsi_series.iloc[-2] if len(rsi_series) > 1 else rsi
+        scores['RSI'] = (
+            2.0 if rsi > 60 and prev_rsi <= 60 else
+            1.0 if rsi > 50 and prev_rsi <= 50 else
+            -2.0 if rsi < 40 and prev_rsi >= 40 else
+            -1.0 if rsi < 50 and prev_rsi >= 50 else
+            0.0
+        )
+    else:
+        scores['RSI'] = 0.0
+
+    macd, signal = calculate_macd(df)
+    if len(macd) and len(signal) and pd.notna(macd.iloc[-1]) and pd.notna(signal.iloc[-1]):
+        scores['MACD'] = 1.0 if macd.iloc[-1] > signal.iloc[-1] else -1.0
+    else:
+        scores['MACD'] = 0.0
+
+    k, d = calculate_stochastic(df)
+    if len(k) and len(d) and pd.notna(k.iloc[-1]) and pd.notna(d.iloc[-1]):
+        scores['Stochastic'] = (
+            1.0 if k.iloc[-1] > d.iloc[-1] and k.iloc[-1] < 80 else
+            -1.0 if k.iloc[-1] < d.iloc[-1] and k.iloc[-1] > 20 else
+            0.0
+        )
+    else:
+        scores['Stochastic'] = 0.0
+
+    ma_short, ma_long = calculate_moving_averages(df)
+    if len(ma_short) and len(ma_long) and pd.notna(ma_short.iloc[-1]) and pd.notna(ma_long.iloc[-1]):
+        scores['MA'] = 1.0 if ma_short.iloc[-1] > ma_long.iloc[-1] else -1.0
+    else:
+        scores['MA'] = 0.0
+
+    adx, pdi, ndi = calculate_adx(df)
+    if len(adx) and pd.notna(adx.iloc[-1]) and len(adx) > 4:
+        is_rising = adx.iloc[-1] > adx.iloc[-3]
+        just_crossed = adx.iloc[-1] > 22 and adx.iloc[-2] <= 22
+        scores['ADX'] = (
+            1.5 * (2.0 if just_crossed else 1.0) if (adx.iloc[-1] > 22 and is_rising) and pdi.iloc[-1] > ndi.iloc[-1] else
+            -1.5 * (2.0 if just_crossed else 1.0) if (adx.iloc[-1] > 22 and is_rising) and pdi.iloc[-1] <= ndi.iloc[-1] else
+            0.0
+        )
+    else:
+        scores['ADX'] = 0.0
+
+    bb_middle, _, _ = calculate_bollinger_bands(df)
+    if len(bb_middle) and pd.notna(bb_middle.iloc[-1]):
+        scores['Bollinger'] = 0.5 if df['Close'].iloc[-1] > bb_middle.iloc[-1] else -0.5
+    else:
+        scores['Bollinger'] = 0.0
+
+    roc = calculate_roc(df)
+    scores['ROC'] = 1.0 if len(roc) and pd.notna(roc.iloc[-1]) and roc.iloc[-1] > 0 else (-1.0 if len(roc) and pd.notna(roc.iloc[-1]) else 0.0)
+
+    obv_line = calculate_obv(df)
+    if len(obv_line) >= 2 and pd.notna(obv_line.iloc[-1]) and pd.notna(obv_line.iloc[-2]):
+        scores['OBV'] = 1.0 if obv_line.iloc[-1] > obv_line.iloc[-2] else -1.0
+    else:
+        scores['OBV'] = 0.0
+
+    cci_val = calculate_cci(df)
+    if len(cci_val) and pd.notna(cci_val.iloc[-1]):
+        cci = cci_val.iloc[-1]
+        scores['CCI'] = (
+            1.5 if cci > 100 else
+            1.0 if cci > 0 else
+            -1.5 if cci < -100 else
+            -1.0 if cci < 0 else
+            0.0
+        )
+    else:
+        scores['CCI'] = 0.0
+
+    ema_fast = ema(df["Close"], CONFIG["INDICATOR_PERIODS"]["EMA_FAST"])
+    ema_slow = ema(df["Close"], CONFIG["INDICATOR_PERIODS"]["EMA_SLOW"])
+    if len(ema_fast) and len(ema_slow) and pd.notna(ema_fast.iloc[-1]) and pd.notna(ema_slow.iloc[-1]):
+        scores["EMA"] = 1.0 if ema_fast.iloc[-1] > ema_slow.iloc[-1] else -1.0
+    else:
+        scores["EMA"] = 0.0
+
+    vwap_line = vwap(df, period=None)
+    if len(vwap_line) and pd.notna(vwap_line.iloc[-1]) and pd.notna(df["Close"].iloc[-1]):
+        scores["VWAP"] = 1.0 if df["Close"].iloc[-1] > vwap_line.iloc[-1] else -1.0
+    else:
+        scores["VWAP"] = 0.0
+
+    atr_val = atr(df)
+    if len(atr_val) >= 6 and all(pd.notna(val) for val in [atr_val.iloc[-1], atr_val.iloc[-5], df["Close"].iloc[-1], df["Close"].iloc[-5]]):
+        atr_rising = (atr_val.iloc[-1] / atr_val.iloc[-5]) > 1.1
+        price_up5 = df["Close"].iloc[-1] > df["Close"].iloc[-5]
+        scores["ATR"] = 1.5 if atr_rising and price_up5 else (-1.5 if atr_rising and not price_up5 else 0.0)
+    else:
+        scores["ATR"] = 0.0
+
+    zscore = volume_surge(df)
+    if len(zscore) >= 2 and pd.notna(zscore.iloc[-1]):
+        price_up_last = df["Close"].iloc[-1] > df["Close"].iloc[-2]
+        scores["VolumeSurge"] = (
+            1.5 if zscore.iloc[-1] >= 2.0 and price_up_last else
+            -1.5 if zscore.iloc[-1] <= -2.0 and not price_up_last else
+            0.0
+        )
+    else:
+        scores["VolumeSurge"] = 0.0
+
+    mom = momentum(df)
+    if len(mom) and pd.notna(mom.iloc[-1]):
+        scores["Momentum"] = 1.5 if mom.iloc[-1] > 0.01 else (-1.5 if mom.iloc[-1] < -0.01 else 0.0)
+    else:
+        scores["Momentum"] = 0.0
+
+    wr = williams_r(df)
+    if len(wr) and pd.notna(wr.iloc[-1]):
+        scores["WWL"] = 1.0 if wr.iloc[-1] < -80 else (-1.0 if wr.iloc[-1] > -20 else 0.0)
+    else:
+        scores["WWL"] = 0.0
+
+    cmf20 = cmf(df)
+    if len(cmf20) and pd.notna(cmf20.iloc[-1]):
+        val = cmf20.iloc[-1]
+        scores["CMF"] = 1.5 if val > 0.1 else (-1.5 if val < -0.1 else 0.0)
+    else:
+        scores["CMF"] = 0.0
+
+    adl_line = adl(df)
+    if len(adl_line) >= 6 and pd.notna(adl_line.iloc[-1]) and pd.notna(adl_line.iloc[-5]):
+        scores["ADL"] = 1.2 if (adl_line.iloc[-1] - adl_line.iloc[-5]) > 0 else -1.2
+    else:
+        scores["ADL"] = 0.0
+
+    rv = relative_volume(df)
+    if len(rv) and pd.notna(rv.iloc[-1]):
+        scores["RelVol"] = 1.0 if rv.iloc[-1] >= 1.5 else (-0.5 if rv.iloc[-1] <= 0.5 else 0.0)
+    else:
+        scores["RelVol"] = 0.0
+
+    vd = vwap_distance(df, period=None)
+    if len(vd) and pd.notna(vd.iloc[-1]):
+        d = vd.iloc[-1]
+        scores["VWAPRegime"] = 1.3 if d > 0.002 else (-1.3 if d < -0.002 else 0.0)
+    else:
+        scores["VWAPRegime"] = 0.0
+
+    obv_line2 = calculate_obv(df)
+    if len(obv_line2) >= 6 and pd.notna(obv_line2.iloc[-1]) and pd.notna(obv_line2.iloc[-5]):
+        obv_up = obv_line2.iloc[-1] > obv_line2.iloc[-5]
+        price_up5 = df["Close"].iloc[-1] > df["Close"].iloc[-5]
+        scores["OBVConfirm"] = 1.0 if obv_up and price_up5 else (-1.0 if not obv_up and not price_up5 else 0.0)
+    else:
+        scores["OBVConfirm"] = 0.0
+
+    # --- OI + Volume fusion for option buyers ---
+    # Ensure there is an OI column standardized as 'OI' in normalize_hist_df
+    oi_col = 'OI' if 'OI' in df.columns else ('Oi' if 'Oi' in df.columns else None)
+    if oi_col is not None:
+        df_oi = df.copy()
+        if oi_col != 'OI':
+            df_oi['OI'] = pd.to_numeric(df_oi[oi_col], errors='coerce').fillna(0)
+        # Compute OI analytics
+        oi_z = oi_surge(df_oi, lookback=CONFIG["INDICATOR_PERIODS"]["OI_SURGE"])
+        oi_mom = oi_momentum(df_oi, period=CONFIG["INDICATOR_PERIODS"]["OI_MOMENTUM"])
+        rel_vol = relative_volume(df_oi, lookback=CONFIG["INDICATOR_PERIODS"]["REL_VOL"])
+        vwap_day = vwap_full_session(df_oi)
+        vdist = ((df_oi["Close"] - vwap_day) / vwap_day.replace(0, np.nan)).fillna(0)
+        adx_val, pdi, ndi = calculate_adx(df_oi)
+
+        conds_ok = all(len(x) for x in [oi_z, oi_mom, rel_vol, vdist, adx_val])
+        if conds_ok and pd.notna(oi_z.iloc[-1]) and pd.notna(oi_mom.iloc[-1]) and pd.notna(rel_vol.iloc[-1]) and pd.notna(vdist.iloc[-1]) and pd.notna(adx_val.iloc[-1]):
+            price_up = df_oi["Close"].iloc[-1] > df_oi["Close"].iloc[-2] if len(df_oi) >= 2 else False
+            price_down = df_oi["Close"].iloc[-1] < df_oi["Close"].iloc[-2] if len(df_oi) >= 2 else False
+            above_vwap = vdist.iloc[-1] > 0
+            below_vwap = vdist.iloc[-1] < 0
+            strong_rvol = rel_vol.iloc[-1] >= 1.5
+            strong_adx = adx_val.iloc[-1] > 20
+            p_over_n = pdi.iloc[-1] > ndi.iloc[-1] if len(pdi) and len(ndi) and pd.notna(pdi.iloc[-1]) and pd.notna(ndi.iloc[-1]) else False
+
+            # Continuation accumulation/distribution aligned for option buying
+            call_bias = price_up and above_vwap and strong_rvol and strong_adx and p_over_n and oi_z.iloc[-1] >= 1.0 and oi_mom.iloc[-1] > 0
+            put_bias  = price_down and below_vwap and strong_rvol and strong_adx and (not p_over_n) and oi_z.iloc[-1] >= 1.0 and oi_mom.iloc[-1] > 0
+
+            # Traps: short covering or long liquidation, reduce conviction
+            call_trap = price_up and rel_vol.iloc[-1] < 1.0 and oi_mom.iloc[-1] < 0
+            put_trap  = price_down and rel_vol.iloc[-1] < 1.0 and oi_mom.iloc[-1] < 0
+
+            # Base OI contributions
+            scores["OISurge"] = 1.0 if oi_z.iloc[-1] >= 1.0 else (-0.5 if oi_z.iloc[-1] <= -1.0 else 0.0)
+            scores["OIMomentum"] = 1.0 if oi_mom.iloc[-1] > 0 else (-0.5 if oi_mom.iloc[-1] < 0 else 0.0)
+
+            # Bias contributions targeting option buyers
+            scores["CallBias"] = 1.5 if call_bias else (-1.0 if call_trap else 0.0)
+            scores["PutBias"]  = -1.5 if put_bias else (1.0 if put_trap else 0.0)
+        else:
+            scores["OISurge"] = scores.get("OISurge", 0.0)
+            scores["OIMomentum"] = scores.get("OIMomentum", 0.0)
+            scores["CallBias"] = 0.0
+            scores["PutBias"] = 0.0
+    else:
+        # No OI present: remain neutral on OI-related scores
+        scores["OISurge"] = scores.get("OISurge", 0.0)
+        scores["OIMomentum"] = scores.get("OIMomentum", 0.0)
+        scores["CallBias"] = 0.0
+        scores["PutBias"] = 0.0
+
+    # Normalize scores to [-1, 1]
+    max_score = max(abs(s) for s in scores.values() if s != 0) or 1.0
+    for k in scores:
+        scores[k] = scores[k] / max_score if max_score != 0 else 0.0
+    return scores
+
+# ---- Institutional inference ----
+def infer_institutional_flow(tf_data):
+    frames = [tf_data.get(t) for t in (5, 15, 30) if tf_data.get(t) is not None and len(tf_data.get(t)) >= 60]
+    if not frames:
+        return "Unknown"
+    votes = 0
+    for df in frames:
+        cmf20 = cmf(df)
+        adl_line = adl_series(df)
+        adx_val, pdi, ndi = calculate_adx(df)
+        rv50 = relative_volume(df)
+        vwap_day = vwap_full_session(df)
+        atr_val = atr(df)
+        vwap_threshold = (atr_val.iloc[-1] / df["Close"].iloc[-1]) * 2.0 if pd.notna(atr_val.iloc[-1]) else 0.01
+        vdist = ((df["Close"] - vwap_day) / vwap_day.replace(0, np.nan)).fillna(0)
+
+        cmf_last = cmf20.iloc[-1] if len(cmf20) and pd.notna(cmf20.iloc[-1]) else np.nan
+        cmf_slope = slope(cmf20)
+        adl_slope = slope(adl_line)
+        adx_last = adx_val.iloc[-1] if len(adx_val) and pd.notna(adx_val.iloc[-1]) else np.nan
+        p_over_n = pdi.iloc[-1] > ndi.iloc[-1] if len(pdi) and len(ndi) and pd.notna(pdi.iloc[-1]) and pd.notna(ndi.iloc[-1]) else False
+        rv_last = rv50.iloc[-1] if len(rv50) and pd.notna(rv50.iloc[-1]) else np.nan
+        vdist_last = vdist.iloc[-1] if len(vdist) and pd.notna(vdist.iloc[-1]) else np.nan
+
+        near_vwap_ok = pd.notna(vdist_last) and (abs(vdist_last) <= vwap_threshold or (abs(vdist_last) <= vwap_threshold * 2 and pd.notna(rv_last) and rv_last >= 2.0))
+        strong_rvol = pd.notna(rv_last) and rv_last >= 1.5
+
+        buy_cond = (
+            pd.notna(vdist_last) and vdist_last > 0 and near_vwap_ok and
+            pd.notna(cmf_last) and cmf_last > 0.1 and
+            not np.isnan(cmf_slope) and cmf_slope > 0 and
+            not np.isnan(adl_slope) and adl_slope > 0 and
+            pd.notna(adx_last) and adx_last > 20 and p_over_n and
+            strong_rvol
+        )
+        sell_cond = (
+            pd.notna(vdist_last) and vdist_last < 0 and near_vwap_ok and
+            pd.notna(cmf_last) and cmf_last < -0.1 and
+            not np.isnan(cmf_slope) and cmf_slope < 0 and
+            not np.isnan(adl_slope) and adl_slope < 0 and
+            pd.notna(adx_last) and adx_last > 20 and not p_over_n and
+            strong_rvol
+        )
+
+        if buy_cond:
+            votes += 1
+        if sell_cond:
+            votes -= 1
+
+    if votes >= 2:
+        return "Institutional Accumulation"
+    if votes <= -2:
+        return "Institutional Distribution"
+    return "Mixed/Unclear"
+
+def institutional_flow_votes(tf_data):
+    votes = []
+    for t in (5, 15, 30):
+        df = tf_data.get(t)
+        if df is None or len(df) < 60:
+            continue
+        cmf20 = cmf(df)
+        adl_line = adl_series(df)
+        adx_val, pdi, ndi = calculate_adx(df)
+        rv50 = relative_volume(df)
+        vwap_day = vwap_full_session(df)
+        atr_val = atr(df)
+        vwap_threshold = (atr_val.iloc[-1] / df["Close"].iloc[-1]) * 2.0 if pd.notna(atr_val.iloc[-1]) else 0.01
+        vdist = ((df["Close"] - vwap_day) / vwap_day.replace(0, np.nan)).fillna(0)
+
+        cmf_last = cmf20.iloc[-1] if len(cmf20) and pd.notna(cmf20.iloc[-1]) else np.nan
+        cmf_slope = slope(cmf20)
+        adl_slope = slope(adl_line)
+        adx_last = adx_val.iloc[-1] if len(adx_val) and pd.notna(adx_val.iloc[-1]) else np.nan
+        p_over_n = pdi.iloc[-1] > ndi.iloc[-1] if len(pdi) and len(ndi) and pd.notna(pdi.iloc[-1]) and pd.notna(ndi.iloc[-1]) else False
+        rv_last = rv50.iloc[-1] if len(rv50) and pd.notna(rv50.iloc[-1]) else np.nan
+        vdist_last = vdist.iloc[-1] if len(vdist) and pd.notna(vdist.iloc[-1]) else np.nan
+
+        near_vwap_ok = pd.notna(vdist_last) and (abs(vdist_last) <= vwap_threshold or (abs(vdist_last) <= vwap_threshold * 2 and pd.notna(rv_last) and rv_last >= 2.0))
+        strong_rvol = pd.notna(rv_last) and rv_last >= 1.5
+
+        buy = (
+            pd.notna(vdist_last) and vdist_last > 0 and near_vwap_ok and
+            pd.notna(cmf_last) and cmf_last > 0.1 and
+            not np.isnan(cmf_slope) and cmf_slope > 0 and
+            not np.isnan(adl_slope) and adl_slope > 0 and
+            pd.notna(adx_last) and adx_last > 20 and p_over_n and
+            strong_rvol
+        )
+        sell = (
+            pd.notna(vdist_last) and vdist_last < 0 and near_vwap_ok and
+            pd.notna(cmf_last) and cmf_last < -0.1 and
+            not np.isnan(cmf_slope) and cmf_slope < 0 and
+            not np.isnan(adl_slope) and adl_slope < 0 and
+            pd.notna(adx_last) and adx_last > 20 and not p_over_n and
+            strong_rvol
+        )
+        votes.append((t, 1 if buy else (-1 if sell else 0)))
+    return votes
+
+def analyze_signals(timeframe_dataframes):
+    final_score, max_possible = 0.0, 0.0
+    for tf_min, df in timeframe_dataframes.items():
+        if df is None or len(df) < 50:
+            continue
+        indicator_scores = get_indicator_scores(df)
+        tf_weight = CONFIG["TIMEFRAME_WEIGHTS"].get(tf_min, 1.0)
+        for indicator, score in indicator_scores.items():
+            ind_weight = CONFIG["INDICATOR_WEIGHTS"].get(indicator, 1.0)
+            final_score += score * tf_weight * ind_weight
+            max_possible += 1.0 * tf_weight * ind_weight
+
+    votes = institutional_flow_votes(timeframe_dataframes)
+    inst_score = 0.0
+    for tf, v in votes:
+        inst_score += v * CONFIG["TIMEFRAME_WEIGHTS"].get(tf, 1.0) * 2.0
+        max_possible += 2.0 * CONFIG["TIMEFRAME_WEIGHTS"].get(tf, 1.0)
+    final_score += inst_score
+
+    if max_possible == 0:
+        return 'Neutral', 0.0
+    normalized = (final_score / max_possible) * 100.0
+    if normalized >= 65:
+        signal_text = 'Very Strong Buy'
+    elif normalized >= 25:
+        signal_text = 'Strong Buy'
+    elif normalized <= -65:
+        signal_text = 'Very Strong Sell'
+    elif normalized <= -25:
+        signal_text = 'Strong Sell'
+    else:
+        signal_text = 'Neutral'
+    return signal_text, normalized
+
+# ---------- Fetch + normalize ----------
+def normalize_hist_df(df, symbol, timeframe_minutes):
+    if df is None or df.empty:
+        logger.warning(f"No data received for {symbol} (timeframe: {timeframe_minutes} min)")
+        return None
+    try:
+        # Log raw columns for debugging
+        logger.debug(f"Raw columns for {symbol} (timeframe: {timeframe_minutes} min): {list(df.columns)}")
+        
+        # Define possible column names, including 'oi'
+        possible_cols = {
+            'open': ['open', 'OPEN', 'OpenPrice'],
+            'high': ['high', 'HIGH', 'HighPrice'],
+            'low': ['low', 'LOW', 'LowPrice'],
+            'close': ['close', 'CLOSE', 'ClosePrice'],
+            'volume': ['volume', 'VOLUME', 'vol', 'Volume', 'trade_volume', 'TradeVolume'],
+            'oi': ['oi', 'OI', 'open_interest', 'OpenInterest'],
+            'timestamp': ['timestamp', 'TIMESTAMP', 'time', 'datetime', 'date', 'Time', 'Date']
+        }
+        
+        # Create a copy with only needed columns
+        out = df.copy()
+        out.columns = out.columns.str.lower()
+        
+        # Map columns to standard names
+        rename_map = {}
+        for standard, variants in possible_cols.items():
+            for variant in variants:
+                if variant.lower() in out.columns:
+                    rename_map[variant.lower()] = standard.capitalize()
+                    break
+        
+        # Apply renaming
+        out.rename(columns=rename_map, inplace=True)
+        
+        # Required columns
+        required_cols = ['Open', 'High', 'Low', 'Close', 'Volume', 'Timestamp']
+        missing_cols = [col for col in required_cols if col not in out.columns]
+        
+        if missing_cols:
+            # If volume is missing, create a zero-filled column
+            if 'Volume' in missing_cols:
+                logger.warning(f"Volume missing for {symbol} (timeframe: {timeframe_minutes} min). Setting to zeros.")
+                out['Volume'] = 0
+                missing_cols.remove('Volume')
+            # If other required columns are missing, skip the symbol
+            if missing_cols:
+                logger.error(f"Missing required columns for {symbol} (timeframe: {timeframe_minutes} min): {missing_cols}")
+                return None
+        
+        # Optional OI column
+        if 'Oi' not in out.columns:
+            logger.warning(f"OI missing for {symbol} (timeframe: {timeframe_minutes} min). Setting to zeros.")
+            out['Oi'] = 0
+        else:
+            out['Oi'] = pd.to_numeric(out['Oi'], errors='coerce').fillna(0)
+        
+        # Convert timestamp and numeric columns
+        out["Timestamp"] = pd.to_datetime(out["Timestamp"], errors="coerce").dt.tz_localize(IST)
+        out = out.dropna(subset=["Timestamp"])
+        for col in ["Open", "High", "Low", "Close", "Volume", "Oi"]:
+            out[col] = pd.to_numeric(out[col], errors="coerce")
+        
+        out = out.dropna(subset=["Open", "High", "Low", "Close"])
+        out = out.sort_values("Timestamp").set_index("Timestamp")
+        out = out[~out.index.duplicated(keep='last')]
+        
+        if len(out) < 50:
+            logger.warning(f"Insufficient data for {symbol} (timeframe: {timeframe_minutes} min): {len(out)} bars")
+            return None
+        
+        # Standardize OI column name to 'OI' for downstream
+        if 'Oi' in out.columns and 'OI' not in out.columns:
+            out['OI'] = out['Oi']
+        
+        return out
+    except Exception as e:
+        logger.error(f"Normalize error for {symbol} (timeframe: {timeframe_minutes} min): {e}, Columns: {list(df.columns)}")
+        return None
+
+def pick_session(symbol_orig, timeframe_minutes):
+    return (hash(symbol_orig) ^ timeframe_minutes) % len(tdhist_pool)
+
+@retry(
+    stop_max_attempt_number=CONFIG["RETRY_ATTEMPTS"] + 2,  # Increased retries
+    wait_exponential_multiplier=CONFIG["RETRY_DELAY_MS"],
+    wait_exponential_max=15000,  # Increased max delay
+    retry_on_exception=lambda e: isinstance(e, Exception)
+)
+def fetch_one(symbol_orig, timeframe_minutes, limiter, hist):
+    td_symbol = symbol_orig.replace('-EQ', '')
+    if td_symbol in failed_symbols:
+        logger.debug(f"Skipping {td_symbol} (timeframe: {timeframe_minutes} min) due to previous failures")
+        return symbol_orig, timeframe_minutes, None
+    
+    bar_size = CONFIG["BAR_SIZE_MAP"].get(timeframe_minutes)
+    duration = CONFIG["DURATION_MAP"].get(timeframe_minutes)
+    if not bar_size or not duration:
+        logger.error(f"Invalid timeframe {timeframe_minutes} for {td_symbol}")
+        return symbol_orig, timeframe_minutes, None
+    
+    try:
+        t0 = time.time()
+        limiter.acquire()
+        df_raw = hist.get_historic_data(td_symbol, duration=duration, bar_size=bar_size)
+        t1 = time.time()
+        if df_raw is None or df_raw.empty:
+            logger.warning(f"No data returned by API for {td_symbol} (timeframe: {timeframe_minutes} min, duration: {duration}, bar_size: {bar_size})")
+            failed_symbols.add(td_symbol)
+            return symbol_orig, timeframe_minutes, None
+        df = normalize_hist_df(df_raw, td_symbol, timeframe_minutes)
+        global api_calls_done
+        with api_calls_lock:
+            api_calls_done += 1
+            if api_calls_done % 50 == 0:
+                logger.info(f"API calls: {api_calls_done}. Last call latency: {(t1 - t0):.2f}s")
+        if df is None:
+            failed_symbols.add(td_symbol)
+        return symbol_orig, timeframe_minutes, df
+    except Exception as e:
+        logger.error(f"Fetch failed for {td_symbol} (timeframe: {timeframe_minutes} min, duration: {duration}, bar_size: {bar_size}): {e}")
+        failed_symbols.add(td_symbol)
+        return symbol_orig, timeframe_minutes, None
+
+def prefetch_all(stocks, max_workers=CONFIG["MAX_WORKERS"]):
+    tfs = [5, 15, 30, 60, 1440]
+    total_calls = len(stocks) * len(tfs)
+    stock_multi_data = defaultdict(dict)
+
+    global api_calls_done
+    with api_calls_lock:
+        api_calls_done = 0
+
+    # Validate symbols (optional: implement API-based validation if available)
+    valid_stocks = [s for s in stocks if s]  # Basic check for non-empty symbols
+    logger.info(f"Valid symbols to fetch: {len(valid_stocks)}")
+
+    with tqdm(total=total_calls, desc="Prefetching Data", ncols=100) as api_bar:
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = []
+            for s in valid_stocks:
+                for tf in tfs:
+                    si = pick_session(s, tf)
+                    futures.append(executor.submit(fetch_one, s, tf, sess_limiters[si], tdhist_pool[si]))
+            for fut in as_completed(futures):
+                try:
+                    symbol_orig, tf, df = fut.result()
+                    if df is not None:
+                        stock_multi_data[symbol_orig][tf] = df
+                except Exception as e:
+                    logger.error(f"Future failed for {symbol_orig}, tf={tf}: {e}")
+                api_bar.update(1)
+
+    valid_data = {s: d for s, d in stock_multi_data.items() if len(d) >= 2}
+    logger.info(f"Prefetch complete. {len(valid_data)} symbols with valid data.")
+    logger.info(f"Failed symbols: {sorted(failed_symbols)}")
+    return valid_data
+
+# ---------- Backtest helpers ----------
+def parse_asof(s: str):
+    if 'T' in s:
+        dt = datetime.strptime(s, "%Y-%m-%dT%H:%M")
+    else:
+        dt = datetime.strptime(s, "%Y-%m-%d")
+        h, m = parse_hhmm(CONFIG["MARKET_END"])
+        dt = dt.replace(hour=h, minute=m)
+    return IST.localize(dt)
+
+def day_checkpoints_ist(day_date: datetime):
+    d = day_date.date()
+    start_h, start_m = parse_hhmm(CONFIG["FIRST_RUN_AT"])
+    end_h, end_m = parse_hhmm(CONFIG["MARKET_END"])
+    start_dt = IST.localize(datetime(d.year, d.month, d.day, start_h, start_m))
+    end_dt = IST.localize(datetime(d.year, d.month, d.day, end_h, end_m))
+    rng = pd.date_range(start=start_dt, end=end_dt, freq="5T", tz=IST, inclusive="both")
+    return list(rng.to_pydatetime())
+
+# ---------- Rendering with Rich ----------
+def render_top_lists(now_ts, top_bullish, top_bearish):
+    global last_bull_symbols, last_bear_symbols
+    title = f"| OPTION BUYER SCANNER | SNAPSHOT AT {now_ts.strftime('%Y-%m-%d %H:%M')} IST"
+    console.rule(title)
+
+    bull_table = Table(title="Top 20 Bullish Breakouts", box=box.SIMPLE_HEAVY, header_style="white on dark_green", style="white on black")
+    for col, style, justify in [
+        ("Stock", "cyan", "left"), ("Signal", "bright_white", "left"), ("Score", "yellow", "right"),
+        ("Change", "magenta", "right"), ("Trend", "bright_white", "left"),
+        ("Flow", "bright_white", "left"), ("Action", "bright_white", "left")
+    ]:
+        bull_table.add_column(col, style=style, justify=justify)
+
+    for r in top_bullish:
+        sym = r['symbol']
+        is_new = sym not in last_bull_symbols
+        row_style = "black on green" if is_new else None
+        ch = r['change']
+        change_str = f"{ch:+.2f}" if isinstance(ch, (int, float, np.floating)) else "NA"
+        bull_table.add_row(sym, r['signal'], f"{r['score']:.2f}", change_str, r['trend'], r.get('flow', 'Unknown'), "Consider Call", style=row_style)
+
+    console.print(bull_table)
+
+    bear_table = Table(title="Top 20 Bearish Breakdowns", box=box.SIMPLE_HEAVY, header_style="white on dark_red", style="white on black")
+    for col, style, justify in [
+        ("Stock", "cyan", "left"), ("Signal", "bright_white", "left"), ("Score", "yellow", "right"),
+        ("Change", "magenta", "right"), ("Trend", "bright_white", "left"),
+        ("Flow", "bright_white", "left"), ("Action", "bright_white", "left")
+    ]:
+        bear_table.add_column(col, style=style, justify=justify)
+
+    for r in top_bearish:
+        sym = r['symbol']
+        is_new = sym not in last_bear_symbols
+        row_style = "white on red" if is_new else None
+        ch = r['change']
+        change_str = f"{ch:+.2f}" if isinstance(ch, (int, float, np.floating)) else "NA"
+        bear_table.add_row(sym, r['signal'], f"{r['score']:.2f}", change_str, r['trend'], r.get('flow', 'Unknown'), "Consider Put", style=row_style)
+
+    console.print(bear_table)
+    console.rule()
+
+    last_bull_symbols = {r['symbol'] for r in top_bullish}
+    last_bear_symbols = {r['symbol'] for r in top_bearish}
+
+# ---------- CSV Export ----------
+def export_to_csv(now_ts, top_bullish, top_bearish, filename):
+    with open(filename, "a", newline='', encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow([f"Snapshot Time: {now_ts.strftime('%Y-%m-%d %H:%M')}"])
+        writer.writerow(["Top 20 Bullish (Momentum Breakouts)"])
+        writer.writerow(["Stock", "Signal", "Score", "Change", "Trend", "Flow", "Action"])
+        if not top_bullish:
+            writer.writerow(["No strong bullish signals found."])
+        for r in top_bullish:
+            ch = r['change']
+            change_str = f"{ch:+.2f}" if isinstance(ch, (int, float, np.floating)) else "NA"
+            writer.writerow([r['symbol'], r['signal'], f"{r['score']:.2f}", change_str, r['trend'], r.get('flow', 'Unknown'), "Consider Call"])
+        writer.writerow([])
+        writer.writerow(["Top 20 Bearish (Momentum Breakdowns)"])
+        writer.writerow(["Stock", "Signal", "Score", "Change", "Trend", "Flow", "Action"])
+        if not top_bearish:
+            writer.writerow(["No strong bearish signals found."])
+        for r in top_bearish:
+            ch = r['change']
+            change_str = f"{ch:+.2f}" if isinstance(ch, (int, float, np.floating)) else "NA"
+            writer.writerow([r['symbol'], r['signal'], f"{r['score']:.2f}", change_str, r['trend'], r.get('flow', 'Unknown'), "Consider Put"])
+        writer.writerow([])
+
+# ---------- Full-day backtest ----------
+def run_backtest_day(day_str: str, stocks):
+    day_date = datetime.strptime(day_str, "%Y-%m-%d")
+    logger.info(f"[{day_str}] Backtest (full day) prefetch for {len(stocks)} symbols...")
+    stock_multi_data = prefetch_all(stocks)
+    logger.info(f"Prefetch complete. {len(stock_multi_data)} symbols with valid data.")
+    logger.info(f"Failed symbols: {sorted(failed_symbols)}")
+
+    checkpoints = day_checkpoints_ist(day_date)
+    output_filename = day_date.strftime("%Y-%m-%d") + "_options_scan_results.txt"
+    csv_filename = day_date.strftime("%Y-%m-%d") + "_options_scan_results.csv"
+    try:
+        if os.path.exists(output_filename):
+            os.remove(output_filename)
+        if os.path.exists(csv_filename):
+            os.remove(csv_filename)
+    except Exception:
+        pass
+
+    global previous_scores, last_bull_symbols, last_bear_symbols, performance_metrics
+    previous_scores = {}
+    last_bull_symbols = set()
+    last_bear_symbols = set()
+    performance_metrics = defaultdict(int)
+
+    for asof_ts in checkpoints:
+        time_point_aware = asof_ts.replace(second=0, microsecond=0)
+        signals_this_scan = []
+        current_scores = {}
+
+        for symbol, timeframe_data in stock_multi_data.items():
+            clean_symbol = symbol.replace('-EQ', '')
+            filtered_timeframes = {
+                tf: df[df.index <= time_point_aware]
+                for tf, df in timeframe_data.items()
+                if df is not None and not df.empty and len(df[df.index <= time_point_aware]) >= 50
+            }
+            if len(filtered_timeframes) < 2:
+                continue
+
+            signal, score = analyze_signals(filtered_timeframes)
+            current_scores[clean_symbol] = score
+            if 'Strong' in signal:
+                prev = previous_scores.get(clean_symbol, 'NA')
+                change_val = 'NA' if isinstance(prev, str) else (score - prev)
+                direction = 'bullish' if 'Buy' in signal else 'bearish'
+                flow_tag = infer_institutional_flow(filtered_timeframes)
+                signals_this_scan.append({
+                    'symbol': clean_symbol, 'signal': signal, 'score': score,
+                    'trend': direction, 'change': change_val, 'flow': flow_tag
+                })
+                performance_metrics[f"{direction}_signals"] += 1
+
+        previous_scores = current_scores.copy()
+        signals_this_scan.sort(key=lambda x: x['score'], reverse=True)
+        top_bullish = [r for r in signals_this_scan if 'Buy' in r['signal']][:20]
+        bearish_sorted = sorted([r for r in signals_this_scan if 'Sell' in r['signal']], key=lambda x: x['score'])
+        top_bearish = bearish_sorted[:20]
+
+        render_top_lists(asof_ts, top_bullish, top_bearish)
+        with open(output_filename, "a", encoding="utf-8") as f:
+            f.write(f"===== Snapshot Time: {asof_ts.strftime('%Y-%m-%d %H:%M')} =====\n\n")
+            f.write("Top 20 Bullish (Momentum Breakouts)\n")
+            f.write(f"{'Stock':<15} | {'Signal':<18} | {'Score':>7} | {'Change':>10} | {'Trend':<10} | {'Flow':<26} | {'Action':<19}\n")
+            f.write("-"*120 + "\n")
+            if not top_bullish:
+                f.write("No strong bullish signals found.\n")
+            for r in top_bullish:
+                ch = r['change']
+                change_str = f"{ch:+.2f}" if isinstance(ch, (int, float, np.floating)) else "NA"
+                f.write(f"{r['symbol']:<15} | {r['signal']:<18} | {r['score']:>7.2f} | {change_str:>10} | {r['trend']:<10} | {r.get('flow','Unknown'):<26} | Consider Call\n")
+            f.write("\nTop 20 Bearish (Momentum Breakdowns)\n")
+            f.write(f"{'Stock':<15} | {'Signal':<18} | {'Score':>7} | {'Change':>10} | {'Trend':<10} | {'Flow':<26} | {'Action':<19}\n")
+            f.write("-"*120 + "\n")
+            if not top_bearish:
+                f.write("No strong bearish signals found.\n")
+            for r in top_bearish:
+                ch = r['change']
+                change_str = f"{ch:+.2f}" if isinstance(ch, (int, float, np.floating)) else "NA"
+                f.write(f"{r['symbol']:<15} | {r['signal']:<18} | {r['score']:>7.2f} | {change_str:>10} | {r['trend']:<10} | {r.get('flow','Unknown'):<26} | Consider Put\n")
+            f.write("\n\n")
+        export_to_csv(asof_ts, top_bullish, top_bearish, csv_filename)
+
+    logger.info(f"Backtest Metrics: {dict(performance_metrics)}")
+
+# ---------- Single snapshot backtest ----------
+def run_once_asof(asof_ts, stocks):
+    logger.info(f"[{asof_ts.strftime('%Y-%m-%d %H:%M')}] Backtest snapshot: fetching data for {len(stocks)} symbols...")
+    stock_multi_data = prefetch_all(stocks)
+    logger.info(f"Data fetch complete. {len(stock_multi_data)} symbols with valid data.")
+    logger.info(f"Failed symbols: {sorted(failed_symbols)}")
+
+    time_point_aware = asof_ts.replace(second=0, microsecond=0)
+    signals_this_scan = []
+
+    for symbol, timeframe_data in stock_multi_data.items():
+        clean_symbol = symbol.replace('-EQ', '')
+        filtered_timeframes = {
+            tf: df[df.index <= time_point_aware]
+            for tf, df in timeframe_data.items()
+            if df is not None and not df.empty and len(df[df.index <= time_point_aware]) >= 50
+        }
+        if len(filtered_timeframes) < 2:
+            continue
+
+        signal, score = analyze_signals(filtered_timeframes)
+        if 'Strong' in signal:
+            direction = 'bullish' if 'Buy' in signal else 'bearish'
+            flow_tag = infer_institutional_flow(filtered_timeframes)
+            signals_this_scan.append({
+                'symbol': clean_symbol, 'signal': signal, 'score': score,
+                'trend': direction, 'change': 'NA', 'flow': flow_tag
+            })
+            performance_metrics[f"{direction}_signals"] += 1
+
+    signals_this_scan.sort(key=lambda x: x['score'], reverse=True)
+    top_bullish = [r for r in signals_this_scan if 'Buy' in r['signal']][:20]
+    bearish_sorted = sorted([r for r in signals_this_scan if 'Sell' in r['signal']], key=lambda x: x['score'])
+    top_bearish = bearish_sorted[:20]
+
+    render_top_lists(asof_ts, top_bullish, top_bearish)
+    output_filename = asof_ts.strftime("%Y-%m-%d") + "_options_scan_results.txt"
+    csv_filename = asof_ts.strftime("%Y-%m-%d") + "_options_scan_results.csv"
+    with open(output_filename, "a", encoding="utf-8") as f:
+        f.write(f"===== Snapshot Time: {asof_ts.strftime('%Y-%m-%d %H:%M')} =====\n\n")
+        f.write("Top 20 Bullish (Momentum Breakouts)\n")
+        f.write(f"{'Stock':<15} | {'Signal':<18} | {'Score':>7} | {'Change':>10} | {'Trend':<10} | {'Flow':<26} | {'Action':<19}\n")
+        f.write("-"*120 + "\n")
+        if not top_bullish:
+            f.write("No strong bullish signals found.\n")
+        for r in top_bullish:
+            f.write(f"{r['symbol']:<15} | {r['signal']:<18} | {r['score']:>7.2f} | {'NA':>10} | {r['trend']:<10} | {r.get('flow','Unknown'):<26} | Consider Call\n")
+        f.write("\nTop 20 Bearish (Momentum Breakdowns)\n")
+        f.write(f"{'Stock':<15} | {'Signal':<18} | {'Score':>7} | {'Change':>10} | {'Trend':<10} | {'Flow':<26} | {'Action':<19}\n")
+        f.write("-"*120 + "\n")
+        if not top_bearish:
+            f.write("No strong bearish signals found.\n")
+        for r in top_bearish:
+            f.write(f"{r['symbol']:<15} | {r['signal']:<18} | {r['score']:>7.2f} | {'NA':>10} | {r['trend']:<10} | {r.get('flow','Unknown'):<26} | Consider Put\n")
+        f.write("\n\n")
+    export_to_csv(asof_ts, top_bullish, top_bearish, csv_filename)
+    logger.info(f"Snapshot Metrics: {dict(performance_metrics)}")
+
+# ---------- Live 5-min loop ----------
+def run_live_5min():
+    try:
+        with open(CONFIG["SHARES_FILE"], 'r') as f:
+            stocks = [line.strip().upper() for line in f.readlines() if line.strip()]
+        logger.info(f"Loaded {len(stocks)} symbols from {CONFIG['SHARES_FILE']}")
+    except Exception as e:
+        raise SystemExit(f"Could not read {CONFIG['SHARES_FILE']}: {e}")
+
+    first_run = today_ist_dt(CONFIG["FIRST_RUN_AT"])
+    now = datetime.now(IST)
+    if now < first_run:
+        logger.info(f"Waiting until {CONFIG['FIRST_RUN_AT']}:00 IST for first 5-min close...")
+        sleep_until(first_run)
+    settle_ts = first_run + timedelta(seconds=CONFIG["SETTLE_DELAY_SECONDS"])
+    sleep_until(settle_ts)
+
+    global previous_scores, last_bull_symbols, last_bear_symbols, performance_metrics, failed_symbols
+    previous_scores = {}
+    last_bull_symbols = set()
+    last_bear_symbols = set()
+    performance_metrics = defaultdict(int)
+    failed_symbols = set()
+
+    output_filename = datetime.now(IST).strftime("%Y-%m-%d") + "_options_scan_results.txt"
+    csv_filename = datetime.now(IST).strftime("%Y-%m-%d") + "_options_scan_results.csv"
+
+    while True:
+        now_ist = datetime.now(IST)
+        end_h, end_m = parse_hhmm(CONFIG["MARKET_END"])
+        session_end = now_ist.replace(hour=end_h, minute=end_m, second=0, microsecond=0)
+        if now_ist > session_end + timedelta(minutes=1):
+            logger.info("Market closed. Sleeping until next session.")
+            tomorrow = (now_ist + timedelta(days=1)).astimezone(IST)
+            next_first = tomorrow.replace(hour=int(CONFIG["FIRST_RUN_AT"].split(":")[0]),
+                                          minute=int(CONFIG["FIRST_RUN_AT"].split(":")[1]),
+                                          second=0, microsecond=0)
+            sleep_until(next_first + timedelta(seconds=CONFIG["SETTLE_DELAY_SECONDS"]))
+            output_filename = tomorrow.strftime("%Y-%m-%d") + "_options_scan_results.txt"
+            csv_filename = tomorrow.strftime("%Y-%m-%d") + "_options_scan_results.csv"
+            failed_symbols.clear()  # Reset for new session
+            continue
+
+        logger.info(f"[{now_ist.strftime('%H:%M:%S')}] Refreshing data ...")
+        stock_multi_data = prefetch_all(stocks)
+        logger.info(f"Data refresh complete. {len(stock_multi_data)} symbols with valid data.")
+        logger.info(f"Failed symbols: {sorted(failed_symbols)}")
+
+        time_point_aware = now_ist.replace(second=0, microsecond=0)
+        signals_this_scan = []
+        current_scores = {}
+
+        for symbol, timeframe_data in stock_multi_data.items():
+            clean_symbol = symbol.replace('-EQ', '')
+            filtered_timeframes = {
+                tf: df[df.index <= time_point_aware]
+                for tf, df in timeframe_data.items()
+                if df is not None and not df.empty and len(df[df.index <= time_point_aware]) >= 50
+            }
+            if len(filtered_timeframes) < 2:
+                continue
+
+            signal, score = analyze_signals(filtered_timeframes)
+            current_scores[clean_symbol] = score
+            if 'Strong' in signal:
+                prev = previous_scores.get(clean_symbol, 'NA')
+                change_val = 'NA' if isinstance(prev, str) else (score - prev)
+                direction = 'bullish' if 'Buy' in signal else 'bearish'
+                flow_tag = infer_institutional_flow(filtered_timeframes)
+                signals_this_scan.append({
+                    'symbol': clean_symbol, 'signal': signal, 'score': score,
+                    'trend': direction, 'change': change_val, 'flow': flow_tag
+                })
+                performance_metrics[f"{direction}_signals"] += 1
+
+        previous_scores = current_scores.copy()
+        signals_this_scan.sort(key=lambda x: x['score'], reverse=True)
+        top_bullish = [r for r in signals_this_scan if 'Buy' in r['signal']][:20]
+        bearish_sorted = sorted([r for r in signals_this_scan if 'Sell' in r['signal']], key=lambda x: x['score'])
+        top_bearish = bearish_sorted[:20]
+
+        render_top_lists(now_ist, top_bullish, top_bearish)
+        with open(output_filename, "a", encoding="utf-8") as f:
+            f.write(f"===== Scan Time: {now_ist.strftime('%Y-%m-%d %H:%M')} =====\n\n")
+            f.write("Top 20 Bullish (Momentum Breakouts)\n")
+            f.write(f"{'Stock':<15} | {'Signal':<18} | {'Score':>7} | {'Change':>10} | {'Trend':<10} | {'Flow':<26} | {'Action':<19}\n")
+            f.write("-"*120 + "\n")
+            if not top_bullish:
+                f.write("No strong bullish signals found.\n")
+            for r in top_bullish:
+                ch = r['change']
+                change_str = f"{ch:+.2f}" if isinstance(ch, (int, float, np.floating)) else "NA"
+                f.write(f"{r['symbol']:<15} | {r['signal']:<18} | {r['score']:>7.2f} | {change_str:>10} | {r['trend']:<10} | {r.get('flow','Unknown'):<26} | Consider Call\n")
+            f.write("\nTop 20 Bearish (Momentum Breakdowns)\n")
+            f.write(f"{'Stock':<15} | {'Signal':<18} | {'Score':>7} | {'Change':>10} | {'Trend':<10} | {'Flow':<26} | {'Action':<19}\n")
+            f.write("-"*120 + "\n")
+            if not top_bearish:
+                f.write("No strong bearish signals found.\n")
+            for r in top_bearish:
+                ch = r['change']
+                change_str = f"{ch:+.2f}" if isinstance(ch, (int, float, np.floating)) else "NA"
+                f.write(f"{r['symbol']:<15} | {r['signal']:<18} | {r['score']:>7.2f} | {change_str:>10} | {r['trend']:<10} | {r.get('flow','Unknown'):<26} | Consider Put\n")
+            f.write("\n\n")
+        export_to_csv(now_ist, top_bullish, top_bearish, csv_filename)
+
+        nxt = next_5min_boundary_ist(datetime.now(IST))
+        sleep_until(nxt + timedelta(seconds=CONFIG["SETTLE_DELAY_SECONDS"]))
+
+# ---------------- Main ----------------
+def main():
+    parser = argparse.ArgumentParser(description="Options buyer scanner with institutional flow, colored tables, and backtest modes")
+    parser.add_argument("--asof", type=str, default=None, help="Snapshot as-of time, e.g. 2025-09-26 or 2025-09-26T09:50")
+    parser.add_argument("--backtest-date", type=str, default=None, help="Full-day backtest at 5-min intervals, e.g. 2025-09-26")
+    args = parser.parse_args()
+
+    try:
+        with open(CONFIG["SHARES_FILE"], 'r') as f:
+            stocks = [line.strip().upper() for line in f.readlines() if line.strip()]
+        logger.info(f"Loaded {len(stocks)} symbols from {CONFIG['SHARES_FILE']}")
+    except Exception as e:
+        raise SystemExit(f"Could not read {CONFIG['SHARES_FILE']}: {e}")
+
+    if args.backtest_date:
+        run_backtest_day(args.backtest_date, stocks)
+    elif args.asof:
+        asof_ts = parse_asof(args.asof)
+        run_once_asof(asof_ts, stocks)
+    else:
+        run_live_5min()
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nScan interrupted by user. Shutting down.")
+    except Exception as e:
+        logger.exception(f"Fatal error: {e}")
+        raise
+    finally:
+        logger.info("Disconnecting TrueData sessions...")
+        for sess in tdhist_pool:
+            try:
+                sess.disconnect()
+            except Exception:
+                pass
+        logger.info(f"Shutdown complete. Final Metrics: {dict(performance_metrics)}")

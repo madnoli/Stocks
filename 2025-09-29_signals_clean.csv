@@ -1,0 +1,993 @@
+Time: 2025-09-29 09:20
+Stock,Signal,Score,Change,OI Status,Action
+KFINTECH-I,⚡ STRONG BUY,17.00,NEW,Normal,⚡ BUY CALLS - ATM/OTM
+PETRONET-I,⚡ STRONG BUY,16.67,NEW,Normal,⚡ BUY CALLS - ATM/OTM
+360ONE-I,⚡ STRONG BUY,16.13,NEW,Normal,⚡ BUY CALLS - ATM/OTM
+BEL-I,⚡ STRONG BUY,16.09,NEW,Normal,⚡ BUY CALLS - ATM/OTM
+BPCL-I,⚡ STRONG BUY,15.31,NEW,Normal,⚡ BUY CALLS - ATM/OTM
+IOC-I,⚡ STRONG BUY,14.82,NEW,Normal,⚡ BUY CALLS - ATM/OTM
+BSE-I,⚡ STRONG BUY,13.06,NEW,Normal,⚡ BUY CALLS - ATM/OTM
+HINDZINC-I,⚡ STRONG BUY,12.92,NEW,Normal,⚡ BUY CALLS - ATM/OTM
+OIL-I,⚡ STRONG BUY,12.75,NEW,Normal,⚡ BUY CALLS - ATM/OTM
+ASHOKLEY-I,⚡ STRONG BUY,12.61,NEW,Normal,⚡ BUY CALLS - ATM/OTM
+HFCL-I,🟢 BUY - Call Potential,11.23,NEW,Normal,📈 Consider Calls - OTM Safe
+IRFC-I,🟢 BUY - Call Potential,9.46,NEW,Normal,📈 Consider Calls - OTM Safe
+IIFL-I,🟢 BUY - Call Potential,8.27,NEW,Normal,📈 Consider Calls - OTM Safe
+INOXWIND-I,🟢 BUY - Call Potential,8.04,NEW,Normal,📈 Consider Calls - OTM Safe
+HINDUNILVR-I,🔥 VERY STRONG SELL,-20.03,NEW,Normal,🔥 BUY PUTS STRONG
+AXISBANK-I,🔴 SELL - Put Potential,-11.85,NEW,Normal,📉 Consider Puts - OTM Safe
+BRITANNIA-I,🔴 SELL - Put Potential,-11.34,NEW,Normal,📉 Consider Puts - OTM Safe
+DIXON-I,🔴 SELL - Put Potential,-11.31,NEW,Normal,📉 Consider Puts - OTM Safe
+PERSISTENT-I,🔴 SELL - Put Potential,-9.56,NEW,Normal,📉 Consider Puts - OTM Safe
+SUPREMEIND-I,🔴 SELL - Put Potential,-9.45,NEW,Normal,📉 Consider Puts - OTM Safe
+AMBER-I,🔴 SELL - Put Potential,-9.36,NEW,Normal,📉 Consider Puts - OTM Safe
+COLPAL-I,🔴 SELL - Put Potential,-8.64,NEW,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 09:25
+Stock,Signal,Score,Change,OI Status,Action
+KFINTECH-I,⚡ STRONG BUY,17.94,+0.94,Normal,⚡ BUY CALLS - ATM/OTM
+HINDZINC-I,⚡ STRONG BUY,16.19,+3.27,Normal,⚡ BUY CALLS - ATM/OTM
+360ONE-I,⚡ STRONG BUY,15.94,-0.19,Normal,⚡ BUY CALLS - ATM/OTM
+BEL-I,⚡ STRONG BUY,15.86,-0.23,Normal,⚡ BUY CALLS - ATM/OTM
+OIL-I,⚡ STRONG BUY,15.05,+2.29,Normal,⚡ BUY CALLS - ATM/OTM
+PETRONET-I,⚡ STRONG BUY,14.27,-2.40,Normal,⚡ BUY CALLS - ATM/OTM
+BPCL-I,⚡ STRONG BUY,14.15,-1.17,Normal,⚡ BUY CALLS - ATM/OTM
+ASHOKLEY-I,⚡ STRONG BUY,13.78,+1.17,Normal,⚡ BUY CALLS - ATM/OTM
+BSE-I,⚡ STRONG BUY,13.42,+0.35,Normal,⚡ BUY CALLS - ATM/OTM
+IOC-I,⚡ STRONG BUY,12.19,-2.63,Normal,⚡ BUY CALLS - ATM/OTM
+IRFC-I,🟢 BUY - Call Potential,11.46,+2.00,Normal,📈 Consider Calls - OTM Safe
+HFCL-I,🟢 BUY - Call Potential,11.05,-0.19,Normal,📈 Consider Calls - OTM Safe
+IIFL-I,🟢 BUY - Call Potential,9.98,+1.70,Normal,📈 Consider Calls - OTM Safe
+GODREJPROP-I,🟢 BUY - Call Potential,8.81,+1.17,Normal,📈 Consider Calls - OTM Safe
+INOXWIND-I,🟢 BUY - Call Potential,8.04,+0.00,Normal,📈 Consider Calls - OTM Safe
+HINDUNILVR-I,🔥 VERY STRONG SELL,-20.03,+0.00,Normal,🔥 BUY PUTS STRONG
+DIXON-I,🔴 SELL - Put Potential,-11.93,-0.62,Normal,📉 Consider Puts - OTM Safe
+AXISBANK-I,🔴 SELL - Put Potential,-11.85,+0.00,Normal,📉 Consider Puts - OTM Safe
+BRITANNIA-I,🔴 SELL - Put Potential,-10.56,+0.77,Normal,📉 Consider Puts - OTM Safe
+AMBER-I,🔴 SELL - Put Potential,-9.17,+0.19,Normal,📉 Consider Puts - OTM Safe
+SUPREMEIND-I,🔴 SELL - Put Potential,-9.10,+0.35,Normal,📉 Consider Puts - OTM Safe
+LT-I,🔴 SELL - Put Potential,-8.60,-2.48,Normal,📉 Consider Puts - OTM Safe
+PERSISTENT-I,🔴 SELL - Put Potential,-8.39,+1.17,Normal,📉 Consider Puts - OTM Safe
+LAURUSLABS-I,🔴 SELL - Put Potential,-8.30,-1.70,Normal,📉 Consider Puts - OTM Safe
+COLPAL-I,🔴 SELL - Put Potential,-8.29,+0.35,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 09:30
+Stock,Signal,Score,Change,OI Status,Action
+BPCL-I,🔥 VERY STRONG BUY,23.64,+9.49,Normal,🔥 BUY CALLS STRONG
+BSE-I,⚡ STRONG BUY,18.84,+5.42,Normal,⚡ BUY CALLS - ATM/OTM
+KFINTECH-I,⚡ STRONG BUY,18.38,+0.45,Normal,⚡ BUY CALLS - ATM/OTM
+PETRONET-I,⚡ STRONG BUY,17.14,+2.87,Normal,⚡ BUY CALLS - ATM/OTM
+IOC-I,⚡ STRONG BUY,16.66,+4.47,Normal,⚡ BUY CALLS - ATM/OTM
+OIL-I,⚡ STRONG BUY,16.35,+1.30,Normal,⚡ BUY CALLS - ATM/OTM
+HFCL-I,⚡ STRONG BUY,14.70,+3.65,Normal,⚡ BUY CALLS - ATM/OTM
+HINDPETRO-I,⚡ STRONG BUY,14.09,+8.11,Normal,⚡ BUY CALLS - ATM/OTM
+BEL-I,⚡ STRONG BUY,13.99,-1.87,Normal,⚡ BUY CALLS - ATM/OTM
+360ONE-I,⚡ STRONG BUY,13.67,-2.27,Normal,⚡ BUY CALLS - ATM/OTM
+IIFL-I,⚡ STRONG BUY,12.65,+2.68,Normal,⚡ BUY CALLS - ATM/OTM
+HINDZINC-I,⚡ STRONG BUY,12.56,-3.63,Normal,⚡ BUY CALLS - ATM/OTM
+CANBK-I,⚡ STRONG BUY,12.54,+5.62,Normal,⚡ BUY CALLS - ATM/OTM
+PPLPHARMA-I,🟢 BUY - Call Potential,11.81,+4.93,Normal,📈 Consider Calls - OTM Safe
+ASHOKLEY-I,🟢 BUY - Call Potential,11.16,-2.61,Normal,📈 Consider Calls - OTM Safe
+VEDL-I,🟢 BUY - Call Potential,9.54,+2.47,Normal,📈 Consider Calls - OTM Safe
+IREDA-I,🟢 BUY - Call Potential,8.45,+0.84,Normal,📈 Consider Calls - OTM Safe
+NATIONALUM-I,🟢 BUY - Call Potential,8.15,+0.50,Normal,📈 Consider Calls - OTM Safe
+HINDUNILVR-I,⚡ STRONG SELL,-16.37,+3.66,Normal,⚡ BUY PUTS - ATM/OTM
+DIXON-I,⚡ STRONG SELL,-16.16,-4.23,Normal,⚡ BUY PUTS - ATM/OTM
+AMBER-I,⚡ STRONG SELL,-12.16,-2.99,Normal,⚡ BUY PUTS - ATM/OTM
+AXISBANK-I,🔴 SELL - Put Potential,-11.79,+0.06,Normal,📉 Consider Puts - OTM Safe
+LT-I,🔴 SELL - Put Potential,-11.77,-3.17,Normal,📉 Consider Puts - OTM Safe
+UPL-I,🔴 SELL - Put Potential,-9.59,-2.25,Normal,📉 Consider Puts - OTM Safe
+SUPREMEIND-I,🔴 SELL - Put Potential,-9.10,+0.00,Normal,📉 Consider Puts - OTM Safe
+COLPAL-I,🔴 SELL - Put Potential,-8.32,-0.03,Normal,📉 Consider Puts - OTM Safe
+SHREECEM-I,🔴 SELL - Put Potential,-8.29,-0.33,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 09:35
+Stock,Signal,Score,Change,OI Status,Action
+BPCL-I,🔥 VERY STRONG BUY,21.42,-2.21,Normal,🔥 BUY CALLS STRONG
+IOC-I,⚡ STRONG BUY,16.66,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+BSE-I,⚡ STRONG BUY,16.24,-2.60,Normal,⚡ BUY CALLS - ATM/OTM
+PETRONET-I,⚡ STRONG BUY,15.20,-1.94,Normal,⚡ BUY CALLS - ATM/OTM
+HFCL-I,⚡ STRONG BUY,14.70,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+HINDPETRO-I,⚡ STRONG BUY,13.90,-0.19,Normal,⚡ BUY CALLS - ATM/OTM
+HINDZINC-I,⚡ STRONG BUY,13.07,+0.50,Normal,⚡ BUY CALLS - ATM/OTM
+OIL-I,⚡ STRONG BUY,12.74,-3.61,Normal,⚡ BUY CALLS - ATM/OTM
+KFINTECH-I,🟢 BUY - Call Potential,11.39,-6.99,Normal,📈 Consider Calls - OTM Safe
+PATANJALI-I,🟢 BUY - Call Potential,11.28,+5.43,Normal,📈 Consider Calls - OTM Safe
+IIFL-I,🟢 BUY - Call Potential,10.71,-1.94,Normal,📈 Consider Calls - OTM Safe
+CANBK-I,🟢 BUY - Call Potential,10.24,-2.29,Normal,📈 Consider Calls - OTM Safe
+BEL-I,🟢 BUY - Call Potential,9.40,-4.59,Normal,📈 Consider Calls - OTM Safe
+PNB-I,🟢 BUY - Call Potential,8.94,+0.97,Normal,📈 Consider Calls - OTM Safe
+ASHOKLEY-I,🟢 BUY - Call Potential,8.87,-2.29,Normal,📈 Consider Calls - OTM Safe
+360ONE-I,🟢 BUY - Call Potential,8.50,-5.17,Normal,📈 Consider Calls - OTM Safe
+SUNPHARMA-I,🟢 BUY - Call Potential,8.21,+0.58,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-13.45,+2.71,Normal,⚡ BUY PUTS - ATM/OTM
+AMBER-I,⚡ STRONG SELL,-12.16,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+HINDUNILVR-I,🔴 SELL - Put Potential,-11.43,+4.94,Normal,📉 Consider Puts - OTM Safe
+LT-I,🔴 SELL - Put Potential,-10.06,+1.71,Normal,📉 Consider Puts - OTM Safe
+AXISBANK-I,🔴 SELL - Put Potential,-9.49,+2.29,Normal,📉 Consider Puts - OTM Safe
+SUPREMEIND-I,🔴 SELL - Put Potential,-9.10,+0.00,Normal,📉 Consider Puts - OTM Safe
+UPL-I,🔴 SELL - Put Potential,-8.61,+0.98,Normal,📉 Consider Puts - OTM Safe
+SHREECEM-I,🔴 SELL - Put Potential,-8.29,+0.00,Normal,📉 Consider Puts - OTM Safe
+COLPAL-I,🔴 SELL - Put Potential,-8.13,+0.19,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 09:40
+Stock,Signal,Score,Change,OI Status,Action
+BPCL-I,⚡ STRONG BUY,19.13,-2.29,Normal,⚡ BUY CALLS - ATM/OTM
+IOC-I,⚡ STRONG BUY,18.18,+1.52,Normal,⚡ BUY CALLS - ATM/OTM
+BSE-I,⚡ STRONG BUY,13.94,-2.29,Normal,⚡ BUY CALLS - ATM/OTM
+HINDPETRO-I,⚡ STRONG BUY,13.90,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+PETRONET-I,⚡ STRONG BUY,12.90,-2.29,Normal,⚡ BUY CALLS - ATM/OTM
+OIL-I,⚡ STRONG BUY,12.74,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+KFINTECH-I,🟢 BUY - Call Potential,11.39,+0.00,Normal,📈 Consider Calls - OTM Safe
+HINDZINC-I,🟢 BUY - Call Potential,10.85,-2.21,Normal,📈 Consider Calls - OTM Safe
+HFCL-I,🟢 BUY - Call Potential,10.11,-4.59,Normal,📈 Consider Calls - OTM Safe
+BEL-I,🟢 BUY - Call Potential,9.40,+0.00,Normal,📈 Consider Calls - OTM Safe
+360ONE-I,🟢 BUY - Call Potential,9.08,+0.58,Normal,📈 Consider Calls - OTM Safe
+PNB-I,🟢 BUY - Call Potential,8.94,+0.00,Normal,📈 Consider Calls - OTM Safe
+ASHOKLEY-I,🟢 BUY - Call Potential,8.87,+0.00,Normal,📈 Consider Calls - OTM Safe
+IIFL-I,🟢 BUY - Call Potential,8.60,-2.11,Normal,📈 Consider Calls - OTM Safe
+PATANJALI-I,🟢 BUY - Call Potential,8.45,-2.84,Normal,📈 Consider Calls - OTM Safe
+NHPC-I,🟢 BUY - Call Potential,8.06,+0.35,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-13.45,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+AMBER-I,⚡ STRONG SELL,-13.10,-0.94,Normal,⚡ BUY PUTS - ATM/OTM
+AXISBANK-I,🔴 SELL - Put Potential,-9.49,+0.00,Normal,📉 Consider Puts - OTM Safe
+LT-I,🔴 SELL - Put Potential,-9.48,+0.58,Normal,📉 Consider Puts - OTM Safe
+HINDUNILVR-I,🔴 SELL - Put Potential,-9.14,+2.29,Normal,📉 Consider Puts - OTM Safe
+SUPREMEIND-I,🔴 SELL - Put Potential,-9.10,+0.00,Normal,📉 Consider Puts - OTM Safe
+UPL-I,🔴 SELL - Put Potential,-8.42,+0.19,Normal,📉 Consider Puts - OTM Safe
+SHREECEM-I,🔴 SELL - Put Potential,-8.29,+0.00,Normal,📉 Consider Puts - OTM Safe
+COLPAL-I,🔴 SELL - Put Potential,-8.13,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 09:45
+Stock,Signal,Score,Change,OI Status,Action
+IOC-I,⚡ STRONG BUY,14.52,-3.66,Normal,⚡ BUY CALLS - ATM/OTM
+HINDPETRO-I,⚡ STRONG BUY,14.48,+0.58,Normal,⚡ BUY CALLS - ATM/OTM
+HFCL-I,⚡ STRONG BUY,13.52,+3.41,Normal,⚡ BUY CALLS - ATM/OTM
+INOXWIND-I,⚡ STRONG BUY,12.52,+8.63,Normal,⚡ BUY CALLS - ATM/OTM
+PETRONET-I,⚡ STRONG BUY,12.09,-0.82,Normal,⚡ BUY CALLS - ATM/OTM
+BPCL-I,⚡ STRONG BUY,12.08,-7.05,Normal,⚡ BUY CALLS - ATM/OTM
+BEL-I,⚡ STRONG BUY,12.06,+2.66,Normal,⚡ BUY CALLS - ATM/OTM
+BSE-I,🟢 BUY - Call Potential,10.91,-3.04,Normal,📈 Consider Calls - OTM Safe
+IREDA-I,🟢 BUY - Call Potential,10.83,+4.68,Normal,📈 Consider Calls - OTM Safe
+KFINTECH-I,🟢 BUY - Call Potential,10.16,-1.23,Normal,📈 Consider Calls - OTM Safe
+PPLPHARMA-I,🟢 BUY - Call Potential,10.10,+2.53,Normal,📈 Consider Calls - OTM Safe
+HINDZINC-I,🟢 BUY - Call Potential,9.99,-0.86,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-17.71,-4.26,Normal,⚡ BUY PUTS - ATM/OTM
+AXISBANK-I,⚡ STRONG SELL,-13.10,-3.61,Normal,⚡ BUY PUTS - ATM/OTM
+AMBER-I,⚡ STRONG SELL,-12.09,+1.01,Normal,⚡ BUY PUTS - ATM/OTM
+SHREECEM-I,🔴 SELL - Put Potential,-10.27,-1.98,Normal,📉 Consider Puts - OTM Safe
+UPL-I,🔴 SELL - Put Potential,-9.02,-0.60,Normal,📉 Consider Puts - OTM Safe
+SUPREMEIND-I,🔴 SELL - Put Potential,-8.95,+0.15,Normal,📉 Consider Puts - OTM Safe
+TATACONSUM-I,🔴 SELL - Put Potential,-8.33,-2.03,Normal,📉 Consider Puts - OTM Safe
+LT-I,🔴 SELL - Put Potential,-8.05,+1.42,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 09:50
+Stock,Signal,Score,Change,OI Status,Action
+INOXWIND-I,⚡ STRONG BUY,14.74,+2.21,Normal,⚡ BUY CALLS - ATM/OTM
+HFCL-I,⚡ STRONG BUY,13.52,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+HINDPETRO-I,⚡ STRONG BUY,12.77,-1.71,Normal,⚡ BUY CALLS - ATM/OTM
+IOC-I,⚡ STRONG BUY,12.22,-2.29,Normal,⚡ BUY CALLS - ATM/OTM
+PETRONET-I,⚡ STRONG BUY,12.09,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+BEL-I,⚡ STRONG BUY,12.06,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+BPCL-I,🟢 BUY - Call Potential,10.95,-1.13,Normal,📈 Consider Calls - OTM Safe
+BSE-I,🟢 BUY - Call Potential,10.91,+0.00,Normal,📈 Consider Calls - OTM Safe
+IREDA-I,🟢 BUY - Call Potential,10.83,+0.00,Normal,📈 Consider Calls - OTM Safe
+KFINTECH-I,🟢 BUY - Call Potential,10.16,+0.00,Normal,📈 Consider Calls - OTM Safe
+PPLPHARMA-I,🟢 BUY - Call Potential,10.10,+0.00,Normal,📈 Consider Calls - OTM Safe
+HINDZINC-I,🟢 BUY - Call Potential,9.99,+0.00,Normal,📈 Consider Calls - OTM Safe
+HAL-I,🟢 BUY - Call Potential,8.65,+2.03,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-15.42,+2.29,Normal,⚡ BUY PUTS - ATM/OTM
+AXISBANK-I,⚡ STRONG SELL,-13.10,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+AMBER-I,⚡ STRONG SELL,-12.09,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+SHREECEM-I,🔴 SELL - Put Potential,-9.10,+1.17,Normal,📉 Consider Puts - OTM Safe
+UPL-I,🔴 SELL - Put Potential,-8.78,+0.23,Normal,📉 Consider Puts - OTM Safe
+SUPREMEIND-I,🔴 SELL - Put Potential,-8.36,+0.58,Normal,📉 Consider Puts - OTM Safe
+TATACONSUM-I,🔴 SELL - Put Potential,-8.33,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 09:55
+Stock,Signal,Score,Change,OI Status,Action
+HFCL-I,⚡ STRONG BUY,15.82,+2.29,Normal,⚡ BUY CALLS - ATM/OTM
+HINDPETRO-I,⚡ STRONG BUY,12.77,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+INOXWIND-I,⚡ STRONG BUY,12.52,-2.21,Normal,⚡ BUY CALLS - ATM/OTM
+IOC-I,⚡ STRONG BUY,12.22,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+PETRONET-I,⚡ STRONG BUY,12.09,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+BEL-I,⚡ STRONG BUY,12.06,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+BSE-I,🟢 BUY - Call Potential,11.26,+0.35,Normal,📈 Consider Calls - OTM Safe
+BPCL-I,🟢 BUY - Call Potential,10.95,+0.00,Normal,📈 Consider Calls - OTM Safe
+IREDA-I,🟢 BUY - Call Potential,10.83,+0.00,Normal,📈 Consider Calls - OTM Safe
+KFINTECH-I,🟢 BUY - Call Potential,10.16,+0.00,Normal,📈 Consider Calls - OTM Safe
+PPLPHARMA-I,🟢 BUY - Call Potential,10.10,+0.00,Normal,📈 Consider Calls - OTM Safe
+HINDZINC-I,🟢 BUY - Call Potential,9.99,+0.00,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-15.42,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+AXISBANK-I,⚡ STRONG SELL,-14.27,-1.17,Normal,⚡ BUY PUTS - ATM/OTM
+AMBER-I,⚡ STRONG SELL,-12.09,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+SHREECEM-I,🔴 SELL - Put Potential,-9.10,+0.00,Normal,📉 Consider Puts - OTM Safe
+UPL-I,🔴 SELL - Put Potential,-8.43,+0.35,Normal,📉 Consider Puts - OTM Safe
+TATACONSUM-I,🔴 SELL - Put Potential,-8.33,+0.00,Normal,📉 Consider Puts - OTM Safe
+LT-I,🔴 SELL - Put Potential,-8.05,-0.35,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 10:00
+Stock,Signal,Score,Change,OI Status,Action
+GAIL-I,⚡ STRONG BUY,15.98,+10.70,Normal,⚡ BUY CALLS - ATM/OTM
+IREDA-I,⚡ STRONG BUY,15.12,+4.29,Normal,⚡ BUY CALLS - ATM/OTM
+HINDZINC-I,⚡ STRONG BUY,12.77,+2.78,Normal,⚡ BUY CALLS - ATM/OTM
+IOC-I,⚡ STRONG BUY,12.22,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+HINDPETRO-I,⚡ STRONG BUY,12.19,-0.58,Normal,⚡ BUY CALLS - ATM/OTM
+PETRONET-I,⚡ STRONG BUY,12.09,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+BPCL-I,🟢 BUY - Call Potential,11.86,+0.91,Normal,📈 Consider Calls - OTM Safe
+BSE-I,🟢 BUY - Call Potential,11.26,+0.00,Normal,📈 Consider Calls - OTM Safe
+HFCL-I,🟢 BUY - Call Potential,10.38,-5.44,Normal,📈 Consider Calls - OTM Safe
+BEL-I,🟢 BUY - Call Potential,10.32,-1.74,Normal,📈 Consider Calls - OTM Safe
+PPLPHARMA-I,🟢 BUY - Call Potential,10.27,+0.17,Normal,📈 Consider Calls - OTM Safe
+KFINTECH-I,🟢 BUY - Call Potential,10.16,+0.00,Normal,📈 Consider Calls - OTM Safe
+INOXWIND-I,🟢 BUY - Call Potential,9.55,-2.97,Normal,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,8.23,+5.10,Normal,📈 Consider Calls - OTM Safe
+IIFL-I,🟢 BUY - Call Potential,8.11,+0.50,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-18.98,-3.56,Normal,⚡ BUY PUTS - ATM/OTM
+AMBER-I,⚡ STRONG SELL,-12.41,-0.33,Normal,⚡ BUY PUTS - ATM/OTM
+AXISBANK-I,🔴 SELL - Put Potential,-11.68,+2.59,Normal,📉 Consider Puts - OTM Safe
+TATACONSUM-I,🔴 SELL - Put Potential,-8.52,-0.19,Normal,📉 Consider Puts - OTM Safe
+SHREECEM-I,🔴 SELL - Put Potential,-8.19,+0.91,Normal,📉 Consider Puts - OTM Safe
+ADANIENSOL-I,🔴 SELL - Put Potential,-8.06,-2.26,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 10:05
+Stock,Signal,Score,Change,OI Status,Action
+GAIL-I,⚡ STRONG BUY,14.02,-1.96,Normal,⚡ BUY CALLS - ATM/OTM
+BPCL-I,⚡ STRONG BUY,13.95,+2.08,Normal,⚡ BUY CALLS - ATM/OTM
+HINDPETRO-I,⚡ STRONG BUY,13.60,+1.42,Normal,⚡ BUY CALLS - ATM/OTM
+IOC-I,⚡ STRONG BUY,12.71,+0.48,Normal,⚡ BUY CALLS - ATM/OTM
+PETRONET-I,⚡ STRONG BUY,12.57,+0.48,Normal,⚡ BUY CALLS - ATM/OTM
+BSE-I,🟢 BUY - Call Potential,11.32,+0.06,Normal,📈 Consider Calls - OTM Safe
+HFCL-I,🟢 BUY - Call Potential,10.79,+0.42,Normal,📈 Consider Calls - OTM Safe
+HINDZINC-I,🟢 BUY - Call Potential,10.65,-2.12,Normal,📈 Consider Calls - OTM Safe
+BEL-I,🟢 BUY - Call Potential,10.45,+0.13,Normal,📈 Consider Calls - OTM Safe
+IREDA-I,🟢 BUY - Call Potential,10.26,-4.86,Normal,📈 Consider Calls - OTM Safe
+PPLPHARMA-I,🟢 BUY - Call Potential,9.92,-0.35,Normal,📈 Consider Calls - OTM Safe
+KFINTECH-I,🟢 BUY - Call Potential,9.46,-0.70,Normal,📈 Consider Calls - OTM Safe
+INOXWIND-I,🟢 BUY - Call Potential,9.19,-0.35,Normal,📈 Consider Calls - OTM Safe
+IIFL-I,🟢 BUY - Call Potential,8.53,+0.42,Normal,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,8.30,+0.06,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,🔥 VERY STRONG SELL,-21.60,-2.63,Normal,🔥 BUY PUTS STRONG
+AMBER-I,⚡ STRONG SELL,-13.58,-1.17,Normal,⚡ BUY PUTS - ATM/OTM
+AXISBANK-I,🔴 SELL - Put Potential,-10.14,+1.54,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 10:10
+Stock,Signal,Score,Change,OI Status,Action
+GAIL-I,⚡ STRONG BUY,14.02,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+HINDPETRO-I,⚡ STRONG BUY,13.60,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+HFCL-I,⚡ STRONG BUY,13.24,+2.45,Normal,⚡ BUY CALLS - ATM/OTM
+BPCL-I,⚡ STRONG BUY,13.18,-0.77,Normal,⚡ BUY CALLS - ATM/OTM
+IOC-I,⚡ STRONG BUY,12.71,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+PETRONET-I,⚡ STRONG BUY,12.57,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+BSE-I,🟢 BUY - Call Potential,11.32,+0.00,Normal,📈 Consider Calls - OTM Safe
+HINDZINC-I,🟢 BUY - Call Potential,10.30,-0.35,Normal,📈 Consider Calls - OTM Safe
+IREDA-I,🟢 BUY - Call Potential,10.26,+0.00,Normal,📈 Consider Calls - OTM Safe
+BEL-I,🟢 BUY - Call Potential,10.10,-0.35,Normal,📈 Consider Calls - OTM Safe
+PPLPHARMA-I,🟢 BUY - Call Potential,9.57,-0.35,Normal,📈 Consider Calls - OTM Safe
+INOXWIND-I,🟢 BUY - Call Potential,9.26,+0.06,Normal,📈 Consider Calls - OTM Safe
+KFINTECH-I,🟢 BUY - Call Potential,9.11,-0.35,Normal,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,8.30,+0.00,Normal,📈 Consider Calls - OTM Safe
+IIFL-I,🟢 BUY - Call Potential,8.18,-0.35,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,🔥 VERY STRONG SELL,-20.95,+0.65,Normal,🔥 BUY PUTS STRONG
+AMBER-I,⚡ STRONG SELL,-12.06,+1.52,Normal,⚡ BUY PUTS - ATM/OTM
+AXISBANK-I,🔴 SELL - Put Potential,-10.14,+0.00,Normal,📉 Consider Puts - OTM Safe
+ADANIGREEN-I,🔴 SELL - Put Potential,-8.18,-1.52,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 10:15
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,🔥 VERY STRONG BUY,21.52,+7.92,Normal,🔥 BUY CALLS STRONG
+BPCL-I,⚡ STRONG BUY,19.77,+6.59,Normal,⚡ BUY CALLS - ATM/OTM
+BSE-I,⚡ STRONG BUY,18.89,+7.57,Normal,⚡ BUY CALLS - ATM/OTM
+IOC-I,⚡ STRONG BUY,17.65,+4.95,Normal,⚡ BUY CALLS - ATM/OTM
+GAIL-I,🟢 BUY - Call Potential,11.48,-2.54,Normal,📈 Consider Calls - OTM Safe
+NHPC-I,🟢 BUY - Call Potential,10.44,+5.73,Normal,📈 Consider Calls - OTM Safe
+INOXWIND-I,🟢 BUY - Call Potential,10.12,+0.86,Normal,📈 Consider Calls - OTM Safe
+NCC-I,🟢 BUY - Call Potential,10.11,+4.86,Normal,📈 Consider Calls - OTM Safe
+IREDA-I,🟢 BUY - Call Potential,9.80,-0.47,Normal,📈 Consider Calls - OTM Safe
+PETRONET-I,🟢 BUY - Call Potential,9.75,-2.82,Normal,📈 Consider Calls - OTM Safe
+NBCC-I,🟢 BUY - Call Potential,8.61,+5.47,Normal,📈 Consider Calls - OTM Safe
+HFCL-I,🟢 BUY - Call Potential,8.38,-4.86,Normal,📈 Consider Calls - OTM Safe
+BEL-I,🟢 BUY - Call Potential,8.09,-2.00,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-18.22,+2.74,Normal,⚡ BUY PUTS - ATM/OTM
+AMBER-I,🔴 SELL - Put Potential,-10.94,+1.12,Normal,📉 Consider Puts - OTM Safe
+HUDCO-I,🔴 SELL - Put Potential,-9.31,-3.96,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 10:20
+Stock,Signal,Score,Change,OI Status,Action
+BPCL-I,⚡ STRONG BUY,19.50,-0.27,Normal,⚡ BUY CALLS - ATM/OTM
+HINDPETRO-I,⚡ STRONG BUY,19.14,-2.38,Normal,⚡ BUY CALLS - ATM/OTM
+BSE-I,⚡ STRONG BUY,16.32,-2.57,Normal,⚡ BUY CALLS - ATM/OTM
+IOC-I,⚡ STRONG BUY,15.44,-2.21,Normal,⚡ BUY CALLS - ATM/OTM
+INOXWIND-I,⚡ STRONG BUY,12.75,+2.63,Normal,⚡ BUY CALLS - ATM/OTM
+NHPC-I,🟢 BUY - Call Potential,10.44,+0.00,Normal,📈 Consider Calls - OTM Safe
+IREDA-I,🟢 BUY - Call Potential,9.80,+0.00,Normal,📈 Consider Calls - OTM Safe
+GAIL-I,🟢 BUY - Call Potential,9.61,-1.88,Normal,📈 Consider Calls - OTM Safe
+NCC-I,🟢 BUY - Call Potential,9.52,-0.58,Normal,📈 Consider Calls - OTM Safe
+PETRONET-I,🟢 BUY - Call Potential,9.39,-0.35,Normal,📈 Consider Calls - OTM Safe
+NBCC-I,🟢 BUY - Call Potential,8.26,-0.35,Normal,📈 Consider Calls - OTM Safe
+BEL-I,🟢 BUY - Call Potential,8.09,+0.00,Normal,📈 Consider Calls - OTM Safe
+HFCL-I,🟢 BUY - Call Potential,8.03,-0.35,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-17.87,+0.35,Normal,⚡ BUY PUTS - ATM/OTM
+AMBER-I,🔴 SELL - Put Potential,-10.94,+0.00,Normal,📉 Consider Puts - OTM Safe
+HUDCO-I,🔴 SELL - Put Potential,-8.73,+0.58,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 10:25
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,⚡ STRONG BUY,19.14,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+BPCL-I,⚡ STRONG BUY,17.20,-2.29,Normal,⚡ BUY CALLS - ATM/OTM
+IOC-I,⚡ STRONG BUY,14.47,-0.97,Normal,⚡ BUY CALLS - ATM/OTM
+BSE-I,⚡ STRONG BUY,14.03,-2.29,Normal,⚡ BUY CALLS - ATM/OTM
+INOXWIND-I,🟢 BUY - Call Potential,10.89,-1.86,Normal,📈 Consider Calls - OTM Safe
+NCC-I,🟢 BUY - Call Potential,10.04,+0.52,Normal,📈 Consider Calls - OTM Safe
+IREDA-I,🟢 BUY - Call Potential,9.80,+0.00,Normal,📈 Consider Calls - OTM Safe
+NHPC-I,🟢 BUY - Call Potential,9.27,-1.17,Normal,📈 Consider Calls - OTM Safe
+GAIL-I,🟢 BUY - Call Potential,9.19,-0.42,Normal,📈 Consider Calls - OTM Safe
+PETRONET-I,🟢 BUY - Call Potential,9.04,-0.35,Normal,📈 Consider Calls - OTM Safe
+BEL-I,🟢 BUY - Call Potential,8.45,+0.35,Normal,📈 Consider Calls - OTM Safe
+NBCC-I,🟢 BUY - Call Potential,8.19,-0.06,Normal,📈 Consider Calls - OTM Safe
+HFCL-I,🟢 BUY - Call Potential,8.03,+0.00,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-15.57,+2.29,Normal,⚡ BUY PUTS - ATM/OTM
+AMBER-I,🔴 SELL - Put Potential,-10.94,+0.00,Normal,📉 Consider Puts - OTM Safe
+HUDCO-I,🔴 SELL - Put Potential,-10.08,-1.35,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 10:30
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,⚡ STRONG BUY,15.05,-4.09,Normal,⚡ BUY CALLS - ATM/OTM
+IGL-I,🟢 BUY - Call Potential,10.42,+4.54,Normal,📈 Consider Calls - OTM Safe
+BPCL-I,🟢 BUY - Call Potential,10.36,-6.85,Normal,📈 Consider Calls - OTM Safe
+GAIL-I,🟢 BUY - Call Potential,10.15,+0.96,Normal,📈 Consider Calls - OTM Safe
+BSE-I,🟢 BUY - Call Potential,9.65,-4.38,Normal,📈 Consider Calls - OTM Safe
+NCC-I,🟢 BUY - Call Potential,9.54,-0.50,Normal,📈 Consider Calls - OTM Safe
+NBCC-I,🟢 BUY - Call Potential,8.78,+0.59,Normal,📈 Consider Calls - OTM Safe
+IOC-I,🟢 BUY - Call Potential,8.74,-5.73,Normal,📈 Consider Calls - OTM Safe
+INOXWIND-I,🟢 BUY - Call Potential,8.65,-2.24,Normal,📈 Consider Calls - OTM Safe
+BEL-I,🟢 BUY - Call Potential,8.27,-0.17,Normal,📈 Consider Calls - OTM Safe
+HFCL-I,🟢 BUY - Call Potential,8.03,+0.00,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-15.16,+0.42,Normal,⚡ BUY PUTS - ATM/OTM
+AMBER-I,🔴 SELL - Put Potential,-8.45,+2.49,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 10:35
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,⚡ STRONG BUY,13.92,-1.13,Normal,⚡ BUY CALLS - ATM/OTM
+BPCL-I,🟢 BUY - Call Potential,10.71,+0.35,Normal,📈 Consider Calls - OTM Safe
+IGL-I,🟢 BUY - Call Potential,10.42,+0.00,Normal,📈 Consider Calls - OTM Safe
+BSE-I,🟢 BUY - Call Potential,9.65,+0.00,Normal,📈 Consider Calls - OTM Safe
+GAIL-I,🟢 BUY - Call Potential,9.57,-0.58,Normal,📈 Consider Calls - OTM Safe
+NCC-I,🟢 BUY - Call Potential,9.19,-0.35,Normal,📈 Consider Calls - OTM Safe
+IOC-I,🟢 BUY - Call Potential,9.09,+0.35,Normal,📈 Consider Calls - OTM Safe
+NBCC-I,🟢 BUY - Call Potential,8.43,-0.35,Normal,📈 Consider Calls - OTM Safe
+INOXWIND-I,🟢 BUY - Call Potential,8.30,-0.35,Normal,📈 Consider Calls - OTM Safe
+RBLBANK-I,🟢 BUY - Call Potential,8.05,+0.35,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-15.99,-0.83,Normal,⚡ BUY PUTS - ATM/OTM
+AMBER-I,🔴 SELL - Put Potential,-8.45,+0.00,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-8.44,-0.60,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 10:40
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,⚡ STRONG BUY,13.92,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+BPCL-I,🟢 BUY - Call Potential,10.71,+0.00,Normal,📈 Consider Calls - OTM Safe
+GAIL-I,🟢 BUY - Call Potential,10.15,+0.58,Normal,📈 Consider Calls - OTM Safe
+IGL-I,🟢 BUY - Call Potential,9.80,-0.62,Normal,📈 Consider Calls - OTM Safe
+NCC-I,🟢 BUY - Call Potential,9.54,+0.35,Normal,📈 Consider Calls - OTM Safe
+BSE-I,🟢 BUY - Call Potential,9.30,-0.35,Normal,📈 Consider Calls - OTM Safe
+IOC-I,🟢 BUY - Call Potential,8.74,-0.35,Normal,📈 Consider Calls - OTM Safe
+NBCC-I,🟢 BUY - Call Potential,8.08,-0.35,Normal,📈 Consider Calls - OTM Safe
+RBLBANK-I,🟢 BUY - Call Potential,8.05,+0.00,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-15.92,+0.06,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,🔴 SELL - Put Potential,-11.07,-2.63,Normal,📉 Consider Puts - OTM Safe
+COFORGE-I,🔴 SELL - Put Potential,-8.58,-1.17,Normal,📉 Consider Puts - OTM Safe
+AMBER-I,🔴 SELL - Put Potential,-8.45,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 10:45
+Stock,Signal,Score,Change,OI Status,Action
+NCC-I,⚡ STRONG BUY,13.34,+3.80,Normal,⚡ BUY CALLS - ATM/OTM
+GAIL-I,🟢 BUY - Call Potential,10.61,+0.46,Normal,📈 Consider Calls - OTM Safe
+HINDPETRO-I,🟢 BUY - Call Potential,10.01,-3.91,Normal,📈 Consider Calls - OTM Safe
+RBLBANK-I,🟢 BUY - Call Potential,8.50,+0.45,Normal,📈 Consider Calls - OTM Safe
+IGL-I,🟢 BUY - Call Potential,8.37,-1.42,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,⚡ STRONG SELL,-18.22,-2.29,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,⚡ STRONG SELL,-16.56,-13.11,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,⚡ STRONG SELL,-12.56,-1.49,Normal,⚡ BUY PUTS - ATM/OTM
+AXISBANK-I,🔴 SELL - Put Potential,-9.65,-1.94,Normal,📉 Consider Puts - OTM Safe
+AMBER-I,🔴 SELL - Put Potential,-8.45,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 10:50
+Stock,Signal,Score,Change,OI Status,Action
+NCC-I,⚡ STRONG BUY,12.59,-0.75,Normal,⚡ BUY CALLS - ATM/OTM
+GAIL-I,🟢 BUY - Call Potential,9.90,-0.70,Normal,📈 Consider Calls - OTM Safe
+RBLBANK-I,🟢 BUY - Call Potential,8.50,+0.00,Normal,📈 Consider Calls - OTM Safe
+IGL-I,🟢 BUY - Call Potential,8.02,-0.35,Normal,📈 Consider Calls - OTM Safe
+DIXON-I,🔥 VERY STRONG SELL - PUT FOCUS,-20.54,-2.33,Put Setup,🔥 BUY PUTS STRONG
+KAYNES-I,⚡ STRONG SELL,-15.68,+0.88,Normal,⚡ BUY PUTS - ATM/OTM
+PGEL-I,🔴 SELL - Put Potential,-10.46,-2.65,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-10.27,+2.29,Normal,📉 Consider Puts - OTM Safe
+AXISBANK-I,🔴 SELL - Put Potential,-9.84,-0.19,Normal,📉 Consider Puts - OTM Safe
+AMBER-I,🔴 SELL - Put Potential,-8.39,+0.06,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 10:55
+Stock,Signal,Score,Change,OI Status,Action
+NCC-I,⚡ STRONG BUY,14.11,+1.52,Normal,⚡ BUY CALLS - ATM/OTM
+HINDPETRO-I,🟢 BUY - Call Potential,11.92,+4.70,Call Setup,📈 Consider Calls - OTM Safe
+GAIL-I,🟢 BUY - Call Potential,9.90,+0.00,Normal,📈 Consider Calls - OTM Safe
+NUVAMA-I,🟢 BUY - Call Potential,8.78,+2.77,Normal,📈 Consider Calls - OTM Safe
+RBLBANK-I,🟢 BUY - Call Potential,8.14,-0.35,Normal,📈 Consider Calls - OTM Safe
+IGL-I,🟢 BUY - Call Potential,8.02,+0.00,Normal,📈 Consider Calls - OTM Safe
+KAYNES-I,⚡ STRONG SELL,-18.92,-3.25,Normal,⚡ BUY PUTS - ATM/OTM
+DIXON-I,⚡ STRONG SELL,-13.66,+6.88,Call Setup,⚡ BUY PUTS - ATM/OTM
+PGEL-I,🔴 SELL - Put Potential,-10.46,+0.00,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-10.27,+0.00,Normal,📉 Consider Puts - OTM Safe
+AXISBANK-I,🔴 SELL - Put Potential,-9.65,+0.19,Normal,📉 Consider Puts - OTM Safe
+AMBER-I,🔴 SELL - Put Potential,-8.80,-0.42,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 11:00
+Stock,Signal,Score,Change,OI Status,Action
+NCC-I,🟢 BUY - Call Potential,11.63,-2.48,Normal,📈 Consider Calls - OTM Safe
+RBLBANK-I,🟢 BUY - Call Potential,11.07,+2.92,Normal,📈 Consider Calls - OTM Safe
+HINDPETRO-I,🟢 BUY - Call Potential,9.43,-2.49,Call Setup,📈 Consider Calls - OTM Safe
+HINDZINC-I,🟢 BUY - Call Potential,8.25,+5.19,Call Setup,📈 Consider Calls - OTM Safe
+NHPC-I,🟢 BUY - Call Potential,8.13,+4.28,Call Setup,📈 Consider Calls - OTM Safe
+KAYNES-I,⚡ STRONG SELL,-19.21,-0.28,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,🔴 SELL - Put Potential,-10.27,+0.00,Normal,📉 Consider Puts - OTM Safe
+AXISBANK-I,🔴 SELL - Put Potential,-9.84,-0.19,Normal,📉 Consider Puts - OTM Safe
+DIXON-I,🔴 SELL - Put Potential,-9.03,+4.63,Call Setup,📉 Consider Puts - OTM Safe
+AMBER-I,🔴 SELL - Put Potential,-8.45,+0.35,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 11:05
+Stock,Signal,Score,Change,OI Status,Action
+NCC-I,🟢 BUY - Call Potential,11.28,-0.35,Normal,📈 Consider Calls - OTM Safe
+RBLBANK-I,🟢 BUY - Call Potential,8.67,-2.40,Normal,📈 Consider Calls - OTM Safe
+NHPC-I,🟢 BUY - Call Potential,8.13,+0.00,Call Setup,📈 Consider Calls - OTM Safe
+KAYNES-I,⚡ STRONG SELL,-17.89,+1.32,Normal,⚡ BUY PUTS - ATM/OTM
+PGEL-I,🔴 SELL - Put Potential,-10.52,-3.62,Normal,📉 Consider Puts - OTM Safe
+AXISBANK-I,🔴 SELL - Put Potential,-10.38,-0.54,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-10.27,+0.00,Normal,📉 Consider Puts - OTM Safe
+DIXON-I,🔴 SELL - Put Potential,-9.03,+0.00,Call Setup,📉 Consider Puts - OTM Safe
+AMBER-I,🔴 SELL - Put Potential,-8.27,+0.19,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 11:10
+Stock,Signal,Score,Change,OI Status,Action
+NCC-I,🟢 BUY - Call Potential,11.28,+0.00,Normal,📈 Consider Calls - OTM Safe
+RBLBANK-I,🟢 BUY - Call Potential,8.67,+0.00,Normal,📈 Consider Calls - OTM Safe
+HINDZINC-I,🟢 BUY - Call Potential,8.07,+4.84,Call Setup,📈 Consider Calls - OTM Safe
+KAYNES-I,⚡ STRONG SELL,-16.91,+0.97,Normal,⚡ BUY PUTS - ATM/OTM
+DIXON-I,⚡ STRONG SELL,-13.68,-4.65,Put Setup,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,🔴 SELL - Put Potential,-10.27,+0.00,Normal,📉 Consider Puts - OTM Safe
+AXISBANK-I,🔴 SELL - Put Potential,-10.19,+0.19,Normal,📉 Consider Puts - OTM Safe
+AMBER-I,🔴 SELL - Put Potential,-8.27,+0.00,Normal,📉 Consider Puts - OTM Safe
+AUBANK-I,🔴 SELL - Put Potential,-8.18,-0.54,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 11:15
+Stock,Signal,Score,Change,OI Status,Action
+KAYNES-I,⚡ STRONG SELL,-17.18,-0.26,Normal,⚡ BUY PUTS - ATM/OTM
+KALYANKJIL-I,⚡ STRONG SELL,-16.55,-11.51,Normal,⚡ BUY PUTS - ATM/OTM
+DIXON-I,⚡ STRONG SELL,-16.17,-2.49,Put Setup,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,⚡ STRONG SELL,-14.58,-4.31,Normal,⚡ BUY PUTS - ATM/OTM
+PGEL-I,🔴 SELL - Put Potential,-9.16,-4.12,Normal,📉 Consider Puts - OTM Safe
+ADANIPORTS-I,🔴 SELL - Put Potential,-8.68,-2.46,Put Setup,📉 Consider Puts - OTM Safe
+AUBANK-I,🔴 SELL - Put Potential,-8.18,-0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 11:20
+Stock,Signal,Score,Change,OI Status,Action
+KAYNES-I,⚡ STRONG SELL,-17.18,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+KALYANKJIL-I,⚡ STRONG SELL,-16.36,+0.19,Normal,⚡ BUY PUTS - ATM/OTM
+DIXON-I,⚡ STRONG SELL,-16.17,+0.00,Put Setup,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,⚡ STRONG SELL,-14.58,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+NMDC-I,🔴 SELL - Put Potential,-10.08,-2.46,Normal,📉 Consider Puts - OTM Safe
+PGEL-I,🔴 SELL - Put Potential,-9.16,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 11:25
+Stock,Signal,Score,Change,OI Status,Action
+KAYNES-I,⚡ STRONG SELL,-16.76,+0.42,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,⚡ STRONG SELL,-14.58,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+DIXON-I,⚡ STRONG SELL,-14.03,+2.14,Normal,⚡ BUY PUTS - ATM/OTM
+KALYANKJIL-I,⚡ STRONG SELL,-13.09,+3.27,Normal,⚡ BUY PUTS - ATM/OTM
+PGEL-I,🔴 SELL - Put Potential,-9.16,+0.00,Normal,📉 Consider Puts - OTM Safe
+BOSCHLTD-I,🔴 SELL - Put Potential,-8.59,-1.02,Put Setup,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 11:30
+Stock,Signal,Score,Change,OI Status,Action
+KAYNES-I,⚡ STRONG SELL,-16.76,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,⚡ STRONG SELL,-16.62,-2.04,Put Setup,⚡ BUY PUTS - ATM/OTM
+KALYANKJIL-I,⚡ STRONG SELL,-15.73,-2.64,Normal,⚡ BUY PUTS - ATM/OTM
+DIXON-I,🔴 SELL - Put Potential,-11.36,+2.68,Normal,📉 Consider Puts - OTM Safe
+ADANIPORTS-I,🔴 SELL - Put Potential,-9.36,-3.64,Put Setup,📉 Consider Puts - OTM Safe
+KEI-I,🔴 SELL - Put Potential,-9.17,-1.96,Normal,📉 Consider Puts - OTM Safe
+PAYTM-I,🔴 SELL - Put Potential,-8.65,-2.31,Normal,📉 Consider Puts - OTM Safe
+BIOCON-I,🔴 SELL - Put Potential,-8.22,-2.28,Normal,📉 Consider Puts - OTM Safe
+NAUKRI-I,🔴 SELL - Put Potential,-8.03,-3.18,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 11:35
+Stock,Signal,Score,Change,OI Status,Action
+KAYNES-I,⚡ STRONG SELL,-16.76,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+KALYANKJIL-I,⚡ STRONG SELL,-15.73,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,⚡ STRONG SELL,-15.45,+1.17,Put Setup,⚡ BUY PUTS - ATM/OTM
+PAYTM-I,⚡ STRONG SELL,-12.06,-3.41,Normal,⚡ BUY PUTS - ATM/OTM
+DIXON-I,🔴 SELL - Put Potential,-11.00,+0.35,Normal,📉 Consider Puts - OTM Safe
+NAUKRI-I,🔴 SELL - Put Potential,-10.50,-2.48,Normal,📉 Consider Puts - OTM Safe
+KEI-I,🔴 SELL - Put Potential,-9.52,-0.35,Normal,📉 Consider Puts - OTM Safe
+AUROPHARMA-I,🔴 SELL - Put Potential,-8.97,-1.33,Normal,📉 Consider Puts - OTM Safe
+SOLARINDS-I,🔴 SELL - Put Potential,-8.78,-1.17,Put Setup,📉 Consider Puts - OTM Safe
+INDUSTOWER-I,🔴 SELL - Put Potential,-8.76,-3.71,Put Setup,📉 Consider Puts - OTM Safe
+AUBANK-I,🔴 SELL - Put Potential,-8.36,-0.54,Normal,📉 Consider Puts - OTM Safe
+BIOCON-I,🔴 SELL - Put Potential,-8.22,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 11:40
+Stock,Signal,Score,Change,OI Status,Action
+KAYNES-I,⚡ STRONG SELL,-16.41,+0.35,Normal,⚡ BUY PUTS - ATM/OTM
+KALYANKJIL-I,⚡ STRONG SELL,-16.31,-0.58,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,⚡ STRONG SELL,-13.68,+1.77,Normal,⚡ BUY PUTS - ATM/OTM
+DIXON-I,⚡ STRONG SELL,-13.14,-2.14,Put Setup,⚡ BUY PUTS - ATM/OTM
+PAYTM-I,⚡ STRONG SELL,-12.23,-0.17,Normal,⚡ BUY PUTS - ATM/OTM
+AUROPHARMA-I,🔴 SELL - Put Potential,-11.61,-2.65,Normal,📉 Consider Puts - OTM Safe
+NAUKRI-I,🔴 SELL - Put Potential,-10.67,-0.17,Normal,📉 Consider Puts - OTM Safe
+KEI-I,🔴 SELL - Put Potential,-9.17,+0.35,Normal,📉 Consider Puts - OTM Safe
+AUBANK-I,🔴 SELL - Put Potential,-8.18,+0.19,Normal,📉 Consider Puts - OTM Safe
+BIOCON-I,🔴 SELL - Put Potential,-8.16,+0.06,Normal,📉 Consider Puts - OTM Safe
+SOLARINDS-I,🔴 SELL - Put Potential,-8.07,+0.70,Put Setup,📉 Consider Puts - OTM Safe
+MANAPPURAM-I,🔴 SELL - Put Potential,-8.04,-0.54,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 11:45
+Stock,Signal,Score,Change,OI Status,Action
+KALYANKJIL-I,⚡ STRONG SELL,-14.31,+2.00,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,⚡ STRONG SELL,-13.46,+0.22,Normal,⚡ BUY PUTS - ATM/OTM
+KFINTECH-I,⚡ STRONG SELL,-12.77,-7.30,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,🔴 SELL - Put Potential,-11.52,+4.89,Normal,📉 Consider Puts - OTM Safe
+PAYTM-I,🔴 SELL - Put Potential,-10.72,+1.52,Normal,📉 Consider Puts - OTM Safe
+AUROPHARMA-I,🔴 SELL - Put Potential,-9.35,+2.27,Normal,📉 Consider Puts - OTM Safe
+PERSISTENT-I,🔴 SELL - Put Potential,-9.29,-2.94,Normal,📉 Consider Puts - OTM Safe
+JUBLFOOD-I,🔴 SELL - Put Potential,-9.25,-10.21,Put Setup,📉 Consider Puts - OTM Safe
+ADANIGREEN-I,🔴 SELL - Put Potential,-9.07,-1.53,Normal,📉 Consider Puts - OTM Safe
+DIXON-I,🔴 SELL - Put Potential,-8.90,+4.25,Normal,📉 Consider Puts - OTM Safe
+NAUKRI-I,🔴 SELL - Put Potential,-8.70,+1.97,Normal,📉 Consider Puts - OTM Safe
+KOTAKBANK-I,🔴 SELL - Put Potential,-8.56,-3.68,Normal,📉 Consider Puts - OTM Safe
+MANAPPURAM-I,🔴 SELL - Put Potential,-8.52,-0.47,Normal,📉 Consider Puts - OTM Safe
+DRREDDY-I,🔴 SELL - Put Potential,-8.31,-3.35,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 11:50
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,🟢 BUY - Call Potential,8.53,+5.58,Call Setup,📈 Consider Calls - OTM Safe
+MAZDOCK-I,⚡ STRONG SELL,-13.81,-0.35,Normal,⚡ BUY PUTS - ATM/OTM
+KALYANKJIL-I,⚡ STRONG SELL,-13.34,+0.97,Normal,⚡ BUY PUTS - ATM/OTM
+KFINTECH-I,🔴 SELL - Put Potential,-11.81,+0.97,Normal,📉 Consider Puts - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-11.16,+0.35,Normal,📉 Consider Puts - OTM Safe
+ADANIGREEN-I,🔴 SELL - Put Potential,-9.43,-0.35,Normal,📉 Consider Puts - OTM Safe
+DRREDDY-I,🔴 SELL - Put Potential,-9.08,-0.77,Normal,📉 Consider Puts - OTM Safe
+DIXON-I,🔴 SELL - Put Potential,-8.90,+0.00,Normal,📉 Consider Puts - OTM Safe
+NAUKRI-I,🔴 SELL - Put Potential,-8.70,+0.00,Normal,📉 Consider Puts - OTM Safe
+KOTAKBANK-I,🔴 SELL - Put Potential,-8.56,+0.00,Normal,📉 Consider Puts - OTM Safe
+MANAPPURAM-I,🔴 SELL - Put Potential,-8.52,+0.00,Normal,📉 Consider Puts - OTM Safe
+JUBLFOOD-I,🔴 SELL - Put Potential,-8.08,+1.17,Put Setup,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 11:55
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,🟢 BUY - Call Potential,8.88,+0.35,Call Setup,📈 Consider Calls - OTM Safe
+MAZDOCK-I,⚡ STRONG SELL,-14.64,-0.83,Normal,⚡ BUY PUTS - ATM/OTM
+KALYANKJIL-I,⚡ STRONG SELL,-12.99,+0.35,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,🔴 SELL - Put Potential,-11.16,+0.00,Normal,📉 Consider Puts - OTM Safe
+KFINTECH-I,🔴 SELL - Put Potential,-10.48,+1.32,Normal,📉 Consider Puts - OTM Safe
+DIXON-I,🔴 SELL - Put Potential,-9.30,-0.40,Normal,📉 Consider Puts - OTM Safe
+ADANIGREEN-I,🔴 SELL - Put Potential,-9.26,+0.17,Normal,📉 Consider Puts - OTM Safe
+NAUKRI-I,🔴 SELL - Put Potential,-8.70,+0.00,Normal,📉 Consider Puts - OTM Safe
+KOTAKBANK-I,🔴 SELL - Put Potential,-8.56,+0.00,Normal,📉 Consider Puts - OTM Safe
+MANAPPURAM-I,🔴 SELL - Put Potential,-8.16,+0.35,Normal,📉 Consider Puts - OTM Safe
+JUBLFOOD-I,🔴 SELL - Put Potential,-8.01,+0.06,Put Setup,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 12:00
+Stock,Signal,Score,Change,OI Status,Action
+MAZDOCK-I,⚡ STRONG SELL,-15.03,-0.39,Normal,⚡ BUY PUTS - ATM/OTM
+KALYANKJIL-I,⚡ STRONG SELL,-12.81,+0.17,Normal,⚡ BUY PUTS - ATM/OTM
+KFINTECH-I,🔴 SELL - Put Potential,-11.20,-0.72,Normal,📉 Consider Puts - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-11.16,+0.00,Normal,📉 Consider Puts - OTM Safe
+PERSISTENT-I,🔴 SELL - Put Potential,-9.60,-2.42,Normal,📉 Consider Puts - OTM Safe
+JUBLFOOD-I,🔴 SELL - Put Potential,-9.09,-1.07,Put Setup,📉 Consider Puts - OTM Safe
+ADANIGREEN-I,🔴 SELL - Put Potential,-9.07,+0.19,Normal,📉 Consider Puts - OTM Safe
+COFORGE-I,🔴 SELL - Put Potential,-9.05,-3.77,Normal,📉 Consider Puts - OTM Safe
+KOTAKBANK-I,🔴 SELL - Put Potential,-8.72,-0.16,Normal,📉 Consider Puts - OTM Safe
+NAUKRI-I,🔴 SELL - Put Potential,-8.52,+0.17,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 12:05
+Stock,Signal,Score,Change,OI Status,Action
+MAZDOCK-I,⚡ STRONG SELL,-14.20,+0.83,Normal,⚡ BUY PUTS - ATM/OTM
+KALYANKJIL-I,⚡ STRONG SELL,-12.46,+0.35,Normal,⚡ BUY PUTS - ATM/OTM
+KFINTECH-I,🔴 SELL - Put Potential,-11.20,+0.00,Normal,📉 Consider Puts - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-11.16,+0.00,Normal,📉 Consider Puts - OTM Safe
+PERSISTENT-I,🔴 SELL - Put Potential,-9.60,+0.00,Normal,📉 Consider Puts - OTM Safe
+ADANIGREEN-I,🔴 SELL - Put Potential,-9.26,-0.19,Normal,📉 Consider Puts - OTM Safe
+JUBLFOOD-I,🔴 SELL - Put Potential,-9.09,+0.00,Put Setup,📉 Consider Puts - OTM Safe
+COFORGE-I,🔴 SELL - Put Potential,-9.05,+0.00,Normal,📉 Consider Puts - OTM Safe
+KOTAKBANK-I,🔴 SELL - Put Potential,-8.72,+0.00,Normal,📉 Consider Puts - OTM Safe
+NAUKRI-I,🔴 SELL - Put Potential,-8.52,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 12:10
+Stock,Signal,Score,Change,OI Status,Action
+MAZDOCK-I,⚡ STRONG SELL,-14.20,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+KALYANKJIL-I,⚡ STRONG SELL,-12.46,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+KFINTECH-I,🔴 SELL - Put Potential,-11.20,+0.00,Normal,📉 Consider Puts - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-11.16,+0.00,Normal,📉 Consider Puts - OTM Safe
+PERSISTENT-I,🔴 SELL - Put Potential,-10.77,-1.17,Normal,📉 Consider Puts - OTM Safe
+JUBLFOOD-I,🔴 SELL - Put Potential,-9.09,+0.00,Put Setup,📉 Consider Puts - OTM Safe
+ADANIGREEN-I,🔴 SELL - Put Potential,-9.07,+0.19,Normal,📉 Consider Puts - OTM Safe
+COFORGE-I,🔴 SELL - Put Potential,-8.82,+0.23,Normal,📉 Consider Puts - OTM Safe
+DIXON-I,🔴 SELL - Put Potential,-8.74,-0.77,Normal,📉 Consider Puts - OTM Safe
+KOTAKBANK-I,🔴 SELL - Put Potential,-8.72,+0.00,Normal,📉 Consider Puts - OTM Safe
+NAUKRI-I,🔴 SELL - Put Potential,-8.52,+0.00,Normal,📉 Consider Puts - OTM Safe
+ADANIPORTS-I,🔴 SELL - Put Potential,-8.07,-2.14,Put Setup,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 12:15
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,🟢 BUY - Call Potential,8.51,+5.42,Call Setup,📈 Consider Calls - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-11.56,-0.39,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-10.03,+4.17,Normal,📉 Consider Puts - OTM Safe
+KFINTECH-I,🔴 SELL - Put Potential,-9.69,+1.51,Normal,📉 Consider Puts - OTM Safe
+PERSISTENT-I,🔴 SELL - Put Potential,-9.43,+1.34,Normal,📉 Consider Puts - OTM Safe
+LAURUSLABS-I,🔴 SELL - Put Potential,-9.35,-4.52,Normal,📉 Consider Puts - OTM Safe
+PGEL-I,🔴 SELL - Put Potential,-9.21,-3.01,Normal,📉 Consider Puts - OTM Safe
+SOLARINDS-I,🔴 SELL - Put Potential,-8.86,-3.43,Put Setup,📉 Consider Puts - OTM Safe
+KALYANKJIL-I,🔴 SELL - Put Potential,-8.52,+3.94,Normal,📉 Consider Puts - OTM Safe
+DRREDDY-I,🔴 SELL - Put Potential,-8.36,-4.13,Normal,📉 Consider Puts - OTM Safe
+HDFCAMC-I,🔴 SELL - Put Potential,-8.05,-2.82,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 12:20
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,🟢 BUY - Call Potential,9.63,+1.12,Call Setup,📈 Consider Calls - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-11.56,+0.00,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-10.86,-0.83,Normal,📉 Consider Puts - OTM Safe
+KFINTECH-I,🔴 SELL - Put Potential,-10.27,-0.58,Normal,📉 Consider Puts - OTM Safe
+PERSISTENT-I,🔴 SELL - Put Potential,-9.43,+0.00,Normal,📉 Consider Puts - OTM Safe
+PGEL-I,🔴 SELL - Put Potential,-9.21,+0.00,Normal,📉 Consider Puts - OTM Safe
+SOLARINDS-I,🔴 SELL - Put Potential,-8.86,+0.00,Put Setup,📉 Consider Puts - OTM Safe
+DRREDDY-I,🔴 SELL - Put Potential,-8.59,-0.23,Normal,📉 Consider Puts - OTM Safe
+LAURUSLABS-I,🔴 SELL - Put Potential,-8.58,+0.77,Normal,📉 Consider Puts - OTM Safe
+KALYANKJIL-I,🔴 SELL - Put Potential,-8.52,+0.00,Normal,📉 Consider Puts - OTM Safe
+JUBLFOOD-I,🔴 SELL - Put Potential,-8.13,-5.16,Put Setup,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 12:25
+Stock,Signal,Score,Change,OI Status,Action
+KAYNES-I,🔴 SELL - Put Potential,-11.37,+0.19,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-10.86,+0.00,Normal,📉 Consider Puts - OTM Safe
+KFINTECH-I,🔴 SELL - Put Potential,-9.69,+0.58,Normal,📉 Consider Puts - OTM Safe
+PGEL-I,🔴 SELL - Put Potential,-9.21,+0.00,Normal,📉 Consider Puts - OTM Safe
+PERSISTENT-I,🔴 SELL - Put Potential,-8.72,+0.70,Normal,📉 Consider Puts - OTM Safe
+LAURUSLABS-I,🔴 SELL - Put Potential,-8.58,+0.00,Normal,📉 Consider Puts - OTM Safe
+KALYANKJIL-I,🔴 SELL - Put Potential,-8.17,+0.35,Normal,📉 Consider Puts - OTM Safe
+DRREDDY-I,🔴 SELL - Put Potential,-8.01,+0.58,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 12:30
+Stock,Signal,Score,Change,OI Status,Action
+KAYNES-I,🔴 SELL - Put Potential,-11.92,-0.54,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-11.82,-0.95,Normal,📉 Consider Puts - OTM Safe
+PGEL-I,🔴 SELL - Put Potential,-9.38,-0.17,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 12:35
+Stock,Signal,Score,Change,OI Status,Action
+KAYNES-I,⚡ STRONG SELL,-12.10,-0.19,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,🔴 SELL - Put Potential,-11.82,+0.00,Normal,📉 Consider Puts - OTM Safe
+PGEL-I,🔴 SELL - Put Potential,-8.97,+0.42,Normal,📉 Consider Puts - OTM Safe
+POWERGRID-I,🔴 SELL - Put Potential,-8.39,-0.89,Put Setup,📉 Consider Puts - OTM Safe
+SOLARINDS-I,🔴 SELL - Put Potential,-8.10,-5.02,Put Setup,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 12:40
+Stock,Signal,Score,Change,OI Status,Action
+KAYNES-I,⚡ STRONG SELL,-13.43,-1.32,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,🔴 SELL - Put Potential,-11.82,+0.00,Normal,📉 Consider Puts - OTM Safe
+PGEL-I,🔴 SELL - Put Potential,-10.09,-1.12,Normal,📉 Consider Puts - OTM Safe
+JUBLFOOD-I,🔴 SELL - Put Potential,-8.20,-0.72,Put Setup,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 12:45
+Stock,Signal,Score,Change,OI Status,Action
+PGEL-I,⚡ STRONG SELL,-16.40,-6.31,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,⚡ STRONG SELL,-12.94,+0.48,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,🔴 SELL - Put Potential,-9.68,+2.14,Normal,📉 Consider Puts - OTM Safe
+SOLARINDS-I,🔴 SELL - Put Potential,-8.59,-0.67,Put Setup,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 12:50
+Stock,Signal,Score,Change,OI Status,Action
+PGEL-I,⚡ STRONG SELL,-15.05,+1.35,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,⚡ STRONG SELL,-12.41,+0.54,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,🔴 SELL - Put Potential,-9.68,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 12:55
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,🟢 BUY - Call Potential,8.32,+0.89,Normal,📈 Consider Calls - OTM Safe
+PGEL-I,⚡ STRONG SELL,-15.47,-0.42,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,⚡ STRONG SELL,-12.41,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,🔴 SELL - Put Potential,-9.32,+0.35,Normal,📉 Consider Puts - OTM Safe
+SOLARINDS-I,🔴 SELL - Put Potential,-8.59,-4.99,Put Setup,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 13:00
+Stock,Signal,Score,Change,OI Status,Action
+ABCAPITAL-I,🟢 BUY - Call Potential,11.67,+7.50,Normal,📈 Consider Calls - OTM Safe
+HINDPETRO-I,🟢 BUY - Call Potential,10.43,+2.11,Normal,📈 Consider Calls - OTM Safe
+FORTIS-I,🟢 BUY - Call Potential,8.18,+2.82,Normal,📈 Consider Calls - OTM Safe
+SHREECEM-I,🟢 BUY - Call Potential,8.09,+6.50,Call Setup,📈 Consider Calls - OTM Safe
+PGEL-I,⚡ STRONG SELL,-13.00,+2.47,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,🔴 SELL - Put Potential,-9.74,+2.67,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-9.32,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 13:05
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,🟢 BUY - Call Potential,10.43,+0.00,Normal,📈 Consider Calls - OTM Safe
+SHREECEM-I,🟢 BUY - Call Potential,9.80,+1.70,Call Setup,📈 Consider Calls - OTM Safe
+PETRONET-I,🟢 BUY - Call Potential,8.48,+0.97,Normal,📈 Consider Calls - OTM Safe
+PGEL-I,⚡ STRONG SELL,-13.00,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,🔴 SELL - Put Potential,-9.93,-0.19,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-9.86,-0.54,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 13:10
+Stock,Signal,Score,Change,OI Status,Action
+SHREECEM-I,🟢 BUY - Call Potential,11.14,+1.34,Call Setup,📈 Consider Calls - OTM Safe
+HINDPETRO-I,🟢 BUY - Call Potential,10.46,+0.03,Call Setup,📈 Consider Calls - OTM Safe
+SBIN-I,🟢 BUY - Call Potential,9.99,+2.67,Call Setup,📈 Consider Calls - OTM Safe
+PETRONET-I,🟢 BUY - Call Potential,8.84,+0.35,Normal,📈 Consider Calls - OTM Safe
+FORTIS-I,🟢 BUY - Call Potential,8.18,+1.32,Normal,📈 Consider Calls - OTM Safe
+PGEL-I,⚡ STRONG SELL,-13.35,-0.35,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,🔴 SELL - Put Potential,-10.09,-0.17,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-9.32,+0.54,Normal,📉 Consider Puts - OTM Safe
+PERSISTENT-I,🔴 SELL - Put Potential,-9.02,-3.40,Put Setup,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 13:15
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,🟢 BUY - Call Potential,11.40,+0.94,Call Setup,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,9.00,+3.56,Normal,📈 Consider Calls - OTM Safe
+PGEL-I,⚡ STRONG SELL,-15.49,-2.14,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,🔴 SELL - Put Potential,-11.60,-1.51,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-9.35,-0.02,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 13:20
+Stock,Signal,Score,Change,OI Status,Action
+HINDPETRO-I,🟢 BUY - Call Potential,11.40,+0.00,Call Setup,📈 Consider Calls - OTM Safe
+SHREECEM-I,🟢 BUY - Call Potential,11.28,+7.20,Call Setup,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,11.22,+2.21,Normal,📈 Consider Calls - OTM Safe
+KALYANKJIL-I,🟢 BUY - Call Potential,10.02,+2.60,Normal,📈 Consider Calls - OTM Safe
+PGEL-I,⚡ STRONG SELL,-15.49,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,🔴 SELL - Put Potential,-10.03,+1.58,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-8.81,+0.54,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 13:25
+Stock,Signal,Score,Change,OI Status,Action
+LTF-I,🟢 BUY - Call Potential,9.00,-2.21,Normal,📈 Consider Calls - OTM Safe
+MUTHOOTFIN-I,🟢 BUY - Call Potential,8.38,+5.99,Call Setup,📈 Consider Calls - OTM Safe
+PGEL-I,⚡ STRONG SELL,-15.49,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,🔴 SELL - Put Potential,-9.49,+0.54,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-8.81,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 13:30
+Stock,Signal,Score,Change,OI Status,Action
+LTF-I,🟢 BUY - Call Potential,8.58,-0.42,Normal,📈 Consider Calls - OTM Safe
+KALYANKJIL-I,🟢 BUY - Call Potential,8.10,+0.33,Normal,📈 Consider Calls - OTM Safe
+PGEL-I,⚡ STRONG SELL,-15.68,-0.19,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,🔴 SELL - Put Potential,-8.99,+0.50,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-8.81,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 13:35
+Stock,Signal,Score,Change,OI Status,Action
+SHREECEM-I,🟢 BUY - Call Potential,11.24,+5.99,Call Setup,📈 Consider Calls - OTM Safe
+KALYANKJIL-I,🟢 BUY - Call Potential,10.40,+2.29,Normal,📈 Consider Calls - OTM Safe
+HINDPETRO-I,🟢 BUY - Call Potential,8.71,+4.23,Call Setup,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,8.58,+0.00,Normal,📈 Consider Calls - OTM Safe
+BOSCHLTD-I,🟢 BUY - Call Potential,8.51,+0.52,Call Setup,📈 Consider Calls - OTM Safe
+IIFL-I,🟢 BUY - Call Potential,8.48,+0.58,Normal,📈 Consider Calls - OTM Safe
+PGEL-I,⚡ STRONG SELL,-15.14,+0.54,Normal,⚡ BUY PUTS - ATM/OTM
+KAYNES-I,🔴 SELL - Put Potential,-8.99,+0.00,Normal,📉 Consider Puts - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-8.81,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 13:40
+Stock,Signal,Score,Change,OI Status,Action
+SHREECEM-I,🟢 BUY - Call Potential,11.60,+0.35,Call Setup,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,8.58,+0.00,Normal,📈 Consider Calls - OTM Safe
+BOSCHLTD-I,🟢 BUY - Call Potential,8.51,+0.00,Call Setup,📈 Consider Calls - OTM Safe
+IIFL-I,🟢 BUY - Call Potential,8.48,+0.00,Normal,📈 Consider Calls - OTM Safe
+PGEL-I,⚡ STRONG SELL,-17.44,-2.29,Normal,⚡ BUY PUTS - ATM/OTM
+MAZDOCK-I,🔴 SELL - Put Potential,-9.41,-0.60,Normal,📉 Consider Puts - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-9.18,-0.19,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 13:45
+Stock,Signal,Score,Change,OI Status,Action
+ABCAPITAL-I,🟢 BUY - Call Potential,10.17,+3.37,Normal,📈 Consider Calls - OTM Safe
+TATATECH-I,🟢 BUY - Call Potential,9.14,+8.29,Normal,📈 Consider Calls - OTM Safe
+HINDPETRO-I,🟢 BUY - Call Potential,8.79,+5.09,Call Setup,📈 Consider Calls - OTM Safe
+KALYANKJIL-I,🟢 BUY - Call Potential,8.41,+0.66,Normal,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,8.37,-0.22,Normal,📈 Consider Calls - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-8.10,+1.31,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 13:50
+Stock,Signal,Score,Change,OI Status,Action
+TATATECH-I,🟢 BUY - Call Potential,11.52,+2.38,Normal,📈 Consider Calls - OTM Safe
+ABCAPITAL-I,🟢 BUY - Call Potential,9.81,-0.35,Normal,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,8.37,+0.00,Normal,📈 Consider Calls - OTM Safe
+SHREECEM-I,🟢 BUY - Call Potential,8.20,+5.11,Call Setup,📈 Consider Calls - OTM Safe
+KALYANKJIL-I,🟢 BUY - Call Potential,8.06,-0.35,Normal,📈 Consider Calls - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-8.13,-0.03,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 13:55
+Stock,Signal,Score,Change,OI Status,Action
+TATATECH-I,🟢 BUY - Call Potential,10.74,-0.78,Normal,📈 Consider Calls - OTM Safe
+ABCAPITAL-I,🟢 BUY - Call Potential,10.17,+0.35,Normal,📈 Consider Calls - OTM Safe
+BOSCHLTD-I,🟢 BUY - Call Potential,8.91,+4.65,Call Setup,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,8.78,+0.42,Normal,📈 Consider Calls - OTM Safe
+KALYANKJIL-I,🟢 BUY - Call Potential,8.41,+0.35,Normal,📈 Consider Calls - OTM Safe
+
+Time: 2025-09-29 14:00
+Stock,Signal,Score,Change,OI Status,Action
+PPLPHARMA-I,⚡ STRONG BUY,13.73,+10.94,Normal,⚡ BUY CALLS - ATM/OTM
+MUTHOOTFIN-I,🟢 BUY - Call Potential,10.66,+7.27,Call Setup,📈 Consider Calls - OTM Safe
+TATATECH-I,🟢 BUY - Call Potential,10.30,-0.44,Normal,📈 Consider Calls - OTM Safe
+IIFL-I,🟢 BUY - Call Potential,9.73,+3.05,Normal,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,9.11,+0.33,Normal,📈 Consider Calls - OTM Safe
+GODREJCP-I,🟢 BUY - Call Potential,9.04,+6.09,Call Setup,📈 Consider Calls - OTM Safe
+BOSCHLTD-I,🟢 BUY - Call Potential,8.37,-0.54,Call Setup,📈 Consider Calls - OTM Safe
+MPHASIS-I,🟢 BUY - Call Potential,8.34,+7.45,Call Setup,📈 Consider Calls - OTM Safe
+
+Time: 2025-09-29 14:05
+Stock,Signal,Score,Change,OI Status,Action
+TATATECH-I,🟢 BUY - Call Potential,10.30,+0.00,Normal,📈 Consider Calls - OTM Safe
+PPLPHARMA-I,🟢 BUY - Call Potential,10.12,-3.61,Normal,📈 Consider Calls - OTM Safe
+IIFL-I,🟢 BUY - Call Potential,9.50,-0.23,Normal,📈 Consider Calls - OTM Safe
+GODREJCP-I,🟢 BUY - Call Potential,9.19,+0.15,Call Setup,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,8.88,-0.23,Normal,📈 Consider Calls - OTM Safe
+MPHASIS-I,🟢 BUY - Call Potential,8.51,+0.17,Call Setup,📈 Consider Calls - OTM Safe
+BOSCHLTD-I,🟢 BUY - Call Potential,8.37,+0.00,Call Setup,📈 Consider Calls - OTM Safe
+MAZDOCK-I,🔴 SELL - Put Potential,-8.22,-0.58,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 14:10
+Stock,Signal,Score,Change,OI Status,Action
+PPLPHARMA-I,🟢 BUY - Call Potential,10.93,+0.82,Normal,📈 Consider Calls - OTM Safe
+IIFL-I,🟢 BUY - Call Potential,10.08,+0.58,Normal,📈 Consider Calls - OTM Safe
+GODREJCP-I,🟢 BUY - Call Potential,9.79,+0.60,Call Setup,📈 Consider Calls - OTM Safe
+LTF-I,🟢 BUY - Call Potential,9.11,+0.23,Normal,📈 Consider Calls - OTM Safe
+BOSCHLTD-I,🟢 BUY - Call Potential,8.37,+0.00,Call Setup,📈 Consider Calls - OTM Safe
+KEI-I,🟢 BUY - Call Potential,8.12,+0.23,Normal,📈 Consider Calls - OTM Safe
+TATATECH-I,🟢 BUY - Call Potential,8.00,-2.29,Normal,📈 Consider Calls - OTM Safe
+
+Time: 2025-09-29 14:15
+Stock,Signal,Score,Change,OI Status,Action
+GODREJCP-I,⚡ STRONG BUY,17.21,+7.42,Strong Call Setup,⚡ BUY CALLS - ATM/OTM
+HFCL-I,⚡ STRONG BUY,13.49,+9.21,Normal,⚡ BUY CALLS - ATM/OTM
+MUTHOOTFIN-I,⚡ STRONG BUY,13.06,+6.78,Call Setup,⚡ BUY CALLS - ATM/OTM
+TATACONSUM-I,🟢 BUY - Call Potential,10.11,+5.47,Call Setup,📈 Consider Calls - OTM Safe
+AMBER-I,🟢 BUY - Call Potential,8.84,+3.99,Normal,📈 Consider Calls - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-9.36,-1.73,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 14:20
+Stock,Signal,Score,Change,OI Status,Action
+GODREJCP-I,⚡ STRONG BUY,16.33,-0.88,Strong Call Setup,⚡ BUY CALLS - ATM/OTM
+HFCL-I,⚡ STRONG BUY,14.26,+0.77,Normal,⚡ BUY CALLS - ATM/OTM
+TATACONSUM-I,🟢 BUY - Call Potential,11.28,+1.17,Call Setup,📈 Consider Calls - OTM Safe
+AMBER-I,🟢 BUY - Call Potential,9.79,+0.95,Normal,📈 Consider Calls - OTM Safe
+MUTHOOTFIN-I,🟢 BUY - Call Potential,8.22,-4.84,Put Setup,📈 Consider Calls - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-9.36,+0.00,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 14:25
+Stock,Signal,Score,Change,OI Status,Action
+GODREJCP-I,⚡ STRONG BUY,16.91,+0.58,Strong Call Setup,⚡ BUY CALLS - ATM/OTM
+HFCL-I,⚡ STRONG BUY,13.13,-1.13,Normal,⚡ BUY CALLS - ATM/OTM
+MUTHOOTFIN-I,⚡ STRONG BUY,13.06,+4.84,Call Setup,⚡ BUY CALLS - ATM/OTM
+AMBER-I,🟢 BUY - Call Potential,9.26,-0.54,Normal,📈 Consider Calls - OTM Safe
+TATACONSUM-I,🟢 BUY - Call Potential,8.99,-2.29,Call Setup,📈 Consider Calls - OTM Safe
+KAYNES-I,⚡ STRONG SELL,-12.01,-2.65,Normal,⚡ BUY PUTS - ATM/OTM
+
+Time: 2025-09-29 14:30
+Stock,Signal,Score,Change,OI Status,Action
+GODREJCP-I,⚡ STRONG BUY,14.77,-2.14,Call Setup,⚡ BUY CALLS - ATM/OTM
+AMBER-I,🟢 BUY - Call Potential,11.28,+2.02,Normal,📈 Consider Calls - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-9.36,+2.65,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 14:35
+Stock,Signal,Score,Change,OI Status,Action
+HFCL-I,🟢 BUY - Call Potential,10.64,+2.80,Normal,📈 Consider Calls - OTM Safe
+AMBER-I,🟢 BUY - Call Potential,9.48,-1.80,Normal,📈 Consider Calls - OTM Safe
+GODREJCP-I,🟢 BUY - Call Potential,8.78,-5.99,Call Setup,📈 Consider Calls - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-9.55,-0.19,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 14:40
+Stock,Signal,Score,Change,OI Status,Action
+GODREJCP-I,⚡ STRONG BUY,13.89,+5.11,Call Setup,⚡ BUY CALLS - ATM/OTM
+AMBER-I,🟢 BUY - Call Potential,9.25,-0.23,Normal,📈 Consider Calls - OTM Safe
+VEDL-I,🔴 SELL - Put Potential,-10.52,-4.54,Put Setup,📉 Consider Puts - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-9.90,-0.35,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 14:45
+Stock,Signal,Score,Change,OI Status,Action
+INDIGO-I,⚡ STRONG BUY,12.14,+7.84,Normal,⚡ BUY CALLS - ATM/OTM
+MUTHOOTFIN-I,🟢 BUY - Call Potential,10.80,+8.58,Call Setup,📈 Consider Calls - OTM Safe
+INDHOTEL-I,🟢 BUY - Call Potential,10.00,+8.60,Call Setup,📈 Consider Calls - OTM Safe
+AMBER-I,🟢 BUY - Call Potential,8.75,-0.50,Call Setup,📈 Consider Calls - OTM Safe
+SHREECEM-I,🟢 BUY - Call Potential,8.18,+2.26,Normal,📈 Consider Calls - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-11.16,-1.26,Normal,📉 Consider Puts - OTM Safe
+MAXHEALTH-I,🔴 SELL - Put Potential,-8.04,-7.45,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 14:50
+Stock,Signal,Score,Change,OI Status,Action
+INDIGO-I,⚡ STRONG BUY,12.32,+0.19,Normal,⚡ BUY CALLS - ATM/OTM
+MUTHOOTFIN-I,🟢 BUY - Call Potential,10.34,-0.46,Call Setup,📈 Consider Calls - OTM Safe
+INDHOTEL-I,🟢 BUY - Call Potential,9.25,-0.75,Call Setup,📈 Consider Calls - OTM Safe
+SHREECEM-I,🟢 BUY - Call Potential,8.18,+0.00,Normal,📈 Consider Calls - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-11.16,+0.00,Normal,📉 Consider Puts - OTM Safe
+MAXHEALTH-I,🔴 SELL - Put Potential,-9.01,-0.97,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 14:55
+Stock,Signal,Score,Change,OI Status,Action
+INDIGO-I,⚡ STRONG BUY,12.32,+0.00,Normal,⚡ BUY CALLS - ATM/OTM
+TATACONSUM-I,🟢 BUY - Call Potential,10.15,+5.53,Call Setup,📈 Consider Calls - OTM Safe
+SHREECEM-I,🟢 BUY - Call Potential,8.47,+0.30,Normal,📈 Consider Calls - OTM Safe
+MAXHEALTH-I,🔴 SELL - Put Potential,-11.10,-2.09,Normal,📉 Consider Puts - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-10.57,+0.58,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 15:00
+Stock,Signal,Score,Change,OI Status,Action
+INDIGO-I,🔥 VERY STRONG BUY - CALL FOCUS,29.32,+17.00,Strong Call Setup,🔥 BUY CALLS STRONG
+SHREECEM-I,⚡ STRONG BUY,16.87,+8.39,Normal,⚡ BUY CALLS - ATM/OTM
+INDHOTEL-I,⚡ STRONG BUY,12.18,+6.83,Call Setup,⚡ BUY CALLS - ATM/OTM
+AMBER-I,🟢 BUY - Call Potential,9.37,+6.68,Call Setup,📈 Consider Calls - OTM Safe
+MAXHEALTH-I,⚡ STRONG SELL,-12.73,-1.63,Normal,⚡ BUY PUTS - ATM/OTM
+INOXWIND-I,🔴 SELL - Put Potential,-10.94,-4.43,Normal,📉 Consider Puts - OTM Safe
+SBICARD-I,🔴 SELL - Put Potential,-10.03,-2.79,Normal,📉 Consider Puts - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-9.20,+1.37,Normal,📉 Consider Puts - OTM Safe
+KFINTECH-I,🔴 SELL - Put Potential,-9.17,-4.53,Normal,📉 Consider Puts - OTM Safe
+DELHIVERY-I,🔴 SELL - Put Potential,-8.80,-4.68,Normal,📉 Consider Puts - OTM Safe
+JIOFIN-I,🔴 SELL - Put Potential,-8.03,-3.82,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 15:05
+Stock,Signal,Score,Change,OI Status,Action
+INDIGO-I,🔥 VERY STRONG BUY - CALL FOCUS,23.40,-5.92,Strong Call Setup,🔥 BUY CALLS STRONG
+SHREECEM-I,⚡ STRONG BUY,13.46,-3.41,Normal,⚡ BUY CALLS - ATM/OTM
+INDHOTEL-I,🟢 BUY - Call Potential,11.76,-0.42,Call Setup,📈 Consider Calls - OTM Safe
+MUTHOOTFIN-I,🟢 BUY - Call Potential,9.14,+4.10,Call Setup,📈 Consider Calls - OTM Safe
+AMBER-I,🟢 BUY - Call Potential,8.73,-0.65,Call Setup,📈 Consider Calls - OTM Safe
+SBIN-I,🟢 BUY - Call Potential,8.26,+1.05,Call Setup,📈 Consider Calls - OTM Safe
+KOTAKBANK-I,🟢 BUY - Call Potential,8.23,+0.97,Strong Call Setup,📈 Consider Calls - OTM Safe
+MAXHEALTH-I,⚡ STRONG SELL,-14.86,-2.13,Normal,⚡ BUY PUTS - ATM/OTM
+HEROMOTOCO-I,🔴 SELL - Put Potential,-10.51,-3.14,Put Setup,📉 Consider Puts - OTM Safe
+KFINTECH-I,🔴 SELL - Put Potential,-9.36,-0.19,Normal,📉 Consider Puts - OTM Safe
+SBICARD-I,🔴 SELL - Put Potential,-9.26,+0.77,Normal,📉 Consider Puts - OTM Safe
+INOXWIND-I,🔴 SELL - Put Potential,-8.64,+2.29,Normal,📉 Consider Puts - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-8.50,+0.70,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 15:10
+Stock,Signal,Score,Change,OI Status,Action
+INDIGO-I,🔥 VERY STRONG BUY - CALL FOCUS,29.62,+6.23,Strong Call Setup,🔥 BUY CALLS STRONG
+SHREECEM-I,⚡ STRONG BUY,16.93,+3.48,Normal,⚡ BUY CALLS - ATM/OTM
+KOTAKBANK-I,🟢 BUY - Call Potential,10.88,+2.65,Call Setup,📈 Consider Calls - OTM Safe
+MUTHOOTFIN-I,🟢 BUY - Call Potential,9.72,+0.58,Call Setup,📈 Consider Calls - OTM Safe
+SBIN-I,🟢 BUY - Call Potential,8.52,+0.26,Call Setup,📈 Consider Calls - OTM Safe
+MAXHEALTH-I,⚡ STRONG SELL,-14.63,+0.23,Normal,⚡ BUY PUTS - ATM/OTM
+HEROMOTOCO-I,🔴 SELL - Put Potential,-11.81,-1.29,Put Setup,📉 Consider Puts - OTM Safe
+SBICARD-I,🔴 SELL - Put Potential,-9.85,-0.58,Normal,📉 Consider Puts - OTM Safe
+KFINTECH-I,🔴 SELL - Put Potential,-9.13,+0.23,Normal,📉 Consider Puts - OTM Safe
+KAYNES-I,🔴 SELL - Put Potential,-9.05,-0.56,Normal,📉 Consider Puts - OTM Safe
+INOXWIND-I,🔴 SELL - Put Potential,-8.99,-0.35,Normal,📉 Consider Puts - OTM Safe
+ADANIENT-I,🔴 SELL - Put Potential,-8.37,-0.97,Normal,📉 Consider Puts - OTM Safe
+
+Time: 2025-09-29 15:15
+Stock,Signal,Score,Change,OI Status,Action
+HEROMOTOCO-I,🟢 BUY - Call Potential,10.40,+22.20,Call Setup,📈 Consider Calls - OTM Safe
+SHREECEM-I,🟢 BUY - Call Potential,9.42,-7.52,Normal,📈 Consider Calls - OTM Safe
+NCC-I,🟢 BUY - Call Potential,8.90,+12.02,Call Setup,📈 Consider Calls - OTM Safe
+INDHOTEL-I,🟢 BUY - Call Potential,8.75,+1.82,Call Setup,📈 Consider Calls - OTM Safe
+MAXHEALTH-I,⚡ STRONG SELL,-13.93,+0.70,Normal,⚡ BUY PUTS - ATM/OTM
+BHARATFORG-I,⚡ STRONG SELL,-13.57,-11.72,Normal,⚡ BUY PUTS - ATM/OTM
+
+Time: 2025-09-29 15:20
+Stock,Signal,Score,Change,OI Status,Action
+TATACONSUM-I,🟢 BUY - Call Potential,11.73,+5.56,Call Setup,📈 Consider Calls - OTM Safe
+SHREECEM-I,🟢 BUY - Call Potential,9.60,+0.19,Normal,📈 Consider Calls - OTM Safe
+NCC-I,🟢 BUY - Call Potential,8.90,+0.00,Call Setup,📈 Consider Calls - OTM Safe
+BHARATFORG-I,🔥 VERY STRONG SELL,-20.05,-6.48,Normal,🔥 BUY PUTS STRONG
+MAXHEALTH-I,⚡ STRONG SELL,-16.22,-2.29,Normal,⚡ BUY PUTS - ATM/OTM
+
+Time: 2025-09-29 15:25
+Stock,Signal,Score,Change,OI Status,Action
+HEROMOTOCO-I,⚡ STRONG BUY,15.34,+8.87,Call Setup,⚡ BUY CALLS - ATM/OTM
+TATACONSUM-I,🟢 BUY - Call Potential,10.85,-0.88,Call Setup,📈 Consider Calls - OTM Safe
+INDUSINDBK-I,🟢 BUY - Call Potential,10.52,+6.23,Normal,📈 Consider Calls - OTM Safe
+BHARATFORG-I,⚡ STRONG SELL,-19.63,+0.42,Normal,⚡ BUY PUTS - ATM/OTM
+MAXHEALTH-I,⚡ STRONG SELL,-14.28,+1.94,Normal,⚡ BUY PUTS - ATM/OTM
+
+Time: 2025-09-29 15:30
+Stock,Signal,Score,Change,OI Status,Action
+HEROMOTOCO-I,⚡ STRONG BUY,15.34,+0.00,Call Setup,⚡ BUY CALLS - ATM/OTM
+SBIN-I,🟢 BUY - Call Potential,9.88,+10.16,Call Setup,📈 Consider Calls - OTM Safe
+CUMMINSIND-I,🟢 BUY - Call Potential,9.49,+3.97,Call Setup,📈 Consider Calls - OTM Safe
+BHARATFORG-I,⚡ STRONG SELL,-19.63,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+MAXHEALTH-I,⚡ STRONG SELL,-14.28,+0.00,Normal,⚡ BUY PUTS - ATM/OTM
+

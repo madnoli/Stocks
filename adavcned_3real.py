@@ -19,8 +19,8 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # --- TRUEDATA CONFIG ---
-TD_USERNAME = "Trial106"
-TD_PASSWORD = "raj106"
+TD_USERNAME = "tdwsp751"
+TD_PASSWORD = "raj@751"
 td_hist = TD_hist(TD_USERNAME, TD_PASSWORD, log_level=logging.WARNING)
 
 # --- COLOR CODES ---

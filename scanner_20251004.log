@@ -1,0 +1,383 @@
+2025-10-04 17:44:25,087 - __main__ - WARNING - Invalid symbol skipped: 360ONE-I
+2025-10-04 17:44:25,087 - __main__ - WARNING - Invalid symbol skipped: M&M-I
+2025-10-04 17:44:25,088 - __main__ - INFO - Loaded 196 valid symbols from shares.txt
+2025-10-04 17:44:25,089 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,089 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,089 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,089 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,089 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,090 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,090 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,090 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,090 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,090 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,091 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,091 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,091 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,091 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,091 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,092 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,092 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,092 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,092 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,092 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,093 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,093 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,093 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,093 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,093 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,094 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,094 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,094 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,094 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,094 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,095 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,095 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,095 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,095 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,095 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,096 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,096 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,096 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,096 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,096 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,097 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,097 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,098 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,098 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,098 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,099 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,100 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,100 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,100 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,100 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,101 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,101 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,101 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,101 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,101 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,102 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,102 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,102 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,102 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,102 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,103 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,103 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,103 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,103 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,103 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,104 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,104 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,104 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,104 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,104 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,105 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,105 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,105 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,105 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,105 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,105 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,106 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,106 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,106 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,106 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,106 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,107 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,107 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,107 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,107 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,107 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,108 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,108 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,108 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,108 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,108 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,108 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,109 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,109 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,109 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,109 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,109 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,110 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,110 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,110 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,110 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,110 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,110 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,111 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,111 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,111 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,111 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,111 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,112 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,112 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,112 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,112 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,113 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,113 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,113 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,113 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,114 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,114 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,114 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,114 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,114 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,115 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,115 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,115 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,115 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,116 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,116 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,116 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,116 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,116 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,117 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,117 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,117 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,117 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,117 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,118 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,118 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,118 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,118 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,118 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,119 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,119 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,119 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,119 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,119 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,120 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,120 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,120 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,120 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,120 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,121 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,121 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,121 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,121 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,121 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,122 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,122 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,122 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,122 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,122 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,123 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,123 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,123 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,123 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,123 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,124 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,124 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,124 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,124 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,124 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,125 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,125 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,125 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,125 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,125 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,126 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,126 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,126 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,126 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,126 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,127 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,127 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,127 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,127 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,127 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,128 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,128 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,128 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,128 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,128 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,129 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,129 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,130 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,130 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,130 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,131 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,131 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,131 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,131 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,131 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,132 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,132 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,132 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,132 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,132 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,133 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,133 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,133 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,133 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,133 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,135 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,135 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,135 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,135 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,135 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,136 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,136 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,136 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,136 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,136 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,137 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,137 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,137 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,137 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,137 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,138 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,138 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,138 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,138 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,138 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,139 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,139 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,139 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,139 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,139 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,140 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,140 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,140 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,140 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,140 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,141 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,141 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,141 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,141 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,141 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,142 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,142 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,142 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,142 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,142 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,143 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,143 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,143 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,143 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,143 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,144 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,144 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,144 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,144 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,144 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,145 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,145 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,145 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,145 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,146 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,146 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,146 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,146 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,146 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,147 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,147 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,147 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,147 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,148 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,148 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,148 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,148 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,149 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,149 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,149 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,149 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,150 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,150 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,150 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,150 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,151 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,151 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,151 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,152 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,152 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,153 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,153 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,153 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,153 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,153 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,154 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,154 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,154 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,154 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,154 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,155 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,155 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,155 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,155 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,155 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,156 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,156 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,156 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,156 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,156 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,158 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,158 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,158 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,158 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,159 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,160 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,160 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,160 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,160 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,160 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,161 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,161 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,161 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,161 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,161 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,162 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,162 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,162 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,162 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,162 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,163 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,163 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,163 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,163 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,163 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,164 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,164 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,164 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,164 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,164 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,165 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,165 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,165 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,165 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,165 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,166 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,166 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,167 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,167 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,167 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,168 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,168 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,168 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,169 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,169 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,169 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,170 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,170 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,170 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,170 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,172 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,172 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,172 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,172 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,172 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,173 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,173 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,174 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,174 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,174 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,175 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,175 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,176 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,176 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,176 - __main__ - ERROR - No TrueData sessions available
+2025-10-04 17:44:25,178 - __main__ - ERROR - Error creating TrueData session 0: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,178 - __main__ - ERROR - Error creating TrueData session 1: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,178 - __main__ - ERROR - Error creating TrueData session 2: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,178 - __main__ - ERROR - Error creating TrueData session 3: TD_hist.__init__() missing 2 required positional arguments: 'login_id' and 'password'
+2025-10-04 17:44:25,178 - __main__ - ERROR - No TrueData sessions available

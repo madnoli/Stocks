@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payslip Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        .header, .footer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #4a4a4a;
+        }
+        .header p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .payslip-title {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 18px;
+            font-weight: bold;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 10px 0;
+        }
+        .employee-summary {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #fafafa;
+        }
+        .employee-summary h3 {
+            margin-top: 0;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            font-size: 16px;
+        }
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            font-size: 14px;
+        }
+        .details-grid div {
+            display: flex;
+        }
+        .details-grid .label {
+            font-weight: bold;
+            margin-right: 8px;
+            min-width: 100px; /* Aligns values */
+        }
+        .earnings-deductions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        th {
+            background-color: #f9f9f9;
+            font-weight: bold;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .total-row {
+            font-weight: bold;
+            background-color: #f2f2f2;
+        }
+        .net-pay-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: #e9e9e9;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+        .net-pay-section .amount-words {
+            font-weight: bold;
+        }
+        .net-pay-section .total-net-pay {
+            text-align: right;
+        }
+        .net-pay-section .total-net-pay span {
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .form-container {
+            padding: 20px;
+            background-color: #eef;
+            border: 1px dashed #ccc;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        .form-container input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-container button {
+            padding: 8px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+        #payslip-content {
+            display: none; /* Hide template until data is fetched */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="form-container">
+        <label for="empId">Employee ID:</label>
+        <input type="text" id="empId" placeholder="e.g., ALT0101">
+        <label for="workingDays">Working Days:</label>
+        <input type="number" id="workingDays" placeholder="e.g., 31">
+        <button onclick="fetchPayslipData()">Fetch Payslip</button>
+        <button onclick="generatePDF()" id="pdfBtn" style="display:none; background-color: #28a745;">Generate PDF</button>
+    </div>
+
+    <div id="payslip-content">
+        <div class="header">
+            <h1>ALT SOLUTIONS LLP</h1>
+            <p>Ms Bldg 18/634, 1st Floor, Dr. C.G Marg, Chembur Colony Mumbai, 400 074 India</p>
+        </div>
+        <div class="payslip-title">
+            Payslip For the Month <span id="payPeriodTitle"></span>
+        </div>
+        
+        <div class="employee-summary">
+            <h3>EMPLOYEE SUMMARY</h3>
+            <div class="details-grid">
+                <div><span class="label">Employee Name:</span> <span id="empName"></span></div>
+                <div><span class="label">Grade:</span> <span id="grade"></span></div>
+                <div><span class="label">PAN:</span> <span id="pan"></span></div>
+                <div><span class="label">Paid Days:</span> <span id="paidDays"></span></div>
+
+                <div><span class="label">Employee ID:</span> <span id="empIdDisplay"></span></div>
+                <div><span class="label">DOJ:</span> <span id="doj"></span></div>
+                <div><span class="label">Bank Ac. no.:</span> <span id="bankAc"></span></div>
+                <div><span class="label">LOP Days:</span> <span id="lopDays"></span></div>
+
+                <div><span class="label">Pay Period:</span> <span id="payPeriod"></span></div>
+                <div><span class="label">LOB:</span> <span id="lob"></span></div>
+                <div><span class="label">Financial year:</span> <span id="finYear"></span></div>
+                <div></div>
+
+                <div><span class="label">Pay Date:</span> <span id="payDate"></span></div>
+                <div><span class="label">Bank Name:</span> <span id="bankName"></span></div>
+                <div><span class="label">Business Group:</span> <span id="businessGroup"></span></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="earnings-deductions">
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>EARNINGS</th>
+                            <th class="text-right">AMOUNT</th>
+                        </tr>
+                    </thead>
+                    <tbody id="earningsTable">
+                        </tbody>
+                    <tfoot>
+                        <tr class="total-row">
+                            <td>Gross Earnings</td>
+                            <td class="text-right" id="grossEarnings"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>DEDUCTIONS</th>
+                            <th class="text-right">AMOUNT</th>
+                        </tr>
+                    </thead>
+                    <tbody id="deductionsTable">
+                         </tbody>
+                    <tfoot>
+                        <tr class="total-row">
+                            <td>Total Deductions</td>
+                            <td class="text-right" id="totalDeductions"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+        <div class="net-pay-section">
+            <div class="amount-words">Amount In Words: <span id="amountInWords"></span></div>
+            <div class="total-net-pay">
+                TOTAL NET PAYABLE
+                <span id="totalNetPay"></span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>-This is a system-generated document. --</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    async function fetchPayslipData() {
+        const empId = document.getElementById('empId').value;
+        const workingDays = document.getElementById('workingDays').value;
+
+        if (!empId || !workingDays) {
+            alert('Please enter both Employee ID and Working Days.');
+            return;
+        }
+
+        // **BACKEND INTEGRATION POINT**
+        // In a real application, you would make a fetch request to your backend server.
+        // The server would read 'employee.xlsx', find the employee, calculate values,
+        // and return the data as JSON.
+        // Example: const response = await fetch(`/api/payslip?empId=${empId}&days=${workingDays}`);
+        // const data = await response.json();
+
+        // For demonstration, we use mock data that mimics the server response.
+        const mockData = {
+            "employeeId": "ALT0101",
+            "employeeName": "V. Sakthivel",
+            "payPeriod": "July 2025",
+            "payDate": "09/08/2025",
+            "grade": "G3",
+            "doj": "24-10-2022",
+            "lob": "IMS-Services",
+            "bankName": "INDUSIND BANK",
+            "pan": "CMXPV4420N",
+            "businessGroup": "Support & Services",
+            "bankAccountNo": "157358728041",
+            "financialYear": "2025-2026",
+            "paidDays": 31,
+            "lopDays": 0,
+            "earnings": {
+                "Basic": 15000.00,
+                "House Rent Allowance": 6000.00,
+                "Mis. Allowance": 300.00,
+                "Conveyance Allowance": 1800.00,
+                "Education Allowance": 3900.00,
+                "Medical Allowance": 3000.00
+            },
+            "deductions": {
+                "Income Tax": 0.00,
+                "Provident Fund": 0.00,
+                "P.tax": 200.00
+            },
+            "grossEarnings": 30000.00,
+            "totalDeductions": 200.00,
+            "netPay": 29800.00,
+            "netPayInWords": "Indian Rupee Twenty-Nine Thousand Eight Hundred Only"
+        };
+        
+        populatePayslip(mockData);
+    }
+
+    function populatePayslip(data) {
+        // Helper to format currency
+        const formatCurrency = (num) => `Rs.${num.toFixed(2)}`;
+
+        // Populate employee summary
+        document.getElementById('payPeriodTitle').textContent = data.payPeriod;
+        document.getElementById('empName').textContent = data.employeeName;
+        document.getElementById('grade').textContent = data.grade;
+        document.getElementById('pan').textContent = data.pan;
+        document.getElementById('paidDays').textContent = data.paidDays;
+        document.getElementById('empIdDisplay').textContent = data.employeeId;
+        document.getElementById('doj').textContent = data.doj;
+        document.getElementById('bankAc').textContent = data.bankAccountNo;
+        document.getElementById('lopDays').textContent = data.lopDays;
+        document.getElementById('payPeriod').textContent = data.payPeriod;
+        document.getElementById('lob').textContent = data.lob;
+        document.getElementById('finYear').textContent = data.financialYear;
+        document.getElementById('payDate').textContent = data.payDate;
+        document.getElementById('bankName').textContent = data.bankName;
+        document.getElementById('businessGroup').textContent = data.businessGroup;
+        
+        // Populate earnings table
+        const earningsTable = document.getElementById('earningsTable');
+        earningsTable.innerHTML = ''; // Clear previous data
+        for (const [key, value] of Object.entries(data.earnings)) {
+            const row = earningsTable.insertRow();
+            row.innerHTML = `<td>${key}</td><td class="text-right">${formatCurrency(value)}</td>`;
+        }
+
+        // Populate deductions table
+        const deductionsTable = document.getElementById('deductionsTable');
+        deductionsTable.innerHTML = ''; // Clear previous data
+        for (const [key, value] of Object.entries(data.deductions)) {
+            const row = deductionsTable.insertRow();
+            row.innerHTML = `<td>${key}</td><td class="text-right">${formatCurrency(value)}</td>`;
+        }
+        
+        // Populate totals
+        document.getElementById('grossEarnings').textContent = formatCurrency(data.grossEarnings);
+        document.getElementById('totalDeductions').textContent = formatCurrency(data.totalDeductions);
+        document.getElementById('totalNetPay').textContent = formatCurrency(data.netPay);
+        document.getElementById('amountInWords').textContent = data.netPayInWords;
+
+        // Show the payslip content and PDF button
+        document.getElementById('payslip-content').style.display = 'block';
+        document.getElementById('pdfBtn').style.display = 'inline-block';
+    }
+    
+    function generatePDF() {
+        const payslipElement = document.getElementById('payslip-content');
+        const empId = document.getElementById('empIdDisplay').textContent;
+        const payPeriod = document.getElementById('payPeriod').textContent.replace(' ', '-');
+        
+        // Use html2canvas to render the element, then jspdf to create the PDF
+        html2canvas(payslipElement).then(canvas => {
+            const imgData = canvas.toDataURL('image/png');
+            const { jsPDF } = window.jspdf;
+            
+            // A4 size is 210mm x 297mm. We'll use these dimensions.
+            const pdf = new jsPDF('p', 'mm', 'a4');
+            const pdfWidth = pdf.internal.pageSize.getWidth();
+            const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
+            
+            pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
+            pdf.save(`Payslip_${empId}_${payPeriod}.pdf`);
+        });
+    }
+</script>
+
+</body>
+</html>

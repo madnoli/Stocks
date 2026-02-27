@@ -1,0 +1,149 @@
+===== Snapshot Time: 2025-10-08 09:20 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+COFORGE-I       | Strong Buy         |   64.54 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+LTIM-I          | Strong Buy         |   62.66 |         NA | bullish    | Institutional Accumulation | Consider Long      
+MPHASIS-I       | Strong Buy         |   59.35 |         NA | bullish    | Institutional Accumulation | Consider Long      
+DIVISLAB-I      | Strong Buy         |   58.58 |         NA | bullish    | Institutional Accumulation | Consider Long      
+HCLTECH-I       | Strong Buy         |   56.63 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+SBICARD-I       | Strong Buy         |   56.54 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TITAN-I         | Strong Buy         |   54.62 |         NA | bullish    | Institutional Accumulation | Consider Long      
+SRF-I           | Strong Buy         |   50.55 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TCS-I           | Strong Buy         |   49.97 |         NA | bullish    | Institutional Accumulation | Consider Long      
+GAIL-I          | Strong Buy         |   46.75 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+NATIONALUM-I    | Strong Buy         |   45.84 |         NA | bullish    | Institutional Accumulation | Consider Long      
+ALKEM-I         | Strong Buy         |   45.61 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+ASHOKLEY-I      | Strong Buy         |   44.85 |         NA | bullish    | Institutional Accumulation | Consider Long      
+APOLLOHOSP-I    | Strong Buy         |   44.15 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+PERSISTENT-I    | Strong Buy         |   43.03 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+KALYANKJIL-I    | Strong Buy         |   42.00 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+NMDC-I          | Strong Buy         |   41.80 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+GODREJPROP-I    | Strong Buy         |   40.57 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TECHM-I         | Strong Buy         |   39.56 |         NA | bullish    | Mixed/Unclear              | Consider Long      
+TATAELXSI-I     | Strong Buy         |   39.04 |         NA | bullish    | Institutional Accumulation | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HDFCAMC-I       | Strong Sell        |  -45.23 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+BRITANNIA-I     | Strong Sell        |  -42.90 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+PIDILITIND-I    | Strong Sell        |  -40.75 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+ADANIGREEN-I    | Strong Sell        |  -32.87 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+ADANIENT-I      | Strong Sell        |  -32.11 |         NA | bearish    | Institutional Distribution | Consider Short     
+AMBUJACEM-I     | Strong Sell        |  -29.93 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+DABUR-I         | Strong Sell        |  -29.79 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+COLPAL-I        | Strong Sell        |  -28.90 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+IRFC-I          | Strong Sell        |  -28.54 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+VBL-I           | Strong Sell        |  -28.46 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+PGEL-I          | Strong Sell        |  -28.05 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+HINDUNILVR-I    | Strong Sell        |  -27.31 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+ITC-I           | Strong Sell        |  -26.71 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+CUMMINSIND-I    | Strong Sell        |  -26.51 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+PRESTIGE-I      | Strong Sell        |  -26.17 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+BLUESTARCO-I    | Strong Sell        |  -25.49 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-08 09:25 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+COFORGE-I       | Very Strong Buy    |   66.39 |      +1.85 | bullish    | Mixed/Unclear              | Consider Long      
+LTIM-I          | Strong Buy         |   62.66 |      +0.00 | bullish    | Institutional Accumulation | Consider Long      
+MPHASIS-I       | Strong Buy         |   60.46 |      +1.11 | bullish    | Institutional Accumulation | Consider Long      
+TCS-I           | Strong Buy         |   59.90 |      +9.93 | bullish    | Institutional Accumulation | Consider Long      
+SBICARD-I       | Strong Buy         |   59.32 |      +2.79 | bullish    | Institutional Accumulation | Consider Long      
+TITAN-I         | Strong Buy         |   56.12 |      +1.50 | bullish    | Institutional Accumulation | Consider Long      
+DIVISLAB-I      | Strong Buy         |   54.56 |      -4.01 | bullish    | Mixed/Unclear              | Consider Long      
+NATIONALUM-I    | Strong Buy         |   52.44 |      +6.60 | bullish    | Institutional Accumulation | Consider Long      
+HCLTECH-I       | Strong Buy         |   51.39 |      -5.24 | bullish    | Mixed/Unclear              | Consider Long      
+SRF-I           | Strong Buy         |   50.55 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+360ONE-I        | Strong Buy         |   48.59 |     +10.79 | bullish    | Mixed/Unclear              | Consider Long      
+HINDALCO-I      | Strong Buy         |   47.62 |     +10.68 | bullish    | Institutional Accumulation | Consider Long      
+GAIL-I          | Strong Buy         |   45.83 |      -0.93 | bullish    | Mixed/Unclear              | Consider Long      
+KALYANKJIL-I    | Strong Buy         |   42.00 |      +0.00 | bullish    | Mixed/Unclear              | Consider Long      
+ASHOKLEY-I      | Strong Buy         |   41.18 |      -3.67 | bullish    | Institutional Accumulation | Consider Long      
+PERSISTENT-I    | Strong Buy         |   40.80 |      -2.23 | bullish    | Mixed/Unclear              | Consider Long      
+GODREJPROP-I    | Strong Buy         |   39.94 |      -0.63 | bullish    | Mixed/Unclear              | Consider Long      
+PAYTM-I         | Strong Buy         |   39.74 |     +10.14 | bullish    | Mixed/Unclear              | Consider Long      
+TECHM-I         | Strong Buy         |   39.48 |      -0.08 | bullish    | Institutional Accumulation | Consider Long      
+ALKEM-I         | Strong Buy         |   38.92 |      -6.70 | bullish    | Mixed/Unclear              | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+HDFCAMC-I       | Strong Sell        |  -47.62 |      -2.39 | bearish    | Mixed/Unclear              | Consider Short     
+BRITANNIA-I     | Strong Sell        |  -41.52 |      +1.39 | bearish    | Mixed/Unclear              | Consider Short     
+PRESTIGE-I      | Strong Sell        |  -37.21 |     -11.04 | bearish    | Mixed/Unclear              | Consider Short     
+PIDILITIND-I    | Strong Sell        |  -35.98 |      +4.77 | bearish    | Mixed/Unclear              | Consider Short     
+DABUR-I         | Strong Sell        |  -34.03 |      -4.23 | bearish    | Mixed/Unclear              | Consider Short     
+PGEL-I          | Strong Sell        |  -33.66 |      -5.60 | bearish    | Mixed/Unclear              | Consider Short     
+CUMMINSIND-I    | Strong Sell        |  -30.95 |      -4.45 | bearish    | Mixed/Unclear              | Consider Short     
+IEX-I           | Strong Sell        |  -30.95 |     -14.69 | bearish    | Mixed/Unclear              | Consider Short     
+AMBUJACEM-I     | Strong Sell        |  -30.67 |      -0.74 | bearish    | Mixed/Unclear              | Consider Short     
+GLENMARK-I      | Strong Sell        |  -30.46 |     -12.50 | bearish    | Mixed/Unclear              | Consider Short     
+ADANIENT-I      | Strong Sell        |  -29.97 |      +2.14 | bearish    | Mixed/Unclear              | Consider Short     
+SUPREMEIND-I    | Strong Sell        |  -29.95 |      -9.27 | bearish    | Mixed/Unclear              | Consider Short     
+ADANIGREEN-I    | Strong Sell        |  -29.77 |      +3.11 | bearish    | Mixed/Unclear              | Consider Short     
+ZYDUSLIFE-I     | Strong Sell        |  -29.32 |     -14.07 | bearish    | Mixed/Unclear              | Consider Short     
+TATACONSUM-I    | Strong Sell        |  -28.86 |      -9.71 | bearish    | Mixed/Unclear              | Consider Short     
+BAJAJFINSV-I    | Strong Sell        |  -28.81 |      -7.64 | bearish    | Mixed/Unclear              | Consider Short     
+IRFC-I          | Strong Sell        |  -28.54 |      +0.00 | bearish    | Mixed/Unclear              | Consider Short     
+HINDUNILVR-I    | Strong Sell        |  -28.06 |      -0.75 | bearish    | Mixed/Unclear              | Consider Short     
+PIIND-I         | Strong Sell        |  -28.01 |      -7.15 | bearish    | Mixed/Unclear              | Consider Short     
+RECLTD-I        | Strong Sell        |  -27.81 |      -8.31 | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Snapshot Time: 2025-10-08 09:30 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+MPHASIS-I       | Very Strong Buy    |   65.15 |      +4.69 | bullish    | Institutional Accumulation | Consider Long      
+LTIM-I          | Very Strong Buy    |   65.12 |      +2.46 | bullish    | Institutional Accumulation | Consider Long      
+SBICARD-I       | Strong Buy         |   62.07 |      +2.74 | bullish    | Institutional Accumulation | Consider Long      
+HCLTECH-I       | Strong Buy         |   61.11 |      +9.72 | bullish    | Mixed/Unclear              | Consider Long      
+COFORGE-I       | Strong Buy         |   60.96 |      -5.43 | bullish    | Mixed/Unclear              | Consider Long      
+TCS-I           | Strong Buy         |   60.19 |      +0.29 | bullish    | Institutional Accumulation | Consider Long      
+TITAN-I         | Strong Buy         |   59.22 |      +3.10 | bullish    | Institutional Accumulation | Consider Long      
+360ONE-I        | Strong Buy         |   55.44 |      +6.85 | bullish    | Mixed/Unclear              | Consider Long      
+TECHM-I         | Strong Buy         |   54.71 |     +15.23 | bullish    | Institutional Accumulation | Consider Long      
+TATAELXSI-I     | Strong Buy         |   54.25 |     +15.64 | bullish    | Institutional Accumulation | Consider Long      
+NATIONALUM-I    | Strong Buy         |   51.94 |      -0.50 | bullish    | Institutional Accumulation | Consider Long      
+DIVISLAB-I      | Strong Buy         |   51.05 |      -3.52 | bullish    | Mixed/Unclear              | Consider Long      
+HINDALCO-I      | Strong Buy         |   48.97 |      +1.34 | bullish    | Institutional Accumulation | Consider Long      
+PERSISTENT-I    | Strong Buy         |   48.72 |      +7.92 | bullish    | Mixed/Unclear              | Consider Long      
+NMDC-I          | Strong Buy         |   44.08 |      +8.99 | bullish    | Mixed/Unclear              | Consider Long      
+GAIL-I          | Strong Buy         |   43.29 |      -2.54 | bullish    | Mixed/Unclear              | Consider Long      
+SRF-I           | Strong Buy         |   40.34 |     -10.21 | bullish    | Mixed/Unclear              | Consider Long      
+WIPRO-I         | Strong Buy         |   40.16 |      +8.91 | bullish    | Institutional Accumulation | Consider Long      
+APOLLOHOSP-I    | Strong Buy         |   38.97 |      +0.19 | bullish    | Mixed/Unclear              | Consider Long      
+KEI-I           | Strong Buy         |   38.91 |     +12.93 | bullish    | Institutional Accumulation | Consider Long      
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+BRITANNIA-I     | Strong Sell        |  -44.61 |      -3.09 | bearish    | Mixed/Unclear              | Consider Short     
+HDFCAMC-I       | Strong Sell        |  -43.36 |      +4.26 | bearish    | Mixed/Unclear              | Consider Short     
+HINDUNILVR-I    | Strong Sell        |  -36.55 |      -8.49 | bearish    | Mixed/Unclear              | Consider Short     
+PGEL-I          | Strong Sell        |  -35.36 |      -1.70 | bearish    | Mixed/Unclear              | Consider Short     
+PIIND-I         | Strong Sell        |  -35.14 |      -7.13 | bearish    | Mixed/Unclear              | Consider Short     
+GLENMARK-I      | Strong Sell        |  -34.81 |      -4.36 | bearish    | Mixed/Unclear              | Consider Short     
+PIDILITIND-I    | Strong Sell        |  -34.30 |      +1.68 | bearish    | Mixed/Unclear              | Consider Short     
+ZYDUSLIFE-I     | Strong Sell        |  -33.81 |      -4.49 | bearish    | Mixed/Unclear              | Consider Short     
+BHARATFORG-I    | Strong Sell        |  -33.39 |     -13.68 | bearish    | Mixed/Unclear              | Consider Short     
+CUMMINSIND-I    | Strong Sell        |  -32.18 |      -1.22 | bearish    | Mixed/Unclear              | Consider Short     
+CIPLA-I         | Strong Sell        |  -32.16 |      -5.93 | bearish    | Mixed/Unclear              | Consider Short     
+SUPREMEIND-I    | Strong Sell        |  -32.08 |      -2.13 | bearish    | Mixed/Unclear              | Consider Short     
+BAJAJFINSV-I    | Strong Sell        |  -31.38 |      -2.57 | bearish    | Mixed/Unclear              | Consider Short     
+IEX-I           | Strong Sell        |  -31.25 |      -0.30 | bearish    | Mixed/Unclear              | Consider Short     
+HDFCLIFE-I      | Strong Sell        |  -30.83 |      -3.30 | bearish    | Mixed/Unclear              | Consider Short     
+TATACONSUM-I    | Strong Sell        |  -30.19 |      -1.32 | bearish    | Mixed/Unclear              | Consider Short     
+MAZDOCK-I       | Strong Sell        |  -29.77 |      -6.37 | bearish    | Mixed/Unclear              | Consider Short     
+JINDALSTEL-I    | Strong Sell        |  -29.77 |      -6.41 | bearish    | Mixed/Unclear              | Consider Short     
+MOTHERSON-I     | Strong Sell        |  -29.45 |     -11.97 | bearish    | Mixed/Unclear              | Consider Short     
+PRESTIGE-I      | Strong Sell        |  -28.67 |      +8.54 | bearish    | Mixed/Unclear              | Consider Short     
+
+

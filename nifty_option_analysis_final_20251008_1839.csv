@@ -1,0 +1,2 @@
+timestamp,spot_price,pcr,max_pain,total_call_oi,total_put_oi,signals_count,oi_changes_count,atm_call_iv,atm_put_iv,iv_skew
+2025-10-08 18:39:54,25023.75,0.802,25100,3203813.3333333335,2570432.666666667,0,0,7.76,8.14,0.38

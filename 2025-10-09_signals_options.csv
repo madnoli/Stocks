@@ -1,0 +1,549 @@
+Time: 2025-10-09 09:20
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+LUPIN-I,⚡ STRONG BUY,15.45,N/A,0,0,Normal,⚡ BUY CALLS
+IGL-I,⚡ STRONG BUY,14.12,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,12.67,N/A,0,0,Normal,⚡ BUY CALLS
+IIFL-I,⚡ STRONG BUY,12.16,N/A,0,0,Normal,⚡ BUY CALLS
+PRESTIGE-I,🟢 BUY - Call Potential,10.43,N/A,0,0,Normal,📈 Consider Calls
+UNOMINDA-I,⚡ STRONG SELL,-15.25,N/A,0,0,Normal,⚡ BUY PUTS
+
+Time: 2025-10-09 09:25
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+AUROPHARMA-I,⚡ STRONG BUY,14.45,N/A,0,0,Normal,⚡ BUY CALLS
+LUPIN-I,⚡ STRONG BUY,13.90,N/A,0,0,Normal,⚡ BUY CALLS
+IGL-I,⚡ STRONG BUY,12.92,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,12.86,N/A,0,0,Normal,⚡ BUY CALLS
+IIFL-I,🟢 BUY - Call Potential,11.46,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,10.16,N/A,0,0,Normal,📈 Consider Calls
+UNOMINDA-I,⚡ STRONG SELL,-15.41,N/A,0,0,Normal,⚡ BUY PUTS
+
+Time: 2025-10-09 09:30
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+LUPIN-I,⚡ STRONG BUY,14.56,N/A,0,0,Normal,⚡ BUY CALLS
+AUROPHARMA-I,🟢 BUY - Call Potential,11.83,N/A,0,0,Normal,📈 Consider Calls
+SAIL-I,🟢 BUY - Call Potential,11.72,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,11.03,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,9.66,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,8.24,N/A,0,0,Normal,📈 Consider Calls
+UNOMINDA-I,🔴 SELL - Put Potential,-11.82,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 09:35
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+LUPIN-I,⚡ STRONG BUY,15.37,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,⚡ STRONG BUY,14.97,N/A,0,0,Normal,⚡ BUY CALLS
+NATIONALUM-I,⚡ STRONG BUY,14.68,N/A,0,0,Normal,⚡ BUY CALLS
+AUROPHARMA-I,⚡ STRONG BUY,13.40,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,🟢 BUY - Call Potential,11.70,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,10.93,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,9.85,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,8.94,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,5.25,N/A,0,0,Normal,📈 Consider Calls
+UNOMINDA-I,🔴 SELL - Put Potential,-11.70,N/A,0,0,Normal,📉 Consider Puts
+KAYNES-I,🔴 SELL - Put Potential,-10.57,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 09:40
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+TATASTEEL-I,⚡ STRONG BUY,15.70,N/A,0,0,Normal,⚡ BUY CALLS
+ZYDUSLIFE-I,⚡ STRONG BUY,14.81,N/A,0,0,Normal,⚡ BUY CALLS
+NATIONALUM-I,⚡ STRONG BUY,13.72,N/A,0,0,Normal,⚡ BUY CALLS
+LUPIN-I,⚡ STRONG BUY,12.63,N/A,0,0,Normal,⚡ BUY CALLS
+AUROPHARMA-I,🟢 BUY - Call Potential,11.07,N/A,0,0,Normal,📈 Consider Calls
+SAIL-I,🟢 BUY - Call Potential,10.41,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,9.79,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,9.27,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,9.15,N/A,0,0,Normal,📈 Consider Calls
+UNOMINDA-I,⚡ STRONG SELL,-12.70,N/A,0,0,Normal,⚡ BUY PUTS
+KAYNES-I,🔴 SELL - Put Potential,-9.56,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 09:45
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,16.35,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,⚡ STRONG BUY,15.07,N/A,0,0,Normal,⚡ BUY CALLS
+LUPIN-I,⚡ STRONG BUY,15.05,N/A,0,0,Normal,⚡ BUY CALLS
+NATIONALUM-I,⚡ STRONG BUY,12.10,N/A,0,0,Normal,⚡ BUY CALLS
+ZYDUSLIFE-I,🟢 BUY - Call Potential,11.47,N/A,0,0,Normal,📈 Consider Calls
+SAIL-I,🟢 BUY - Call Potential,11.18,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,10.80,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,10.16,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,8.97,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,8.15,N/A,0,0,Normal,📈 Consider Calls
+UNOMINDA-I,🔴 SELL - Put Potential,-8.29,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 09:50
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,16.90,N/A,0,0,Normal,⚡ BUY CALLS
+LUPIN-I,⚡ STRONG BUY,15.05,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,⚡ STRONG BUY,13.71,N/A,0,0,Normal,⚡ BUY CALLS
+NATIONALUM-I,⚡ STRONG BUY,13.67,N/A,0,0,Normal,⚡ BUY CALLS
+ZYDUSLIFE-I,🟢 BUY - Call Potential,11.47,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,10.59,N/A,0,0,Normal,📈 Consider Calls
+SAIL-I,🟢 BUY - Call Potential,10.46,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,10.16,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,8.30,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,8.04,N/A,0,0,Normal,📈 Consider Calls
+UNOMINDA-I,🔴 SELL - Put Potential,-6.59,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 09:55
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,16.90,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,⚡ STRONG BUY,14.92,N/A,0,0,Normal,⚡ BUY CALLS
+LUPIN-I,⚡ STRONG BUY,14.75,N/A,0,0,Normal,⚡ BUY CALLS
+NATIONALUM-I,🟢 BUY - Call Potential,10.74,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,10.40,N/A,0,0,Normal,📈 Consider Calls
+SAIL-I,🟢 BUY - Call Potential,10.04,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,10.01,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,9.85,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,8.72,N/A,0,0,Normal,📈 Consider Calls
+ZYDUSLIFE-I,🟢 BUY - Call Potential,8.00,N/A,0,0,Normal,📈 Consider Calls
+UNOMINDA-I,🔴 SELL - Put Potential,-6.53,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 10:00
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+TATASTEEL-I,⚡ STRONG BUY,15.16,N/A,0,0,Normal,⚡ BUY CALLS
+LUPIN-I,⚡ STRONG BUY,14.57,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,14.10,N/A,0,0,Normal,⚡ BUY CALLS
+NATIONALUM-I,⚡ STRONG BUY,13.40,N/A,0,0,Normal,⚡ BUY CALLS
+AUROPHARMA-I,⚡ STRONG BUY,12.59,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,⚡ STRONG BUY,12.23,N/A,0,0,Normal,⚡ BUY CALLS
+ZYDUSLIFE-I,🟢 BUY - Call Potential,11.69,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,10.87,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,10.32,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,7.35,N/A,0,0,Normal,📈 Consider Calls
+UNOMINDA-I,🔴 SELL - Put Potential,-6.49,N/A,0,0,Normal,📉 Consider Puts
+KAYNES-I,🔴 SELL - Put Potential,-5.37,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 10:05
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+LUPIN-I,⚡ STRONG BUY,14.42,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,14.10,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,⚡ STRONG BUY,14.02,N/A,0,0,Normal,⚡ BUY CALLS
+AUROPHARMA-I,⚡ STRONG BUY,13.82,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,⚡ STRONG BUY,12.61,N/A,0,0,Normal,⚡ BUY CALLS
+NATIONALUM-I,🟢 BUY - Call Potential,11.86,N/A,0,0,Normal,📈 Consider Calls
+ZYDUSLIFE-I,🟢 BUY - Call Potential,10.13,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,10.08,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,9.99,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,5.81,N/A,0,0,Normal,📈 Consider Calls
+NAUKRI-I,⚡ STRONG SELL,-12.33,N/A,0,0,Normal,⚡ BUY PUTS
+UNOMINDA-I,🔴 SELL - Put Potential,-7.36,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 10:10
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+LUPIN-I,⚡ STRONG BUY,14.09,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,⚡ STRONG BUY,13.99,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,13.77,N/A,0,0,Normal,⚡ BUY CALLS
+AUROPHARMA-I,⚡ STRONG BUY,13.19,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,⚡ STRONG BUY,13.03,N/A,0,0,Normal,⚡ BUY CALLS
+NATIONALUM-I,⚡ STRONG BUY,12.13,N/A,0,0,Normal,⚡ BUY CALLS
+IGL-I,🟢 BUY - Call Potential,11.53,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,10.41,N/A,0,0,Normal,📈 Consider Calls
+ZYDUSLIFE-I,🟢 BUY - Call Potential,9.61,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,5.81,N/A,0,0,Normal,📈 Consider Calls
+AMBER-I,🟢 BUY - Call Potential,5.14,N/A,0,0,Normal,📈 Consider Calls
+NAUKRI-I,🔴 SELL - Put Potential,-11.31,N/A,0,0,Normal,📉 Consider Puts
+KAYNES-I,🔴 SELL - Put Potential,-5.69,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 10:15
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+SAIL-I,⚡ STRONG BUY,13.63,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,🟢 BUY - Call Potential,11.90,N/A,0,0,Normal,📈 Consider Calls
+LUPIN-I,🟢 BUY - Call Potential,11.47,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,11.36,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,10.80,N/A,0,0,Normal,📈 Consider Calls
+NATIONALUM-I,🟢 BUY - Call Potential,9.93,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,9.79,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,8.03,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,5.01,N/A,0,0,Normal,📈 Consider Calls
+NAUKRI-I,🔴 SELL - Put Potential,-11.51,N/A,0,0,Normal,📉 Consider Puts
+UNOMINDA-I,🔴 SELL - Put Potential,-7.37,N/A,0,0,Normal,📉 Consider Puts
+KAYNES-I,🔴 SELL - Put Potential,-5.78,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 10:20
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+SAIL-I,⚡ STRONG BUY,13.63,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,🟢 BUY - Call Potential,11.47,N/A,0,0,Normal,📈 Consider Calls
+LUPIN-I,🟢 BUY - Call Potential,11.26,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,10.80,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,10.56,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,10.00,N/A,0,0,Normal,📈 Consider Calls
+NATIONALUM-I,🟢 BUY - Call Potential,9.90,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,8.75,N/A,0,0,Normal,📈 Consider Calls
+NAUKRI-I,🔴 SELL - Put Potential,-11.09,N/A,0,0,Normal,📉 Consider Puts
+UNOMINDA-I,🔴 SELL - Put Potential,-9.89,N/A,0,0,Normal,📉 Consider Puts
+KAYNES-I,🔴 SELL - Put Potential,-6.63,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 10:25
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HCLTECH-I,⚡ STRONG BUY,14.87,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,13.93,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,🟢 BUY - Call Potential,11.90,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,10.55,N/A,0,0,Normal,📈 Consider Calls
+LUPIN-I,🟢 BUY - Call Potential,10.53,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,9.99,N/A,0,0,Normal,📈 Consider Calls
+NATIONALUM-I,🟢 BUY - Call Potential,9.49,N/A,0,0,Normal,📈 Consider Calls
+INOXWIND-I,🟢 BUY - Call Potential,9.29,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,8.47,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,8.33,N/A,0,0,Normal,📈 Consider Calls
+NAUKRI-I,🔴 SELL - Put Potential,-10.00,N/A,0,0,Normal,📉 Consider Puts
+UNOMINDA-I,🔴 SELL - Put Potential,-8.04,N/A,0,0,Normal,📉 Consider Puts
+KAYNES-I,🔴 SELL - Put Potential,-5.92,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 10:30
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+SAIL-I,⚡ STRONG BUY,14.50,N/A,0,0,Normal,⚡ BUY CALLS
+HCLTECH-I,⚡ STRONG BUY,13.61,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,⚡ STRONG BUY,12.59,N/A,0,0,Normal,⚡ BUY CALLS
+INOXWIND-I,🟢 BUY - Call Potential,11.64,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,11.60,N/A,0,0,Normal,📈 Consider Calls
+LUPIN-I,🟢 BUY - Call Potential,10.30,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,9.71,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,8.91,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,8.49,N/A,0,0,Normal,📈 Consider Calls
+NATIONALUM-I,🟢 BUY - Call Potential,8.33,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,7.97,N/A,0,0,Normal,📈 Consider Calls
+NAUKRI-I,🔴 SELL - Put Potential,-10.93,N/A,0,0,Normal,📉 Consider Puts
+UNOMINDA-I,🔴 SELL - Put Potential,-9.52,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 10:35
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HCLTECH-I,⚡ STRONG BUY,13.95,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,13.78,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,🟢 BUY - Call Potential,11.03,N/A,0,0,Normal,📈 Consider Calls
+INOXWIND-I,🟢 BUY - Call Potential,10.82,N/A,0,0,Normal,📈 Consider Calls
+TATASTEEL-I,🟢 BUY - Call Potential,10.81,N/A,0,0,Normal,📈 Consider Calls
+LUPIN-I,🟢 BUY - Call Potential,9.73,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,8.64,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,8.56,N/A,0,0,Normal,📈 Consider Calls
+NATIONALUM-I,🟢 BUY - Call Potential,7.97,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,7.84,N/A,0,0,Normal,📈 Consider Calls
+IIFL-I,🟢 BUY - Call Potential,7.78,N/A,0,0,Normal,📈 Consider Calls
+NAUKRI-I,🔴 SELL - Put Potential,-8.64,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 10:40
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+SAIL-I,⚡ STRONG BUY,14.50,N/A,0,0,Normal,⚡ BUY CALLS
+HCLTECH-I,⚡ STRONG BUY,13.95,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,🟢 BUY - Call Potential,11.40,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,10.94,N/A,0,0,Normal,📈 Consider Calls
+PRESTIGE-I,🟢 BUY - Call Potential,10.18,N/A,0,0,Normal,📈 Consider Calls
+LUPIN-I,🟢 BUY - Call Potential,9.79,N/A,0,0,Normal,📈 Consider Calls
+NATIONALUM-I,🟢 BUY - Call Potential,9.78,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,7.82,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,7.41,N/A,0,0,Normal,📈 Consider Calls
+NAUKRI-I,🔴 SELL - Put Potential,-9.84,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 10:45
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+SAIL-I,⚡ STRONG BUY,14.47,N/A,0,0,Normal,⚡ BUY CALLS
+HCLTECH-I,⚡ STRONG BUY,12.69,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,🟢 BUY - Call Potential,10.27,N/A,0,0,Normal,📈 Consider Calls
+NATIONALUM-I,🟢 BUY - Call Potential,9.67,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,8.15,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,8.09,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,7.43,N/A,0,0,Normal,📈 Consider Calls
+LUPIN-I,🟢 BUY - Call Potential,7.21,N/A,0,0,Normal,📈 Consider Calls
+RBLBANK-I,🟢 BUY - Call Potential,5.59,N/A,0,0,Normal,📈 Consider Calls
+NAUKRI-I,🔴 SELL - Put Potential,-5.37,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 10:50
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+SAIL-I,⚡ STRONG BUY,14.32,N/A,0,0,Normal,⚡ BUY CALLS
+HCLTECH-I,⚡ STRONG BUY,12.69,N/A,0,0,Normal,⚡ BUY CALLS
+IOC-I,🟢 BUY - Call Potential,10.78,N/A,0,0,Normal,📈 Consider Calls
+NATIONALUM-I,🟢 BUY - Call Potential,10.52,N/A,0,0,Normal,📈 Consider Calls
+TATASTEEL-I,🟢 BUY - Call Potential,10.34,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,9.77,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,6.95,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,6.42,N/A,0,0,Normal,📈 Consider Calls
+LUPIN-I,🟢 BUY - Call Potential,6.24,N/A,0,0,Normal,📈 Consider Calls
+NAUKRI-I,🔴 SELL - Put Potential,-5.41,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 10:55
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,15.31,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,13.55,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,🟢 BUY - Call Potential,10.04,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,8.43,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,8.15,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,7.39,N/A,0,0,Normal,📈 Consider Calls
+LUPIN-I,🟢 BUY - Call Potential,5.79,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 11:00
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,15.31,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,13.02,N/A,0,0,Normal,⚡ BUY CALLS
+TATASTEEL-I,⚡ STRONG BUY,12.19,N/A,0,0,Normal,⚡ BUY CALLS
+IGL-I,🟢 BUY - Call Potential,8.04,N/A,0,0,Normal,📈 Consider Calls
+AUROPHARMA-I,🟢 BUY - Call Potential,7.78,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,7.38,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 11:05
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,15.69,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,12.81,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,🟢 BUY - Call Potential,8.45,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,5.65,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 11:10
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,15.31,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,13.11,N/A,0,0,Normal,⚡ BUY CALLS
+IGL-I,🟢 BUY - Call Potential,7.19,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,6.72,N/A,0,0,Normal,📈 Consider Calls
+RBLBANK-I,🟢 BUY - Call Potential,6.19,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 11:15
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,13.81,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,🟢 BUY - Call Potential,11.93,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,7.28,N/A,0,0,Normal,📈 Consider Calls
+RBLBANK-I,🟢 BUY - Call Potential,6.39,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 11:20
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,14.19,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,🟢 BUY - Call Potential,11.93,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,8.12,N/A,0,0,Normal,📈 Consider Calls
+RBLBANK-I,🟢 BUY - Call Potential,8.08,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 11:25
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,14.24,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,🟢 BUY - Call Potential,10.07,N/A,0,0,Normal,📈 Consider Calls
+RBLBANK-I,🟢 BUY - Call Potential,9.01,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,7.37,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 11:30
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,14.01,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,12.49,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,🟢 BUY - Call Potential,6.83,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 11:35
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,13.86,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,⚡ STRONG BUY,12.07,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,🟢 BUY - Call Potential,7.85,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 11:40
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,13.86,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,🟢 BUY - Call Potential,11.77,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,6.34,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 11:45
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,13.29,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,🟢 BUY - Call Potential,11.54,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,9.53,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 11:50
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,13.29,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,🟢 BUY - Call Potential,9.99,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 11:55
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,⚡ STRONG BUY,12.78,N/A,0,0,Normal,⚡ BUY CALLS
+INOXWIND-I,🟢 BUY - Call Potential,9.46,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,8.68,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 12:00
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,🟢 BUY - Call Potential,10.46,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,9.48,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 12:05
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,🟢 BUY - Call Potential,10.04,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,7.46,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 12:10
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+HINDZINC-I,🟢 BUY - Call Potential,9.87,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,6.82,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 12:15
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+IGL-I,🟢 BUY - Call Potential,11.30,N/A,0,0,Normal,📈 Consider Calls
+HINDZINC-I,🟢 BUY - Call Potential,9.32,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,6.71,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 12:20
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+IGL-I,🟢 BUY - Call Potential,11.35,N/A,0,0,Normal,📈 Consider Calls
+HINDZINC-I,🟢 BUY - Call Potential,8.79,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,5.50,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 12:25
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+IGL-I,🟢 BUY - Call Potential,9.96,N/A,0,0,Normal,📈 Consider Calls
+HINDZINC-I,🟢 BUY - Call Potential,8.67,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,5.02,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 12:30
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+IGL-I,🟢 BUY - Call Potential,10.33,N/A,0,0,Normal,📈 Consider Calls
+HINDZINC-I,🟢 BUY - Call Potential,8.44,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,6.67,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 12:35
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+IGL-I,🟢 BUY - Call Potential,11.58,N/A,0,0,Normal,📈 Consider Calls
+HINDZINC-I,🟢 BUY - Call Potential,8.14,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,8.01,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 12:40
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,🟢 BUY - Call Potential,9.98,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,9.14,N/A,0,0,Normal,📈 Consider Calls
+HINDZINC-I,🟢 BUY - Call Potential,8.14,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 12:45
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,13.46,N/A,0,0,Normal,⚡ BUY CALLS
+HINDZINC-I,🟢 BUY - Call Potential,8.42,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,8.40,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 12:50
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,13.81,N/A,0,0,Normal,⚡ BUY CALLS
+IGL-I,🟢 BUY - Call Potential,9.31,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 12:55
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,⚡ STRONG BUY,16.74,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,⚡ STRONG BUY,12.23,N/A,0,0,Normal,⚡ BUY CALLS
+IGL-I,🟢 BUY - Call Potential,9.61,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 13:00
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,⚡ STRONG BUY,16.95,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,⚡ STRONG BUY,12.81,N/A,0,0,Normal,⚡ BUY CALLS
+IGL-I,🟢 BUY - Call Potential,8.63,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 13:05
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,⚡ STRONG BUY,16.57,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,⚡ STRONG BUY,13.91,N/A,0,0,Normal,⚡ BUY CALLS
+IGL-I,🟢 BUY - Call Potential,8.81,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 13:10
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,⚡ STRONG BUY,16.95,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,🟢 BUY - Call Potential,11.43,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,8.36,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 13:15
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,🟢 BUY - Call Potential,11.59,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,11.01,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,7.21,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 13:20
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,12.70,N/A,0,0,Normal,⚡ BUY CALLS
+MCX-I,🟢 BUY - Call Potential,11.87,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,5.11,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 13:25
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,12.12,N/A,0,0,Normal,⚡ BUY CALLS
+MCX-I,🟢 BUY - Call Potential,11.36,N/A,0,0,Normal,📈 Consider Calls
+IGL-I,🟢 BUY - Call Potential,5.99,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 13:30
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,🟢 BUY - Call Potential,11.87,N/A,0,0,Normal,📈 Consider Calls
+MCX-I,🟢 BUY - Call Potential,11.09,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 13:35
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,⚡ STRONG BUY,13.26,N/A,0,0,Normal,⚡ BUY CALLS
+PGEL-I,⚡ STRONG BUY,12.02,N/A,0,0,Normal,⚡ BUY CALLS
+
+Time: 2025-10-09 13:40
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,🟢 BUY - Call Potential,10.76,N/A,0,0,Normal,📈 Consider Calls
+MCX-I,🟢 BUY - Call Potential,10.23,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 13:45
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,🟢 BUY - Call Potential,9.36,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,7.82,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 13:50
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,🟢 BUY - Call Potential,8.90,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,7.06,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 13:55
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,🟢 BUY - Call Potential,7.95,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,7.33,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 14:00
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,🟢 BUY - Call Potential,7.99,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,7.35,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 14:05
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,🟢 BUY - Call Potential,9.51,N/A,0,0,Normal,📈 Consider Calls
+PGEL-I,🟢 BUY - Call Potential,7.32,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 14:10
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,🟢 BUY - Call Potential,8.70,N/A,0,0,Normal,📈 Consider Calls
+MCX-I,🟢 BUY - Call Potential,7.87,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 14:15
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,12.33,N/A,0,0,Normal,⚡ BUY CALLS
+MCX-I,🟢 BUY - Call Potential,10.93,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 14:20
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,12.96,N/A,0,0,Normal,⚡ BUY CALLS
+MCX-I,🟢 BUY - Call Potential,11.59,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 14:25
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,13.76,N/A,0,0,Normal,⚡ BUY CALLS
+MCX-I,🟢 BUY - Call Potential,11.18,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 14:30
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,⚡ STRONG BUY,13.02,N/A,0,0,Normal,⚡ BUY CALLS
+
+Time: 2025-10-09 14:35
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,⚡ STRONG BUY,13.16,N/A,0,0,Normal,⚡ BUY CALLS
+
+Time: 2025-10-09 14:40
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+MCX-I,⚡ STRONG BUY,13.13,N/A,0,0,Normal,⚡ BUY CALLS
+
+Time: 2025-10-09 15:00
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,🟢 BUY - Call Potential,10.66,N/A,0,0,Normal,📈 Consider Calls
+
+Time: 2025-10-09 15:15
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,13.34,N/A,0,0,Normal,⚡ BUY CALLS
+
+Time: 2025-10-09 15:20
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,15.09,N/A,0,0,Normal,⚡ BUY CALLS
+
+Time: 2025-10-09 15:25
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,14.68,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,🟢 BUY - Call Potential,11.59,N/A,0,0,Normal,📈 Consider Calls
+UNOMINDA-I,🔴 SELL - Put Potential,-5.53,N/A,0,0,Normal,📉 Consider Puts
+
+Time: 2025-10-09 15:30
+Stock,Signal,Score,PCR,Call_OI,Put_OI,OI Status,Action
+PGEL-I,⚡ STRONG BUY,14.68,N/A,0,0,Normal,⚡ BUY CALLS
+SAIL-I,🟢 BUY - Call Potential,11.59,N/A,0,0,Normal,📈 Consider Calls
+

@@ -1,0 +1,26 @@
+===== Scan Time: 2025-10-14 12:16 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bullish signals found.
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+BLUESTARCO-I    | Strong Sell        |  -33.99 |         NA | bearish    | Mixed/Unclear              | Consider Short     
+
+
+===== Scan Time: 2025-10-14 12:20 =====
+
+Top 20 Bullish (Momentum Breakouts)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bullish signals found.
+
+Top 20 Bearish (Momentum Breakdowns)
+Stock           | Signal             |   Score |     Change | Trend      | Flow                       | Action             
+------------------------------------------------------------------------------------------------------------------------
+No strong bearish signals found.
+
+

@@ -1,0 +1,30 @@
+2025-10-03 07:49:03,548 | INFO | td_replay | MainThread | Replay connect start | host=replay.truedata.in port=8082 symbol=SBIN expiry=2025-10-28
+2025-10-03 07:49:03,549 | INFO | td_replay | MainThread | truedata_ws version: 5.0.11
+2025-10-03 07:49:03,618 | INFO | td_replay | MainThread | DNS resolved | replay.truedata.in -> 180.179.151.150 | dt_ms=68
+2025-10-03 07:49:08,054 | ERROR | td_replay | MainThread | TCP connect failed | replay.truedata.in:8082 | err=[WinError 10061] No connection could be made because the target machine actively refused it
+2025-10-03 07:49:08,319 | INFO | td_replay | MainThread | REST ok | status=200 | bytes=39360
+2025-10-03 07:49:50,516 | INFO | td_replay | MainThread | Replay connect start | host=replay.truedata.in port=8084 symbol=SBIN expiry=2025-10-28
+2025-10-03 07:49:50,517 | INFO | td_replay | MainThread | truedata_ws version: 5.0.11
+2025-10-03 07:49:50,524 | INFO | td_replay | MainThread | DNS resolved | replay.truedata.in -> 180.179.151.150 | dt_ms=6
+2025-10-03 07:49:57,786 | ERROR | td_replay | MainThread | TCP connect failed | replay.truedata.in:8084 | err=[WinError 10061] No connection could be made because the target machine actively refused it
+2025-10-03 07:49:58,049 | INFO | td_replay | MainThread | REST ok | status=200 | bytes=39360
+2025-10-03 07:50:38,087 | INFO | td_replay | MainThread | Replay connect start | host=replay.truedata.in port=8082 symbol=SBIN expiry=2025-10-28
+2025-10-03 07:50:38,088 | INFO | td_replay | MainThread | truedata_ws version: 5.0.11
+2025-10-03 07:50:38,097 | INFO | td_replay | MainThread | DNS resolved | replay.truedata.in -> 180.179.151.150 | dt_ms=8
+2025-10-03 07:50:42,700 | ERROR | td_replay | MainThread | TCP connect failed | replay.truedata.in:8082 | err=[WinError 10061] No connection could be made because the target machine actively refused it
+2025-10-03 07:50:42,967 | INFO | td_replay | MainThread | REST ok | status=200 | bytes=39360
+2025-10-03 09:01:37,443 | INFO | td_replay | MainThread | Replay connect start | host=replay.truedata.in port=8082 symbol=SBIN expiry=2025-10-28
+2025-10-03 09:01:37,443 | INFO | td_replay | MainThread | truedata_ws version: 5.0.11
+2025-10-03 09:01:37,504 | INFO | td_replay | MainThread | DNS resolved | replay.truedata.in -> 180.179.151.150 | dt_ms=60
+2025-10-03 09:01:42,098 | ERROR | td_replay | MainThread | TCP connect failed | replay.truedata.in:8082 | err=[WinError 10061] No connection could be made because the target machine actively refused it
+2025-10-03 09:01:42,600 | INFO | td_replay | MainThread | REST ok | status=200 | bytes=39360
+2025-10-03 09:02:32,895 | INFO | td_replay | MainThread | Replay connect start | host=replay.truedata.in port=8082 symbol=SBIN expiry=2025-10-28
+2025-10-03 09:02:32,896 | INFO | td_replay | MainThread | truedata_ws version: 5.0.11
+2025-10-03 09:02:32,900 | INFO | td_replay | MainThread | DNS resolved | replay.truedata.in -> 180.179.151.150 | dt_ms=4
+2025-10-03 09:02:37,462 | ERROR | td_replay | MainThread | TCP connect failed | replay.truedata.in:8082 | err=[WinError 10061] No connection could be made because the target machine actively refused it
+2025-10-03 09:02:37,809 | INFO | td_replay | MainThread | REST ok | status=200 | bytes=39360
+2025-10-03 09:02:58,945 | INFO | td_replay | MainThread | Replay connect start | host=replay.truedata.in port=8084 symbol=SBIN expiry=2025-10-28
+2025-10-03 09:02:58,945 | INFO | td_replay | MainThread | truedata_ws version: 5.0.11
+2025-10-03 09:02:58,962 | INFO | td_replay | MainThread | DNS resolved | replay.truedata.in -> 180.179.151.150 | dt_ms=16
+2025-10-03 09:03:03,994 | ERROR | td_replay | MainThread | TCP connect failed | replay.truedata.in:8084 | err=[WinError 10061] No connection could be made because the target machine actively refused it
+2025-10-03 09:03:04,356 | INFO | td_replay | MainThread | REST ok | status=200 | bytes=39360

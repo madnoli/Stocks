@@ -1,0 +1,11 @@
+2025-10-03 06:04:32,597 | INFO | td_ws | MainThread | Subscribing ['VEDL-I']
+2025-10-03 06:04:32,599 | INFO | td_ws | MainThread | Subscribed: {'VEDL-I': 2000}
+2025-10-03 06:06:34,834 | DEBUG | td_ws | MainThread | Logger ready...
+2025-10-03 06:06:35,085 | INFO | td_ws | MainThread | Subscribing ['VEDL-I']
+2025-10-03 06:06:35,086 | INFO | td_ws | MainThread | Subscribed: {'VEDL-I': 2000}
+2025-10-03 06:06:36,088 | INFO | td_ws | MainThread | Touchline | rid=2000 | sym=VEDL-I | ltp=466.2 | ohlc=469.75/471.4/460.5 | prev_close=465.8
+2025-10-03 06:06:36,088 | DEBUG | td_ws | MainThread | live_data type=<class 'truedata_ws.websocket.support.MinLiveData'> repr={'timestamp': None, 'symbol': 'VEDL-I', 'symbol_id': None, 'day_high': None, 'day_low': None, 'day_open': None, 'prev_day_close': None, 'prev_day_oi': None, 'oi': None, 'ttq': None, 'open': None, 'high': None, 'low': None, 'close': None, 'volume': None, 'bar_type': None, 'change': None, 'change_perc': None, 'oi_change': None, 'oi_change_perc': None}
+2025-10-03 06:06:36,090 | INFO | td_ws | MainThread | INIT | rid=2000 | sym=VEDL-I | ltp=None | chg=None | chg%=None
+2025-10-03 06:07:26,669 | WARNING | td_ws | MainThread | Ctrl+C received, stopping...
+2025-10-03 06:07:26,670 | INFO | td_ws | MainThread | Unsubscribed live data
+2025-10-03 06:07:26,794 | INFO | td_ws | MainThread | Disconnected TD client
